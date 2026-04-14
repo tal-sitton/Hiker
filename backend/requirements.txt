@@ -1,0 +1,5 @@
+python-dotenv
+rich
+beautifulsoup4
+requests
+pydantic
