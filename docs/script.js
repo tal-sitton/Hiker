@@ -61,7 +61,7 @@ async function loadHikes() {
         console.error('Error loading hikes:', error);
         document.getElementById('hikesList').innerHTML = `
             <li style="padding: 20px; text-align: center; color: #666;">
-                <p>לא ניתן לטעון נתוני טרקים</p>
+                <p>לא ניתן לטעון נתוני טיולים</p>
                 <p style="font-size: 12px; margin-top: 10px;">ודא כי hikes.json נמצא באותה תיקייה</p>
             </li>
         `;
@@ -93,7 +93,14 @@ function toggleSidebar() {
     const expandBtn = document.getElementById('expandBtn');
 
     sidebar.classList.toggle('minimized');
-    expandBtn.style.display = sidebar.classList.contains('minimized') ? 'block' : 'none';
+    if (sidebar.classList.contains('minimized')) {
+        setTimeout(() => {
+        expandBtn.style.display = sidebar.classList.contains('minimized') ? 'block' : 'none';
+    }, 300);
+    }
+    else {
+        expandBtn.style.display = 'none';
+    }
 
     // Resize map after transition completes
     setTimeout(() => {

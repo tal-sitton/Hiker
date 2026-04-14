@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="he">
 <head>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>מפת טרקים</title>
+    <title>מפת טיולים</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,13 +12,14 @@
     <div class="container">
         <div class="sidebar" id="sidebar">
             <div class="sidebar-header">
-                <h1>טרקים</h1>
+                <img src="favicon.png" alt="לוגו" class="logo" width="50px">
+                <h1>טיולים</h1>
                 <button id="minimizeBtn" class="minimize-btn" title="הסתר סרגל צד">◀</button>
             </div>
 
             <div class="mobile-tabs">
                 <button class="tab-btn active" onclick="switchTab('filters')">מסננים</button>
-                <button class="tab-btn" onclick="switchTab('hikes')">טרקים</button>
+                <button class="tab-btn" onclick="switchTab('hikes')">טיולים</button>
             </div>
 
             <div class="filter-section" id="filtersTab">
@@ -45,7 +47,7 @@
             </div>
 
             <div class="hikes-list" id="hikesTab">
-                <h3>טרקים (<span id="hikeCount">0</span>)</h3>
+                <h3>טיולים (<span id="hikeCount">0</span>)</h3>
                 <div class="sort-controls">
                     <label for="sortBy">מיין לפי:</label>
                     <select id="sortBy" onchange="applyFilters()">
