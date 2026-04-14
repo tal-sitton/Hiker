@@ -61,8 +61,8 @@ async function loadHikes() {
         console.error('Error loading hikes:', error);
         document.getElementById('hikesList').innerHTML = `
             <li style="padding: 20px; text-align: center; color: #666;">
-                <p>Could not load hikes data</p>
-                <p style="font-size: 12px; margin-top: 10px;">Make sure hikes.json is in the same directory</p>
+                <p>לא ניתן לטעון נתוני טרקים</p>
+                <p style="font-size: 12px; margin-top: 10px;">ודא כי hikes.json נמצא באותה תיקייה</p>
             </li>
         `;
     }
@@ -204,8 +204,14 @@ function sortHikes(hikes) {
     } else if (sortBy === 'length') {
         sorted.sort((a, b) => a.length - b.length);
     } else if (sortBy === 'difficulty') {
-        const difficultyOrder = { 'קל': 0, 'בינוני': 1, 'קשה': 2, 'לא ידוע': 3 };
+        const difficultyOrder = { 'קל': 1, 'בינוני': 2, 'קשה': 3, 'לא ידוע': 4 };
         sorted.sort((a, b) => (difficultyOrder[a.difficulty] || 999) - (difficultyOrder[b.difficulty] || 999));
+    } else if (sortBy === 'north-south') {
+        sorted.sort((a, b) => {
+            const latA = a.coords ? a.coords[0] : -90;
+            const latB = b.coords ? b.coords[0] : -90;
+            return latB - latA;
+        });
     }
 
     return sorted;
@@ -282,8 +288,9 @@ function updateMap() {
 
     // Fit map to show all markers
     if (markers.length > 0) {
-        const group = new L.featureGroup(markers);
-        map.fitBounds(group.getBounds(), {padding: [50, 50]});
+        L.featureGroup(markers);
+    } else {
+        console.log('No markers to display, keeping default view');
     }
 }
 
