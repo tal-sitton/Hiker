@@ -16,7 +16,7 @@ A hiking trail explorer for Israel with an interactive map and filtering system.
 - Trail details popup
 
 **🐍 Backend** - Hand-written Python scrapers
-- Parallel scraping from multiple hiking data sources ([Parks.org.il](https://www.parks.org.il/), [Tiuli](https://www.tiuli.com/))
+- Parallel scraping from multiple hiking data sources ([Parks.org.il](https://www.parks.org.il/), [Tiuli](https://www.tiuli.com/), [kkl](https://www.kkl.org.il/travel)
 - Data aggregation and normalization
 - Exports to JSON for use by the frontend
 
@@ -59,6 +59,7 @@ python -m http.server 8000
 
 - **Parks** - Israeli national parks and nature reserves
 - **Tuuli** - Community hiking database
+- **KKL** - Jewish National Fund trails
 
 ## Transparency Notes
 
