@@ -21,6 +21,12 @@ LENGTHS = {
     "8-2": "8"
 }
 
+TAGS = {
+    "מסלול מעגלי": "מעגלי",
+    "חלק משביל ישראל": "מקטע משביל ישראל",
+
+}
+
 
 def get_from_props(props: list[dict], key: str) -> dict:
     return [prop for prop in props if prop.get("Key") == key][0]
@@ -40,8 +46,8 @@ def get_all_hikes():
                                      get_from_props(track.get("props"), "K_LENGTH").get("Data"))),
             source=KKL_BASE_URL + track.get("Link"),
             difficulty=DIFFICULTIES.get(get_from_props(track.get("props"), "K_DIFFICULTY").get("Data"), ""),
-            tags=["מעגלי" if tag.strip() == "מסלול מעגלי" else tag.strip() for tag in
-                  get_from_props(track.get("props"), "K_POI").get("DataText").split(",")]
+            tags=TAGS.get(get_from_props(track.get("props"), "K_POI").get("DataText").strip(),
+                          get_from_props(track.get("props"), "K_POI").get("DataText").strip())
         )
         for track in all_tracks]
 

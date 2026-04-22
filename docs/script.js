@@ -4,6 +4,10 @@ let markers = [];
 let allHikes = [];
 let filteredHikes = [];
 let maxLength = 100;
+let currentTileLayer;
+let osmTileLayer;
+let hikingTileLayer;
+const HIKING_MAP_ZOOM_THRESHOLD = 13;
 
 // Initialize the app
 document.addEventListener('DOMContentLoaded', function () {
@@ -16,10 +20,33 @@ document.addEventListener('DOMContentLoaded', function () {
 function initMap() {
     map = L.map('map').setView([31.25, 35.2], 7); // Center on Israel
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    osmTileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '© תרומות OpenStreetMap'
-    }).addTo(map);
+    });
+
+    hikingTileLayer = L.tileLayer('https://hiking.off-road.io/hiking_map/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        maxNativeZoom: 15,
+        attribution: '© Off-Road Hiking Map'
+    });
+
+    currentTileLayer = osmTileLayer;
+    osmTileLayer.addTo(map);
+
+    // Switch tile layers based on zoom level
+    map.on('zoomend', function() {
+        const zoomLevel = map.getZoom();
+        if (zoomLevel >= HIKING_MAP_ZOOM_THRESHOLD && currentTileLayer === osmTileLayer) {
+            map.removeLayer(osmTileLayer);
+            hikingTileLayer.addTo(map);
+            currentTileLayer = hikingTileLayer;
+        } else if (zoomLevel < HIKING_MAP_ZOOM_THRESHOLD && currentTileLayer === hikingTileLayer) {
+            map.removeLayer(hikingTileLayer);
+            osmTileLayer.addTo(map);
+            currentTileLayer = osmTileLayer;
+        }
+    });
 }
 
 // Load hikes from JSON
@@ -52,6 +79,7 @@ async function loadHikes() {
 
         displayHikes();
         populateTagFilters();
+        updateRangeSliderTrack(false);
 
         // Ensure map is ready before updating markers
         setTimeout(() => {
@@ -74,6 +102,8 @@ function setupEventListeners() {
     document.getElementById('lengthMax').addEventListener('change', applyFilters);
     document.getElementById('lengthMin').addEventListener('input', applyFilters);
     document.getElementById('lengthMax').addEventListener('input', applyFilters);
+    document.getElementById('lengthMin').addEventListener('input', () => updateRangeSliderTrack(true));
+    document.getElementById('lengthMax').addEventListener('input', () => updateRangeSliderTrack(false));
     document.getElementById('resetFilters').addEventListener('click', resetFilters);
     document.querySelector('.popup-close').addEventListener('click', closePopup);
     document.getElementById('minimizeBtn').addEventListener('click', toggleSidebar);
@@ -85,6 +115,30 @@ function setupEventListeners() {
             closePopup();
         }
     });
+}
+
+// Update range slider track visual
+function updateRangeSliderTrack(changedMin) {
+    const minSlider = document.getElementById('lengthMin');
+    const maxSlider = document.getElementById('lengthMax');
+
+    const lengthMin = parseFloat(minSlider.value);
+    const lengthMax = parseFloat(maxSlider.value);
+
+    if (changedMin && lengthMin > lengthMax) {
+        minSlider.value = lengthMax;
+        lengthMin = lengthMax;
+    }
+    if (!changedMin && lengthMax < lengthMin) {
+        maxSlider.value = lengthMin;
+        lengthMax = lengthMin;
+    }
+
+    const minPercent = (lengthMin / maxSlider.max) * 100;
+    const maxPercent = (lengthMax / maxSlider.max) * 100;
+
+    const track = document.querySelector('.range-slider-track');
+    track.style.background = `linear-gradient(to left, #e0e0e0 0%, #e0e0e0 ${minPercent}%, #2196F3 ${minPercent}%, #2196F3 ${maxPercent}%, #e0e0e0 ${maxPercent}%, #e0e0e0 100%)`;
 }
 
 // Toggle sidebar minimize/expand
@@ -177,7 +231,7 @@ function applyFilters() {
 
         let tagsMatch = true;
         if (selectedTags.length > 0) {
-            tagsMatch = hike.tags && selectedTags.some(tag => hike.tags.includes(tag));
+            tagsMatch = hike.tags && selectedTags.every(tag => hike.tags.includes(tag));
         }
 
         return lengthInRange && tagsMatch;
@@ -199,6 +253,7 @@ function resetFilters() {
 
     // Update length display
     document.getElementById('lengthDisplay').textContent = `0 - ${maxLength}`;
+    updateRangeSliderTrack(false);
 }
 
 // Sort hikes based on selected sort option
@@ -220,6 +275,7 @@ function sortHikes(hikes) {
             return latB - latA;
         });
     }
+    console.log(sorted);
 
     return sorted;
 }
