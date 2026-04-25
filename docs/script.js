@@ -7,7 +7,7 @@ let maxLength = 100;
 let currentTileLayer;
 let osmTileLayer;
 let hikingTileLayer;
-const HIKING_MAP_ZOOM_THRESHOLD = 13;
+const HIKING_MAP_ZOOM_THRESHOLD = 12;
 
 // Initialize the app
 document.addEventListener('DOMContentLoaded', function () {
@@ -18,24 +18,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Initialize Leaflet map
 function initMap() {
-    map = L.map('map').setView([31.25, 35.2], 7); // Center on Israel
+    const urlParams = new URLSearchParams(window.location.search);
+    const lat = parseFloat(urlParams.get('lat')) || 31.25;
+    const lng = parseFloat(urlParams.get('lng')) || 35.2;
+    const zoom = parseInt(urlParams.get('zoom')) || 7;
+
+    map = L.map('map').setView([lat, lng], zoom);
+
+    // Add scale control
+    L.control.scale({ imperial: false }).addTo(map);
 
     osmTileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
-        attribution: '© תרומות OpenStreetMap'
+        attribution: '© OpenStreetMap'
     });
 
-    hikingTileLayer = L.tileLayer('https://hiking.off-road.io/hiking_map/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        maxNativeZoom: 15,
-        attribution: '© Off-Road Hiking Map'
+    if (window.maplibregl && maplibregl.setRTLTextPlugin) {
+        maplibregl.setRTLTextPlugin(
+            'https://unpkg.com/@mapbox/mapbox-gl-rtl-text@0.2.3/mapbox-gl-rtl-text.min.js',
+            null,
+            true // Lazy load the plugin only when text is in arabic/hebrew
+        );
+    }
+
+    hikingTileLayer = L.maplibreGL({
+        // style: 'https://raw.githubusercontent.com/IsraelHikingMap/VectorMap/refs/heads/master/Styles/IHM.json',
+        style: './IHM.json', // ⚠️ The remote style is broken (has value #00C00050 that doesn't work) so using local copy
+        attribution: '© Israel Hiking Map'
     });
 
-    currentTileLayer = osmTileLayer;
-    osmTileLayer.addTo(map);
+    currentTileLayer = zoom >= HIKING_MAP_ZOOM_THRESHOLD ? hikingTileLayer : osmTileLayer;
+    currentTileLayer.addTo(map);
 
     // Switch tile layers based on zoom level
-    map.on('zoomend', function() {
+    map.on('zoomend', function () {
         const zoomLevel = map.getZoom();
         if (zoomLevel >= HIKING_MAP_ZOOM_THRESHOLD && currentTileLayer === osmTileLayer) {
             map.removeLayer(osmTileLayer);
@@ -46,6 +62,20 @@ function initMap() {
             osmTileLayer.addTo(map);
             currentTileLayer = osmTileLayer;
         }
+    });
+
+    // Update URL when map moves
+    map.on('moveend', function () {
+        const center = map.getCenter();
+        const currentZoom = map.getZoom();
+
+        const params = new URLSearchParams(window.location.search);
+        params.set('lat', center.lat.toFixed(5));
+        params.set('lng', center.lng.toFixed(5));
+        params.set('zoom', currentZoom);
+
+        const newUrl = `${window.location.pathname}?${params.toString()}`;
+        window.history.replaceState({}, '', newUrl);
     });
 }
 
@@ -122,8 +152,8 @@ function updateRangeSliderTrack(changedMin) {
     const minSlider = document.getElementById('lengthMin');
     const maxSlider = document.getElementById('lengthMax');
 
-    const lengthMin = parseFloat(minSlider.value);
-    const lengthMax = parseFloat(maxSlider.value);
+    let lengthMin = parseFloat(minSlider.value);
+    let lengthMax = parseFloat(maxSlider.value);
 
     if (changedMin && lengthMin > lengthMax) {
         minSlider.value = lengthMax;
@@ -149,10 +179,9 @@ function toggleSidebar() {
     sidebar.classList.toggle('minimized');
     if (sidebar.classList.contains('minimized')) {
         setTimeout(() => {
-        expandBtn.style.display = sidebar.classList.contains('minimized') ? 'block' : 'none';
-    }, 300);
-    }
-    else {
+            expandBtn.style.display = sidebar.classList.contains('minimized') ? 'block' : 'none';
+        }, 300);
+    } else {
         expandBtn.style.display = 'none';
     }
 
@@ -266,7 +295,7 @@ function sortHikes(hikes) {
     } else if (sortBy === 'length') {
         sorted.sort((a, b) => a.length - b.length);
     } else if (sortBy === 'difficulty') {
-        const difficultyOrder = { 'קל': 1, 'בינוני': 2, 'קשה': 3, 'לא ידוע': 4 };
+        const difficultyOrder = {'קל': 1, 'בינוני': 2, 'קשה': 3, 'לא ידוע': 4};
         sorted.sort((a, b) => (difficultyOrder[a.difficulty] || 999) - (difficultyOrder[b.difficulty] || 999));
     } else if (sortBy === 'north-south') {
         sorted.sort((a, b) => {
@@ -275,7 +304,6 @@ function sortHikes(hikes) {
             return latB - latA;
         });
     }
-    console.log(sorted);
 
     return sorted;
 }
