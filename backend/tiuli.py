@@ -21,6 +21,9 @@ class MarkerInfo(BaseModel):
 
 
 def sanitize_hebrew(text: str) -> str:
+    text = text.strip()
+    text = text.strip('"').strip()
+    text = text.strip("'").strip()
     return re.search(r'[\- א-ת]+', text).group(0).strip()
 
 
