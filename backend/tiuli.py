@@ -12,6 +12,10 @@ from hike_info import HikeInfo
 
 MADOR_NAME_NEEDED = 'tracks'
 
+TAGS = {
+    "אפשרות לכניסה למים": "מים ומעיינות"
+}
+
 
 class MarkerInfo(BaseModel):
     name: str
@@ -55,6 +59,7 @@ def gather_hike_info(session: requests.Session, marker_info: MarkerInfo) -> Hike
 
     features = [sanitize_hebrew(feature) for feature in
                 raw_html.split("dimension_feature =")[1].split(";")[0].split("|")]
+    features = [TAGS.get(feature, feature) for feature in features]
     return HikeInfo(name=marker_info.name, coords=(marker_info.coords[0], marker_info.coords[1]), length=length_km,
                     source=marker_info.url, difficulty=difficulty, tags=[*features])
 

@@ -254,13 +254,22 @@ function applyFilters() {
     const selectedTags = Array.from(document.querySelectorAll('#tagFilter input:checked'))
         .map(input => input.value);
 
+    // Get tag logic (AND or OR)
+    const tagLogic = document.querySelector('input[name="tagLogic"]:checked').value;
+
     // Filter hikes
     filteredHikes = allHikes.filter(hike => {
         const lengthInRange = hike.length >= lengthMin && hike.length <= lengthMax;
 
         let tagsMatch = true;
         if (selectedTags.length > 0) {
-            tagsMatch = hike.tags && selectedTags.every(tag => hike.tags.includes(tag));
+            if (tagLogic === 'AND') {
+                // All selected tags must be present
+                tagsMatch = hike.tags && selectedTags.every(tag => hike.tags.includes(tag));
+            } else {
+                // At least one selected tag must be present
+                tagsMatch = hike.tags && selectedTags.some(tag => hike.tags.includes(tag));
+            }
         }
 
         return lengthInRange && tagsMatch;
@@ -275,6 +284,7 @@ function resetFilters() {
     document.getElementById('lengthMin').value = 0;
     document.getElementById('lengthMax').value = maxLength;
     document.querySelectorAll('#tagFilter input').forEach(input => input.checked = false);
+    document.querySelector('input[name="tagLogic"][value="AND"]').checked = true;
 
     filteredHikes = [...allHikes];
     displayHikes();

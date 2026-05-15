@@ -278,6 +278,32 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    margin-top: 10px;
+}
+
+.tag-logic-toggle {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.tag-logic-toggle label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #666;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tag-logic-toggle input[type="radio"] {
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    margin: 0;
 }
 
 .tag-checkbox {
