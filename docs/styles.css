@@ -60,9 +60,9 @@ body {
 }
 
 @media (max-width: 768px) {
-.minimize-btn {
-    rotate: 90deg; 
-}
+    .minimize-btn {
+        transform: scaleX(-1) rotate(90deg);
+    }
 }
 
 .minimize-btn:hover {
@@ -509,6 +509,10 @@ body {
 
 /* Mobile responsive */
 @media (max-width: 768px) {
+    .tag-filter {
+        margin-bottom: 3em;
+    }
+
     .container {
         flex-direction: column;
     }
@@ -614,7 +618,7 @@ body {
     }
 
     .sidebar.minimized .minimize-btn {
-        transform: rotate(180deg);
+        transform: scaleX(-1) rotate(-90deg);
     }
 
     .expand-btn {
@@ -676,8 +680,12 @@ body {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .leaflet-popup-content-wrapper {
