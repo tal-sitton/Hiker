@@ -107,14 +107,19 @@ async function loadHikes() {
             filtersTab.classList.add('active');
         }
 
-        displayHikes();
         populateTagFilters();
+        restoreFiltersFromUrl();
+
+        displayHikes();
         updateRangeSliderTrack(false);
 
-        // Ensure map is ready before updating markers
-        setTimeout(() => {
-            updateMap();
-        }, 100);
+        // Only call updateMap if it hasn't been called yet during restore
+        if (!mapAlreadyUpdated) {
+            // Ensure map is ready before updating markers
+            setTimeout(() => {
+                updateMap();
+            }, 100);
+        }
     } catch (error) {
         console.error('Error loading hikes:', error);
         document.getElementById('hikesList').innerHTML = `
@@ -135,16 +140,8 @@ function setupEventListeners() {
     document.getElementById('lengthMin').addEventListener('input', () => updateRangeSliderTrack(true));
     document.getElementById('lengthMax').addEventListener('input', () => updateRangeSliderTrack(false));
     document.getElementById('resetFilters').addEventListener('click', resetFilters);
-    document.querySelector('.popup-close').addEventListener('click', closePopup);
     document.getElementById('minimizeBtn').addEventListener('click', toggleSidebar);
     document.getElementById('expandBtn').addEventListener('click', toggleSidebar);
-
-    // Close popup when clicking outside
-    document.querySelector('.popup').addEventListener('click', function (e) {
-        if (e.target === this) {
-            closePopup();
-        }
-    });
 }
 
 // Update range slider track visual
@@ -178,7 +175,9 @@ function toggleSidebar() {
     const footer = document.getElementById('footer');
 
     sidebar.classList.toggle('minimized');
-    if (sidebar.classList.contains('minimized')) {
+    const isMinimized = sidebar.classList.contains('minimized');
+
+    if (isMinimized) {
         setTimeout(() => {
             expandBtn.style.display = sidebar.classList.contains('minimized') ? 'block' : 'none';
             footer.style.display = 'none';
@@ -187,6 +186,16 @@ function toggleSidebar() {
         footer.style.display = 'block';
         expandBtn.style.display = 'none';
     }
+
+    // Update URL with sidebar state
+    const params = new URLSearchParams(window.location.search);
+    if (isMinimized) {
+        params.set('minimized', 'true');
+    } else {
+        params.delete('minimized');
+    }
+    const newUrl = `${window.location.pathname}?${params.toString()}`;
+    window.history.replaceState({}, '', newUrl);
 
     // Resize map after transition completes
     setTimeout(() => {
@@ -278,6 +287,10 @@ function applyFilters() {
         return lengthInRange && tagsMatch;
     });
 
+    // Update URL params with filter state
+    updateUrlFilters(lengthMin, lengthMax, selectedTags, tagLogic);
+
+    mapAlreadyUpdated = false;
     displayHikes();
     updateMap();
 }
@@ -290,6 +303,10 @@ function resetFilters() {
     document.querySelector('input[name="tagLogic"][value="AND"]').checked = true;
 
     filteredHikes = [...allHikes];
+
+    // Update URL params to reflect reset
+    updateUrlFilters(0, maxLength, [], 'AND');
+
     displayHikes();
     updateMap();
 
@@ -358,6 +375,84 @@ function getMarkerColor(difficulty) {
     return {fill: '#2196F3', border: '#1976D2'};
 }
 
+// Update URL with filter state
+function updateUrlFilters(lengthMin, lengthMax, selectedTags, tagLogic) {
+    const params = new URLSearchParams(window.location.search);
+
+    if (lengthMin !== 0) {
+        params.set('lengthMin', lengthMin.toFixed(1));
+    } else {
+        params.delete('lengthMin');
+    }
+
+    if (lengthMax !== maxLength) {
+        params.set('lengthMax', lengthMax.toFixed(1));
+    } else {
+        params.delete('lengthMax');
+    }
+
+    if (tagLogic !== 'AND') {
+        params.set('tagLogic', tagLogic);
+    } else {
+        params.delete('tagLogic');
+    }
+
+    if (selectedTags.length > 0) {
+        params.set('tags', selectedTags.join(','));
+    } else {
+        params.delete('tags');
+    }
+
+    const newUrl = `${window.location.pathname}?${params.toString()}`;
+    window.history.replaceState({}, '', newUrl);
+}
+
+// Store hike to open after markers are ready
+let hikeToOpenPopup = null;
+let mapAlreadyUpdated = false;
+
+// Restore filters from URL params
+function restoreFiltersFromUrl() {
+    const urlParams = new URLSearchParams(window.location.search);
+
+    const lengthMin = parseFloat(urlParams.get('lengthMin'));
+    const lengthMax = parseFloat(urlParams.get('lengthMax'));
+    const tagsStr = urlParams.get('tags');
+    const tagLogic = urlParams.get('tagLogic') || 'AND';
+    const minimized = urlParams.get('minimized') === 'true';
+    const hikeParam = urlParams.get('hike');
+
+    if (!isNaN(lengthMin)) {
+        document.getElementById('lengthMin').value = lengthMin;
+    }
+    if (!isNaN(lengthMax)) {
+        document.getElementById('lengthMax').value = lengthMax;
+    }
+
+    document.querySelector(`input[name="tagLogic"][value="${tagLogic}"]`).checked = true;
+
+    if (tagsStr) {
+        const tags = tagsStr.split(',');
+        tags.forEach(tag => {
+            const checkbox = document.querySelector(`#tagFilter input[value="${tag}"]`);
+            if (checkbox) {
+                checkbox.checked = true;
+            }
+        });
+    }
+
+    if (minimized) {
+        toggleSidebar();
+    }
+
+    // Store hike to open popup after markers are created
+    if (hikeParam) {
+        hikeToOpenPopup = hikeParam;
+    }
+
+    applyFilters();
+}
+
 // Update map markers
 function updateMap() {
     // Remove existing markers
@@ -386,9 +481,37 @@ function updateMap() {
             `);
 
             marker.hikeData = hike;
+
+            // Update URL when popup opens
+            marker.on('popupopen', function () {
+                const params = new URLSearchParams(window.location.search);
+                params.set('hike', hike.name);
+                const newUrl = `${window.location.pathname}?${params.toString()}`;
+                window.history.replaceState({}, '', newUrl);
+            });
+
+            // Update URL when popup closes
+            marker.on('popupclose', function () {
+                const params = new URLSearchParams(window.location.search);
+                params.delete('hike');
+                const newUrl = `${window.location.pathname}?${params.toString()}`;
+                window.history.replaceState({}, '', newUrl);
+            });
+
             markers.push(marker);
         }
     });
+
+    // Open popup for hike if one was specified in URL
+    if (hikeToOpenPopup) {
+        const marker = markers.find(m => m.hikeData.name === hikeToOpenPopup);
+        if (marker) {
+            marker.openPopup();
+            hikeToOpenPopup = null;
+        }
+    }
+
+    mapAlreadyUpdated = true;
 
     // Fit map to show all markers
     if (markers.length > 0) {
@@ -402,32 +525,22 @@ function updateMap() {
 function selectHike(hikeName) {
     const hike = filteredHikes.find(h => h.name === hikeName);
     if (hike) {
-        showHikePopup(hike);
-
         // Highlight in list
         document.querySelectorAll('.hikes-list li').forEach(li => li.classList.remove('active'));
         document.querySelector(`li[data-hike-name="${hikeName}"]`)?.classList.add('active');
 
-        // Center map on hike
+        // Center map on hike with smooth animation
         if (hike.coords) {
-            map.setView([hike.coords[0], hike.coords[1]], 12);
+            map.flyTo([hike.coords[0], hike.coords[1]], 12, {
+                duration: 1
+            });
+        }
+
+        // Find and open the marker popup
+        const marker = markers.find(m => m.hikeData.name === hikeName);
+        if (marker) {
+            marker.openPopup();
         }
     }
 }
 
-// Show hike popup
-function showHikePopup(hike) {
-    document.getElementById('popupTitle').textContent = hike.name;
-    document.getElementById('popupLength').textContent = hike.length;
-    document.getElementById('popupDifficulty').textContent = hike.difficulty;
-    document.getElementById('popupTags').textContent = hike.tags ? hike.tags.join(', ') : 'None';
-    document.getElementById('popupSource').textContent = hike.source ? hike.source.split('//')[1].split('/')[0] : 'N/A';
-    document.getElementById('popupSource').href = hike.source ? hike.source : 'N/A';
-
-    document.querySelector('.popup').classList.add('show');
-}
-
-// Close popup
-function closePopup() {
-    document.querySelector('.popup').classList.remove('show');
-}
