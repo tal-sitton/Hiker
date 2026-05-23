@@ -6,27 +6,34 @@ A hiking trail explorer for Israel with an interactive map and filtering system.
 
 **Hiker** is a web-based application that aggregates hiking trails from multiple sources and presents them on an interactive map. Users can filter trails by difficulty, length, and tags to find their perfect hike.
 
-### What's Inside
-
-**🖼️ Frontend** - Vibe-coded vanilla JavaScript + HTML/CSS
-- Interactive Leaflet map
-- Hebrew-language interface  
-- Real-time filtering by distance and tags
-- Responsive design with collapsible sidebar
-- Trail details popup
-
-**🐍 Backend** - Hand-written Python scrapers
-- Parallel scraping from multiple hiking data sources ([Parks.org.il](https://www.parks.org.il/), [Tiuli](https://www.tiuli.com/), [kkl](https://www.kkl.org.il/travel)
-- Data aggregation and normalization
-- Exports to JSON for use by the frontend
-
 ## Features
 
-- 🗺️ **Interactive Map** - Browse trails on a Leaflet map with markers
+- 🗺️ **Interactive Map** - Browse trails on a hiking map with markers
 - 🔍 **Smart Filtering** - Filter by trail length and tags (e.g., dog-friendly, water, scenic)
 - 📊 **Sorting** - Sort trails by name, length, difficulty, or geography
 - 📱 **Mobile Responsive** - Works on desktop and mobile devices
 - 🌐 **No Backend Required** - Static site deployed via GitHub Pages (data served as JSON)
+
+## Data Sources
+
+- [**Parks**](https://www.parks.org.il/) - Israeli national parks and nature reserves
+- [**Tiuli**](https://www.tiuli.com/) - Community hiking site
+- [**KKL**](https://www.kkl.org.il/travel) - Jewish National Fund trails
+
+## What's Inside
+
+**🖼️ Frontend** - Vibe-coded vanilla JavaScript + HTML/CSS
+- Interactive map
+- Hebrew-language interface  
+- Real-time filtering by distance and tags
+- Responsive design with collapsible sidebar
+- Trail details popup
+- Switch from OpenStreetMaps to IsraelHikingMap depends on zoom level
+
+**🐍 Backend** - Hand-written Python scrapers
+- Parallel scraping from multiple hiking data sources ([Parks.org.il](https://www.parks.org.il/), [Tiuli](https://www.tiuli.com/), [kkl](https://www.kkl.org.il/travel))
+- Data aggregation and normalization
+- Exports to JSON for use by the frontend
 
 ## Getting Started
 
@@ -54,12 +61,6 @@ python -m http.server 8000
 # Or use any other static server
 # Visit http://localhost:8000
 ```
-
-## Data Sources
-
-- **Parks** - Israeli national parks and nature reserves
-- **Tuuli** - Community hiking database
-- **KKL** - Jewish National Fund trails
 
 ## Transparency Notes
 

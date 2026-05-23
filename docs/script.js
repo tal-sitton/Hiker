@@ -175,13 +175,16 @@ function updateRangeSliderTrack(changedMin) {
 function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
     const expandBtn = document.getElementById('expandBtn');
+    const footer = document.getElementById('footer');
 
     sidebar.classList.toggle('minimized');
     if (sidebar.classList.contains('minimized')) {
         setTimeout(() => {
             expandBtn.style.display = sidebar.classList.contains('minimized') ? 'block' : 'none';
+            footer.style.display = 'none';
         }, 300);
     } else {
+        footer.style.display = 'block';
         expandBtn.style.display = 'none';
     }
 

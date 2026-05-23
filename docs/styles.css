@@ -507,6 +507,17 @@ body {
     color: #333;
 }
 
+footer {
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    width: stretch;
+    background: rgba(0, 0, 0, 0.521);
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
     .tag-filter {
