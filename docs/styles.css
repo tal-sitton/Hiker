@@ -453,7 +453,7 @@ body {
 }
 
 footer {
-    z-index: 1000;
+    z-index: 10000;
     position: fixed;
     bottom: 0;
     width: stretch;
@@ -465,6 +465,10 @@ footer {
 
 /* Mobile responsive */
 @media (max-width: 768px) {
+    footer {
+        padding-bottom: 1.5em;
+    }
+    
     .tag-filter {
         margin-bottom: 3em;
     }
