@@ -454,9 +454,11 @@ body {
 
 footer {
     z-index: 10000;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    width: stretch;
+    left: 0;
+    right: 0;
+    width: 100%;
     background: rgba(0, 0, 0, 0.521);
     text-align: center;
     padding: 5px;
@@ -466,11 +468,11 @@ footer {
 /* Mobile responsive */
 @media (max-width: 768px) {
     footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        width: 100%;
         padding-bottom: 1.5em;
-    }
-    
-    .tag-filter {
-        margin-bottom: 3em;
     }
 
     .container {
@@ -479,10 +481,11 @@ footer {
 
     .sidebar {
         width: 100%;
-        height: auto;
+        height: 50vh;
         max-height: 50vh;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
         transition: max-height 0.3s ease;
     }
 
@@ -529,10 +532,12 @@ footer {
     .filter-section {
         padding: 0;
         border-bottom: none;
-        flex-shrink: 0;
-        max-height: 100%;
+        flex: 1;
+        min-height: 0;
+        max-height: none;
         overflow-y: auto;
         display: none;
+        -webkit-overflow-scrolling: touch;
     }
 
     .filter-section.active {

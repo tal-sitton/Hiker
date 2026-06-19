@@ -233,17 +233,23 @@ function toggleSection(sectionId) {
 
 // Populate tag filter checkboxes
 function populateTagFilters() {
-    const allTags = new Set();
+    const tagCounts = new Map();
     allHikes.forEach(hike => {
         if (hike.tags && Array.isArray(hike.tags)) {
-            hike.tags.forEach(tag => allTags.add(tag));
+            new Set(hike.tags).forEach(tag => {
+                tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+            });
         }
     });
 
     const tagFilter = document.getElementById('tagFilter');
     tagFilter.innerHTML = '';
 
-    Array.from(allTags).sort().forEach(tag => {
+    Array.from(tagCounts.entries())
+        .filter(([, count]) => count >= 10)
+        .map(([tag]) => tag)
+        .sort()
+        .forEach(tag => {
         const label = document.createElement('label');
         label.className = 'tag-checkbox';
         label.innerHTML = `

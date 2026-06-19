@@ -13,7 +13,10 @@ from hike_info import HikeInfo
 MADOR_NAME_NEEDED = 'tracks'
 
 TAGS = {
-    "אפשרות לכניסה למים": "מים ומעיינות"
+    "אפשרות לכניסה למים": "מים ומעיינות",
+    "תצפית": "נוף ותצפית",
+    "טיול פריחה": "פריחה",
+    "מתאים לנכים": "נגיש",
 }
 
 
@@ -73,7 +76,7 @@ def gather_hike_info_worker(marker_info: MarkerInfo, progress: Progress, task_id
         progress.update(task_id, advance=1)
 
 
-def get_all_hikes():
+def get_all_hikes() -> list[HikeInfo]:
     session = requests.Session()
     markers = get_all_markers(session)
     all_tracks = get_all_tracks(markers)
@@ -85,7 +88,7 @@ def get_all_hikes():
             all_hikes = list(
                 executor.map(gather_hike_info_worker, all_tracks, itertools.repeat(p), itertools.repeat(t)))
 
-    return all_hikes
+    return [hike for hike in all_hikes if hike is not None]
 
 
 if __name__ == '__main__':

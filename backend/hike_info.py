@@ -1,3 +1,5 @@
+from typing import Any
+
 from pydantic import BaseModel, field_validator
 
 MAXIMUM_LENGTH = 100  # Maximum length in kilometers
@@ -10,6 +12,14 @@ class HikeInfo(BaseModel):
     source: str
     difficulty: str
     tags: list[str]
+
+    def copy_from(self, other: 'HikeInfo'):
+        self.name = other.name
+        self.coords = other.coords
+        self.length = other.length
+        self.source = other.source
+        self.difficulty = other.difficulty
+        self.tags = other.tags
 
     @field_validator('length')
     @classmethod
