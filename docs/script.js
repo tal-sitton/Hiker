@@ -445,6 +445,7 @@ function displayHikes() {
             </div>
         </li>
     `).join('');
+    hikesList.scrollTop = previousScrollTop;
 }
 
 // Get marker color based on tags
@@ -542,22 +543,26 @@ function restoreFiltersFromUrl() {
 
 // Update map markers
 function updateMap() {
-    // Remove existing markers
-    markers.forEach(marker => map.removeLayer(marker));
+    if (markerClusterGroup) {
+        map.removeLayer(markerClusterGroup);
+    }
+    markerClusterGroup = L.markerClusterGroup({
+        showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
+        disableClusteringAtZoom: 12,
+        maxClusterRadius: 55,
+        chunkedLoading: true
+    });
     markers = [];
 
     // Add new markers
     filteredHikes.forEach(hike => {
-        if (hike.coords && hike.coords.length === 2) {
+        if (hasValidCoords(hike)) {
             const colors = getMarkerColor(hike.difficulty);
-            const marker = L.circleMarker([hike.coords[0], hike.coords[1]], {
-                radius: 8,
-                fillColor: colors.fill,
-                color: colors.border,
-                weight: 2,
-                opacity: 1,
-                fillOpacity: 0.8
-            }).addTo(map);
+            const marker = L.marker([Number(hike.coords[0]), Number(hike.coords[1])], {
+                icon: createDifficultyIcon(colors, false),
+                title: hike.name
+            });
 
             marker.bindPopup(`
                 <strong>${hike.name}</strong><br>
@@ -568,6 +573,9 @@ function updateMap() {
             `);
 
             marker.hikeData = hike;
+            marker.on('click', function () {
+                selectHike(hike.name, false, marker);
+            });
 
             // Update URL when popup opens
             marker.on('popupopen', function () {
@@ -586,8 +594,11 @@ function updateMap() {
             });
 
             markers.push(marker);
+            markerClusterGroup.addLayer(marker);
         }
+
     });
+    map.addLayer(markerClusterGroup);
 
     // Open popup for hike if one was specified in URL
     if (hikeToOpenPopup) {
@@ -600,34 +611,67 @@ function updateMap() {
 
     mapAlreadyUpdated = true;
 
-    // Fit map to show all markers
-    if (markers.length > 0) {
-        L.featureGroup(markers);
-    } else {
-        console.log('No markers to display, keeping default view');
-    }
+    updateMapStatus();
 }
 
 // Select hike from list
-function selectHike(hikeName) {
-    const hike = filteredHikes.find(h => h.name === hikeName);
+function selectHike(hikeName, moveMap = true, selectedMarker = null) {
+    const hike = selectedMarker?.hikeData || filteredHikes.find(h => h.name === hikeName);
     if (hike) {
+        markers.forEach(marker => {
+            const markerColors = getMarkerColor(marker.hikeData.difficulty);
+            marker.setIcon(createDifficultyIcon(markerColors, false));
+        });
+
         // Highlight in list
         document.querySelectorAll('.hikes-list li').forEach(li => li.classList.remove('active'));
-        document.querySelector(`li[data-hike-name="${hikeName}"]`)?.classList.add('active');
+        Array.from(document.querySelectorAll('li[data-hike-name]'))
+            .find(li => li.dataset.hikeName === hikeName)
+            ?.classList.add('active');
 
         // Center map on hike with smooth animation
-        if (hike.coords) {
-            map.flyTo([hike.coords[0], hike.coords[1]], 12, {
+        if (moveMap && hasValidCoords(hike)) {
+            map.flyTo([Number(hike.coords[0]), Number(hike.coords[1])], 12, {
                 duration: 1
             });
         }
 
         // Find and open the marker popup
-        const marker = markers.find(m => m.hikeData.name === hikeName);
+        const marker = selectedMarker || markers.find(m => m.hikeData.name === hikeName);
         if (marker) {
+            const markerColors = getMarkerColor(marker.hikeData.difficulty);
+            marker.setIcon(createDifficultyIcon(markerColors, true));
             marker.openPopup();
         }
     }
 }
 
+function createDifficultyIcon(colors, selected) {
+    const width = selected ? 30 : 24;
+    const height = selected ? 38 : 31;
+    return L.divIcon({
+        className: 'difficulty-marker-wrapper',
+        html: `
+            <svg class="difficulty-pin${selected ? ' is-selected' : ''}" width="${width}" height="${height}" viewBox="0 0 24 31" aria-hidden="true">
+                <path class="difficulty-pin-shadow" d="M12 30.1S2.2 20.5 2.2 12A9.8 9.8 0 1 1 21.8 12C21.8 20.5 12 30.1 12 30.1Z"/>
+                <path class="difficulty-pin-body" d="M12 29.1S3.2 20 3.2 12A8.8 8.8 0 1 1 20.8 12C20.8 20 12 29.1 12 29.1Z" fill="${colors.fill}" stroke="${colors.border}"/>
+                <circle class="difficulty-pin-center" cx="12" cy="12" r="3.1"/>
+            </svg>
+        `,
+        iconSize: [width, height],
+        iconAnchor: [width / 2, height],
+        popupAnchor: [0, -height + 4]
+    });
+}
+
+function updateMapStatus() {
+    const status = document.getElementById('mapStatus');
+    if (filteredHikes.length === 0) {
+        status.textContent = 'לא נמצאו מסלולים לפי המסננים';
+        status.classList.add('is-empty');
+        return;
+    }
+
+    status.textContent = `${filteredHikes.length} מסלולים מתאימים למסננים`;
+    status.classList.remove('is-empty');
+}
