@@ -1,6 +1,7 @@
 // Initialize map
 let map;
 let markers = [];
+let markerClusterGroup;
 let allHikes = [];
 let filteredHikes = [];
 let maxLength = 100;
@@ -8,6 +9,7 @@ let currentTileLayer;
 let osmTileLayer;
 let hikingTileLayer;
 const HIKING_MAP_ZOOM_THRESHOLD = 12;
+const DEFAULT_MAP_VIEW = { lat: 31.25, lng: 35.2, zoom: 7 };
 
 // Initialize the app
 document.addEventListener('DOMContentLoaded', function () {
@@ -19,9 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
 // Initialize Leaflet map
 function initMap() {
     const urlParams = new URLSearchParams(window.location.search);
-    const lat = parseFloat(urlParams.get('lat')) || 31.25;
-    const lng = parseFloat(urlParams.get('lng')) || 35.2;
-    const zoom = parseInt(urlParams.get('zoom')) || 7;
+    const lat = parseFloat(urlParams.get('lat')) || DEFAULT_MAP_VIEW.lat;
+    const lng = parseFloat(urlParams.get('lng')) || DEFAULT_MAP_VIEW.lng;
+    const zoom = parseInt(urlParams.get('zoom')) || DEFAULT_MAP_VIEW.zoom;
 
     map = L.map('map').setView([lat, lng], zoom);
 
@@ -137,11 +139,38 @@ function setupEventListeners() {
     document.getElementById('lengthMax').addEventListener('change', applyFilters);
     document.getElementById('lengthMin').addEventListener('input', applyFilters);
     document.getElementById('lengthMax').addEventListener('input', applyFilters);
-    document.getElementById('lengthMin').addEventListener('input', () => updateRangeSliderTrack(true));
-    document.getElementById('lengthMax').addEventListener('input', () => updateRangeSliderTrack(false));
+    document.getElementById('lengthMin').addEventListener('input', () => syncLengthInput('min'));
+    document.getElementById('lengthMax').addEventListener('input', () => syncLengthInput('max'));
+    document.getElementById('lengthMinInput').addEventListener('change', () => syncRangeFromInput('min'));
+    document.getElementById('lengthMaxInput').addEventListener('change', () => syncRangeFromInput('max'));
+    document.getElementById('lengthMinInput').addEventListener('keydown', handleLengthInputKeydown);
+    document.getElementById('lengthMaxInput').addEventListener('keydown', handleLengthInputKeydown);
     document.getElementById('resetFilters').addEventListener('click', resetFilters);
     document.getElementById('minimizeBtn').addEventListener('click', toggleSidebar);
     document.getElementById('expandBtn').addEventListener('click', toggleSidebar);
+}
+
+function handleLengthInputKeydown(event) {
+    if (event.key === 'Enter') {
+        event.target.blur();
+    }
+}
+
+function syncLengthInput(which) {
+    const slider = document.getElementById(which === 'min' ? 'lengthMin' : 'lengthMax');
+    const input = document.getElementById(which === 'min' ? 'lengthMinInput' : 'lengthMaxInput');
+    input.value = slider.value;
+    updateRangeSliderTrack(which === 'min');
+}
+
+function syncRangeFromInput(which) {
+    const slider = document.getElementById(which === 'min' ? 'lengthMin' : 'lengthMax');
+    const input = document.getElementById(which === 'min' ? 'lengthMinInput' : 'lengthMaxInput');
+    const value = Math.max(0, Math.min(maxLength, parseFloat(input.value) || 0));
+    slider.value = value;
+    input.value = value;
+    updateRangeSliderTrack(which === 'min');
+    applyFilters();
 }
 
 // Update range slider track visual
@@ -161,6 +190,8 @@ function updateRangeSliderTrack(changedMin) {
         lengthMax = lengthMin;
     }
 
+    document.getElementById('lengthMinInput').value = lengthMin;
+    document.getElementById('lengthMaxInput').value = lengthMax;
     const minPercent = (lengthMin / maxSlider.max) * 100;
     const maxPercent = (lengthMax / maxSlider.max) * 100;
 
@@ -242,28 +273,51 @@ function populateTagFilters() {
         }
     });
 
-    const tagFilter = document.getElementById('tagFilter');
-    tagFilter.innerHTML = '';
-
-    Array.from(tagCounts.entries())
+    const tags = Array.from(tagCounts.entries())
         .filter(([, count]) => count >= 10)
         .map(([tag]) => tag)
-        .sort()
-        .forEach(tag => {
-        const label = document.createElement('label');
-        label.className = 'tag-checkbox';
-        label.innerHTML = `
-            <input type="checkbox" value="${tag}" onchange="applyFilters()">
-            <span>${tag}</span>
-        `;
-        tagFilter.appendChild(label);
-    });
+        .sort((a, b) => a.localeCompare(b, 'he'));
+
+    const tagFilter = document.getElementById('tagFilter');
+    const categories = {
+        'סוג המסלול': [],
+        'למי מתאים': [],
+        'מה בדרך': [],
+        'נגישות ותנאים': []
+    };
+
+    tags.forEach(tag => categories[getTagCategory(tag)].push(tag));
+    tagFilter.innerHTML = Object.entries(categories)
+        .filter(([, categoryTags]) => categoryTags.length > 0)
+        .map(([category, categoryTags]) => `
+            <div class="tag-group">
+                <h4>${category}</h4>
+                <div class="tag-group-options">
+                    ${categoryTags.map(tag => `
+                        <label class="tag-checkbox" data-tag="${tag}">
+                            <input type="checkbox" value="${tag}" onchange="applyFilters()">
+                            <span>${tag}</span>
+                        </label>
+                    `).join('')}
+                </div>
+            </div>
+        `).join('');
+}
+
+function getTagCategory(tag) {
+    if (['מעגלי', 'טיול עירוני', 'טיול שטח', 'מקטע משביל ישראל'].includes(tag)) return 'סוג המסלול';
+    if (['מתאים למשפחות', 'מתאים לכלבים', 'מתאים לאופניים', 'למיטיבי לכת', 'רומנטי'].includes(tag)) return 'למי מתאים';
+    if (['מים ומעיינות', 'נוף ותצפית', 'פריחה', 'טבע', 'היסטוריה ואומנות', 'פיקניק'].includes(tag)) return 'מה בדרך';
+    return 'נגישות ותנאים';
 }
 
 // Apply filters
 function applyFilters() {
     const lengthMin = parseFloat(document.getElementById('lengthMin').value);
     const lengthMax = parseFloat(document.getElementById('lengthMax').value);
+
+    syncLengthInput('min');
+    syncLengthInput('max');
 
     // Update length display
     document.getElementById('lengthDisplay').textContent = `${lengthMin.toFixed(1)} - ${lengthMax.toFixed(1)}`;
@@ -299,6 +353,20 @@ function applyFilters() {
     mapAlreadyUpdated = false;
     displayHikes();
     updateMap();
+    updateFilterSummary(lengthMin, lengthMax, selectedTags);
+    updateMapStatus();
+}
+
+function updateFilterSummary(lengthMin, lengthMax, selectedTags) {
+    const activeFilters = (lengthMin > 0 ? 1 : 0) + (lengthMax < maxLength ? 1 : 0) + selectedTags.length;
+    document.getElementById('activeFilterCount').textContent = `${activeFilters} פעילים`;
+    const summary = document.getElementById('filterSummary');
+    const rangeDetail = lengthMin > 0 || lengthMax < maxLength
+        ? `${lengthMin.toFixed(1)}–${lengthMax.toFixed(1)} ק"מ`
+        : '';
+    summary.innerHTML = activeFilters === 0
+        ? '<span>כל הטיולים מוצגים</span>'
+        : `<span><strong>${filteredHikes.length}</strong> טיולים מתאימים</span><span class="summary-detail">${[rangeDetail, selectedTags.length ? `${selectedTags.length} תגיות` : ''].filter(Boolean).join(' · ')}</span>`;
 }
 
 // Reset filters
@@ -316,12 +384,24 @@ function resetFilters() {
     displayHikes();
     updateMap();
 
-    // Update length display
-    document.getElementById('lengthDisplay').textContent = `0 - ${maxLength}`;
     updateRangeSliderTrack(false);
+    document.getElementById('lengthDisplay').textContent = `0.0 - ${maxLength.toFixed(1)}`;
+    updateFilterSummary(0, maxLength, []);
+    updateMapStatus();
 }
 
 // Sort hikes based on selected sort option
+function hasValidCoords(hike) {
+    if (!Array.isArray(hike.coords) || hike.coords.length < 2) {
+        return false;
+    }
+
+    const latitude = Number(hike.coords[0]);
+    const longitude = Number(hike.coords[1]);
+    return Number.isFinite(latitude) && latitude >= -90 && latitude <= 90
+        && Number.isFinite(longitude) && longitude >= -180 && longitude <= 180;
+}
+
 function sortHikes(hikes) {
     const sortBy = document.getElementById('sortBy')?.value || 'name';
     const sorted = [...hikes];
@@ -347,6 +427,7 @@ function sortHikes(hikes) {
 // Display hikes in list
 function displayHikes() {
     const hikesList = document.getElementById('hikesList');
+    const previousScrollTop = hikesList.scrollTop;
     document.getElementById('hikeCount').textContent = filteredHikes.length;
 
     if (filteredHikes.length === 0) {
