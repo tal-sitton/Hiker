@@ -415,8 +415,12 @@ function sortHikes(hikes) {
         sorted.sort((a, b) => (difficultyOrder[a.difficulty] || 999) - (difficultyOrder[b.difficulty] || 999));
     } else if (sortBy === 'north-south') {
         sorted.sort((a, b) => {
-            const latA = a.coords ? a.coords[0] : -90;
-            const latB = b.coords ? b.coords[0] : -90;
+            const latA = hasValidCoords(a) ? Number(a.coords[0]) : null;
+            const latB = hasValidCoords(b) ? Number(b.coords[0]) : null;
+
+            if (latA === null && latB === null) return 0;
+            if (latA === null) return 1;
+            if (latB === null) return -1;
             return latB - latA;
         });
     }
