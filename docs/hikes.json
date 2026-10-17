@@ -6,7 +6,7 @@
             35.1135
         ],
         "length": 1.6,
-        "source": "https://www.tiuli.com/tracks/58",
+        "source": "https://www.tiuli.com/tracks/58/%D7%A0%D7%97%D7%9C-%D7%94%D7%A9%D7%95%D7%A4%D7%98",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -26,7 +26,7 @@
             35.7422787867059
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/33",
+        "source": "https://www.tiuli.com/tracks/33/-8",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -39,39 +39,42 @@
         ]
     },
     {
-        "name": "נחל אל על",
+        "name": "נחל ממשית: מסלול מעגלי",
         "coords": [
-            32.80640782463393,
-            35.7422787867059
+            31.02778892740655,
+            35.064434054115466
         ],
-        "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/33",
-        "difficulty": "בינוני",
+        "length": 2.5,
+        "source": "https://www.tiuli.com/tracks/332/-12",
+        "difficulty": "קל",
         "tags": [
-            "מים ומעיינות",
-            "למיטיבי לכת",
             "מתאים למשפחות",
             "מעגלי",
             "פריחה",
             "מתאים לכלבים",
+            "טיול שטח",
+            "טבע",
             "נוף ותצפית"
         ]
     },
     {
-        "name": "נחל תבור",
+        "name": "נחל תבור: מסלול מעגלי",
         "coords": [
-            32.6407,
-            35.4504
+            32.64142275110298,
+            35.45134413757323
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/118",
+        "source": "https://www.tiuli.com/tracks/118/-30",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
             "למיטיבי לכת",
             "מתאים למשפחות",
             "מעגלי",
-            "פריחה"
+            "פריחה",
+            "מתאים לכלבים",
+            "טבע",
+            "נוף ותצפית"
         ]
     },
     {
@@ -81,7 +84,7 @@
             35.2694
         ],
         "length": 12.0,
-        "source": "https://www.tiuli.com/tracks/88",
+        "source": "https://www.tiuli.com/tracks/88/%D7%A0%D7%97%D7%9C-%D7%A6%D7%90%D7%9C%D7%99%D7%9D-%D7%95%D7%91%D7%A8%D7%9B%D7%AA-%D7%A6%D7%A4%D7%99%D7%A8%D7%94",
         "difficulty": "קשה",
         "tags": [
             "מים ומעיינות",
@@ -98,7 +101,7 @@
             35.0366
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/24",
+        "source": "https://www.tiuli.com/tracks/24/-4",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -116,7 +119,7 @@
             35.3068
         ],
         "length": 7.0,
-        "source": "https://www.tiuli.com/tracks/62",
+        "source": "https://www.tiuli.com/tracks/62/%D7%A0%D7%97%D7%9C-%D7%A4%D7%A8%D7%AA-%D7%95%D7%90%D7%93%D7%99-%D7%A7%D7%9C%D7%98",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -128,13 +131,13 @@
         ]
     },
     {
-        "name": "נחל ציפורי",
+        "name": "נחל ציפורי: מטחנת הנזירים לעין יבקע",
         "coords": [
-            32.7643,
-            35.1572
+            32.768684881315224,
+            35.15188963490169
         ],
-        "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/66",
+        "length": 6.0,
+        "source": "https://www.tiuli.com/tracks/66/-42",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -144,7 +147,10 @@
             "מעגלי",
             "פריחה",
             "מתאים לכלבים",
-            "טיול שטח"
+            "טיול שטח",
+            "מקטע משביל ישראל",
+            "טבע",
+            "נגיש"
         ]
     },
     {
@@ -154,7 +160,7 @@
             35.0138
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/107",
+        "source": "https://www.tiuli.com/tracks/107/%D7%A0%D7%97%D7%9C-%D7%9B%D7%A8%D7%9E%D7%99%D7%9C%D7%94-%D7%95%D7%A0%D7%97%D7%9C-%D7%9B%D7%A1%D7%9C%D7%95%D7%9F",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -171,7 +177,7 @@
             34.931
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/22",
+        "source": "https://www.tiuli.com/tracks/22/%D7%A4%D7%90%D7%A8%D7%A7-%D7%91%D7%A8%D7%99%D7%98%D7%A0%D7%99%D7%94-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%94%D7%91%D7%95%D7%A8%D7%95%D7%AA-%D7%95%D7%94%D7%91%D7%90%D7%A8%D7%95%D7%AA",
         "difficulty": "בינוני",
         "tags": [
             "מתאים למשפחות",
@@ -188,7 +194,7 @@
             35.3943
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/32",
+        "source": "https://www.tiuli.com/tracks/32/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%A2%D7%99%D7%9F-%D7%92%D7%93%D7%99-%D7%A0%D7%97%D7%9C-%D7%93%D7%95%D7%93-%D7%95%D7%A0%D7%97%D7%9C-%D7%A2%D7%A8%D7%95%D7%92%D7%95%D7%AA",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -200,19 +206,18 @@
         ]
     },
     {
-        "name": "יד קנדי, חרבת סעדים ושביל המעיינות",
+        "name": "ים לים: מהים התיכון דרך הר מירון אל הכנרת",
         "coords": [
-            31.7499,
-            35.1354
+            33.0506,
+            35.1033
         ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/15",
-        "difficulty": "קל",
+        "length": 70.0,
+        "source": "https://www.tiuli.com/tracks/157/%D7%99%D7%9D-%D7%90%D7%9C-%D7%99%D7%9D-%D7%98%D7%99%D7%95%D7%9C-%D7%9E%D7%97%D7%95%D7%A3-%D7%90%D7%9B%D7%96%D7%99%D7%91-%D7%9C%D7%97%D7%95%D7%A4%D7%99-%D7%94%D7%9B%D7%A0%D7%A8%D7%AA",
+        "difficulty": "קשה",
         "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "מתאים לאופניים",
-            "מעגלי"
+            "למיטיבי לכת",
+            "מחייב ציוד על הגב",
+            "הגעה בתחבורה ציבורית"
         ]
     },
     {
@@ -222,7 +227,7 @@
             35.4595
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/48",
+        "source": "https://www.tiuli.com/tracks/48/-17",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -240,7 +245,7 @@
             35.0721
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/59",
+        "source": "https://www.tiuli.com/tracks/59/%D7%A0%D7%97%D7%9C-%D7%A7%D7%98%D7%9C%D7%91-%D7%95%D7%9E%D7%A2%D7%A8%D7%AA-%D7%94%D7%A0%D7%98%D7%99%D7%A4%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -256,7 +261,7 @@
             34.8916
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/102",
+        "source": "https://www.tiuli.com/tracks/102/%D7%A0%D7%97%D7%9C-%D7%90%D7%9C%D7%9B%D7%A1%D7%A0%D7%93%D7%A8-%D7%95%D7%92%D7%A9%D7%A8-%D7%94%D7%A6%D7%91%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -269,29 +274,13 @@
         ]
     },
     {
-        "name": "נחל אביב ונחל דישון: מסלול בשניים מהנחלים היפים בארץ",
-        "coords": [
-            33.0826,
-            35.4604
-        ],
-        "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/10",
-        "difficulty": "קל",
-        "tags": [
-            "למיטיבי לכת",
-            "מתאים למשפחות",
-            "מתאים לאופניים",
-            "פריחה"
-        ]
-    },
-    {
         "name": "שמורת חוף השרון",
         "coords": [
             32.2171,
             34.8184
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/106",
+        "source": "https://www.tiuli.com/tracks/106/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%97%D7%95%D7%A3-%D7%94%D7%A9%D7%A8%D7%95%D7%9F",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -309,22 +298,7 @@
             35.318172
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/336",
-        "difficulty": "בינוני",
-        "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "נוף ותצפית"
-        ]
-    },
-    {
-        "name": "נחל רחף",
-        "coords": [
-            31.281831,
-            35.318172
-        ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/336",
+        "source": "https://www.tiuli.com/tracks/336/%D7%A0%D7%97%D7%9C-%D7%A8%D7%97%D7%A3",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -339,7 +313,7 @@
             35.126
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/43",
+        "source": "https://www.tiuli.com/tracks/43/%D7%A6%D7%95%D7%91%D7%94-%D7%95%D7%94%D7%A1%D7%98%D7%A3-%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%94%D7%A8%D7%99-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -349,35 +323,22 @@
         ]
     },
     {
-        "name": "ים לים: מהים התיכון דרך הר מירון אל הכנרת",
-        "coords": [
-            33.0506,
-            35.1033
-        ],
-        "length": 70.0,
-        "source": "https://www.tiuli.com/tracks/157",
-        "difficulty": "קשה",
-        "tags": [
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב",
-            "הגעה בתחבורה ציבורית"
-        ]
-    },
-    {
         "name": "נחל ג'ילבון",
         "coords": [
             33.044,
             35.6709
         ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/114",
+        "length": 5.0,
+        "source": "https://www.tiuli.com/tracks/114/%D7%A0%D7%97%D7%9C-%D7%92-%D7%99%D7%9C%D7%91%D7%95%D7%9F",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
             "למיטיבי לכת",
+            "מתאים למשפחות",
             "מעגלי",
             "פריחה",
-            "טיול שטח"
+            "טיול שטח",
+            "טבע"
         ]
     },
     {
@@ -387,7 +348,7 @@
             35.0729
         ],
         "length": 9.0,
-        "source": "https://www.tiuli.com/tracks/151",
+        "source": "https://www.tiuli.com/tracks/151/%D7%A0%D7%97%D7%9C-%D7%99%D7%92%D7%95%D7%A8",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -396,30 +357,33 @@
         ]
     },
     {
-        "name": "נחל כזיב",
+        "name": "טיול בצפת: סיור בין אטרקציות ומקומות עתיקים בעיר",
         "coords": [
-            33.0334,
-            35.2386
+            32.9687,
+            35.4934
         ],
-        "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/8",
-        "difficulty": "בינוני",
+        "length": 2.0,
+        "source": "https://www.tiuli.com/tracks/89/%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%A6%D7%A4%D7%AA-%D7%A1%D7%99%D7%95%D7%A8-%D7%91%D7%99%D7%9F-%D7%90%D7%98%D7%A8%D7%A7%D7%A6%D7%99%D7%95%D7%AA-%D7%91%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%AA-%D7%A7%D7%93%D7%95%D7%A9%D7%94",
+        "difficulty": "קל",
         "tags": [
-            "מים ומעיינות",
-            "למיטיבי לכת",
             "מתאים למשפחות",
+            "רומנטי",
+            "ניתן לעשות בחשכה",
             "מעגלי",
-            "הגעה בתחבורה ציבורית"
+            "טיול עירוני",
+            "מתאים לכלבים",
+            "הגעה בתחבורה ציבורית",
+            "נגיש"
         ]
     },
     {
-        "name": "נחל צלמון",
+        "name": "נחל צלמון תיכון",
         "coords": [
             32.9091,
             35.3732
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/65",
+        "source": "https://www.tiuli.com/tracks/65/-40",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -437,7 +401,7 @@
             34.9255
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/28",
+        "source": "https://www.tiuli.com/tracks/28/%D7%97%D7%95%D7%A3-%D7%93%D7%95%D7%A8-%D7%94%D7%91%D7%95%D7%A0%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -453,7 +417,7 @@
             35.3837
         ],
         "length": 9.0,
-        "source": "https://www.tiuli.com/tracks/128",
+        "source": "https://www.tiuli.com/tracks/128/%D7%A0%D7%97%D7%9C-%D7%9E%D7%A9%D7%9E%D7%A8",
         "difficulty": "קשה",
         "tags": [
             "מים ומעיינות",
@@ -462,13 +426,13 @@
         ]
     },
     {
-        "name": "הר ארבל - שמורת טבע ארבל",
+        "name": "מקרני חיטין למצוק הארבל: שני מסלולים קצרים שמתחברים לטיול ארוך",
         "coords": [
             32.822,
             35.4957
         ],
         "length": 13.0,
-        "source": "https://www.tiuli.com/tracks/17",
+        "source": "https://www.tiuli.com/tracks/17/%D7%9E%D7%A7%D7%A8%D7%A0%D7%99-%D7%97%D7%99%D7%98%D7%99%D7%9F-%D7%9C%D7%90%D7%A8%D7%91%D7%9C",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -484,7 +448,7 @@
             34.779
         ],
         "length": 16.0,
-        "source": "https://www.tiuli.com/tracks/121",
+        "source": "https://www.tiuli.com/tracks/121/%D7%A2%D7%99%D7%9F-%D7%A2%D7%A7%D7%91-%D7%97%D7%95%D7%93-%D7%A2%D7%A7%D7%91-%D7%95%D7%9E%D7%A2%D7%9C%D7%94-%D7%93%D7%91%D7%A9%D7%95%D7%9F",
         "difficulty": "קשה",
         "tags": [
             "מים ומעיינות",
@@ -501,7 +465,7 @@
             34.723
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/67",
+        "source": "https://www.tiuli.com/tracks/67/%D7%A9%D7%A4%D7%9A-%D7%A0%D7%97%D7%9C-%D7%A9%D7%95%D7%A8%D7%A7-%D7%95%D7%97%D7%95%D7%A3-%D7%A4%D7%9C%D7%9E%D7%97%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -518,7 +482,7 @@
             35.0472
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/90",
+        "source": "https://www.tiuli.com/tracks/90/%D7%A2%D7%99%D7%9F-%D7%9E%D7%98%D7%A2-%D7%97%D7%A8%D7%91%D7%AA-%D7%97%D7%A0%D7%95%D7%AA-%D7%95%D7%A9%D7%91%D7%99%D7%9C-%D7%94%D7%A7%D7%99%D7%A1%D7%A8",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -537,22 +501,7 @@
             34.930512
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/343",
-        "difficulty": "קל",
-        "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "טבע"
-        ]
-    },
-    {
-        "name": "פארק אפק - מתחם תל אפק (אנטיפטריס) בגן הלאומי ירקון",
-        "coords": [
-            32.1053092,
-            34.930512
-        ],
-        "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/343",
+        "source": "https://www.tiuli.com/tracks/343/%D7%A4%D7%90%D7%A8%D7%A7-%D7%90%D7%A4%D7%A7-%D7%9E%D7%AA%D7%97%D7%9D-%D7%AA%D7%9C-%D7%90%D7%A4%D7%A7-%D7%90%D7%A0%D7%98%D7%99%D7%A4%D7%98%D7%A8%D7%99%D7%A1-%D7%91%D7%92%D7%9F-%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%99%D7%A8%D7%A7%D7%95%D7%9F",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -567,7 +516,7 @@
             34.9707
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/163",
+        "source": "https://www.tiuli.com/tracks/163/-14",
         "difficulty": "בינוני",
         "tags": [
             "מתאים למשפחות",
@@ -578,53 +527,22 @@
         ]
     },
     {
-        "name": "נחל גחר ברמות מנשה",
+        "name": "פארק רמות מנשה: נחל גחר",
         "coords": [
-            32.6041469,
-            35.1155133
+            32.61833994771553,
+            35.117411613464355
         ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/376",
+        "length": 4.0,
+        "source": "https://www.tiuli.com/tracks/376/-41",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
             "מתאים למשפחות",
-            "מתאים לכלבים"
-        ]
-    },
-    {
-        "name": "נחל גחר ברמות מנשה",
-        "coords": [
-            32.6041469,
-            35.1155133
-        ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/376",
-        "difficulty": "קל",
-        "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "מתאים לכלבים"
-        ]
-    },
-    {
-        "name": "נחל הבשור ופארק אשכול",
-        "coords": [
-            31.3095,
-            34.4929
-        ],
-        "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/23",
-        "difficulty": "קל",
-        "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "רומנטי",
             "מתאים לאופניים",
             "מעגלי",
             "פריחה",
             "מתאים לכלבים",
-            "טיול שטח"
+            "פיקניק"
         ]
     },
     {
@@ -634,7 +552,7 @@
             35.4578
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/237",
+        "source": "https://www.tiuli.com/tracks/237/-7",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -651,7 +569,7 @@
             34.9685
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/115",
+        "source": "https://www.tiuli.com/tracks/115/%D7%A9%D7%9C%D7%95%D7%97%D7%AA-%D7%90%D7%99%D7%99%D7%9C%D7%94-%D7%95%D7%A0%D7%97%D7%9C-%D7%A9%D7%9E%D7%A8%D7%99",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -670,7 +588,7 @@
             34.8753
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/155",
+        "source": "https://www.tiuli.com/tracks/155/%D7%94%D7%A7%D7%A0%D7%99%D7%95%D7%9F-%D7%94%D7%90%D7%93%D7%95%D7%9D-%D7%92%D7%99%D7%90-%D7%A9%D7%A0%D7%99",
         "difficulty": "בינוני",
         "tags": [
             "מעגלי",
@@ -684,7 +602,7 @@
             35.012
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/112",
+        "source": "https://www.tiuli.com/tracks/112/%D7%A0%D7%97%D7%9C-%D7%90%D7%95%D7%A8%D7%9F-%D7%9E%D7%9E%D7%97%D7%A6%D7%91%D7%95%D7%AA-%D7%A7%D7%93%D7%95%D7%9E%D7%99%D7%9D-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%94%D7%90%D7%92%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -701,7 +619,7 @@
             35.0792
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/182",
+        "source": "https://www.tiuli.com/tracks/182/%D7%94%D7%A8-%D7%94%D7%A8%D7%95%D7%97-%D7%95%D7%A9%D7%91%D7%99%D7%9C-%D7%A0%D7%95%D7%A3-%D7%99%D7%AA%D7%9C%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -711,21 +629,18 @@
         ]
     },
     {
-        "name": "רמת הנדיב",
+        "name": "נחל מיצר",
         "coords": [
-            32.552,
-            34.947
+            32.7385402,
+            35.6976133000001
         ],
-        "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/6",
-        "difficulty": "קל",
+        "length": 6.0,
+        "source": "https://www.tiuli.com/tracks/61/%D7%A0%D7%97%D7%9C-%D7%9E%D7%99%D7%A6%D7%A8",
+        "difficulty": "בינוני",
         "tags": [
+            "למיטיבי לכת",
             "מתאים למשפחות",
-            "רומנטי",
-            "מתאים לאופניים",
-            "מעגלי",
-            "הגעה בתחבורה ציבורית",
-            "נגיש"
+            "פריחה"
         ]
     },
     {
@@ -735,7 +650,7 @@
             35.1523
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/120",
+        "source": "https://www.tiuli.com/tracks/120/%D7%A0%D7%97%D7%9C-%D7%97%D7%9C%D7%99%D7%9C%D7%99%D7%9D-%D7%95%D7%A2%D7%99%D7%A0%D7%95%D7%AA-%D7%AA%D7%9C%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -752,7 +667,7 @@
             35.7028
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/85",
+        "source": "https://www.tiuli.com/tracks/85/%D7%A0%D7%97%D7%9C-%D7%99%D7%94%D7%95%D7%93%D7%99%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -770,7 +685,7 @@
             35.2804
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/184",
+        "source": "https://www.tiuli.com/tracks/184/%D7%A0%D7%97%D7%9C-%D7%A4%D7%A8%D7%A1-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%95%D7%92%D7%91%D7%99-%D7%A4%D7%A8%D7%A1",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -785,7 +700,7 @@
             35.3886
         ],
         "length": 7.0,
-        "source": "https://www.tiuli.com/tracks/154",
+        "source": "https://www.tiuli.com/tracks/154/%D7%A0%D7%97%D7%9C-%D7%93%D7%A8%D7%92%D7%94-%D7%A0%D7%97%D7%9C-%D7%9E%D7%95%D7%A8%D7%91%D7%A2%D7%AA",
         "difficulty": "קשה",
         "tags": [
             "מים ומעיינות",
@@ -800,7 +715,7 @@
             35.0689
         ],
         "length": 9.0,
-        "source": "https://www.tiuli.com/tracks/125",
+        "source": "https://www.tiuli.com/tracks/125/%D7%A0%D7%97%D7%9C-%D7%93%D7%95%D7%9C%D7%91-%D7%95%D7%A2%D7%99%D7%9F-%D7%A4%D7%99%D7%A8%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -817,7 +732,7 @@
             35.7009
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/124",
+        "source": "https://www.tiuli.com/tracks/124/%D7%96%D7%95%D7%95%D7%99%D7%AA%D7%9F-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%95%D7%91%D7%A8%D7%99%D7%9B%D7%AA-%D7%94%D7%9E%D7%A9%D7%95%D7%A9%D7%99%D7%9D",
         "difficulty": "קשה",
         "tags": [
             "מים ומעיינות",
@@ -827,18 +742,18 @@
         ]
     },
     {
-        "name": "עין בוקק, נחל בוקק וצוק תמרור",
+        "name": "נחל יחיעם",
         "coords": [
-            31.174,
-            35.3064
+            32.9946546,
+            35.2215725999999
         ],
-        "length": 10.0,
-        "source": "https://www.tiuli.com/tracks/3",
-        "difficulty": "בינוני",
+        "length": 4.5,
+        "source": "https://www.tiuli.com/tracks/309/%D7%A0%D7%97%D7%9C-%D7%99%D7%97%D7%99%D7%A2%D7%9D",
+        "difficulty": "קל",
         "tags": [
-            "מים ומעיינות",
-            "למיטיבי לכת",
-            "מתאים למשפחות"
+            "מתאים למשפחות",
+            "פריחה",
+            "טבע"
         ]
     },
     {
@@ -848,7 +763,7 @@
             34.9631
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/177",
+        "source": "https://www.tiuli.com/tracks/177/%D7%A0%D7%97%D7%9C-%D7%9E%D7%A2%D7%A8%D7%95%D7%AA-%D7%98%D7%99%D7%95%D7%9C-%D7%90%D7%9C-%D7%9E%D7%A2%D7%A8%D7%95%D7%AA-%D7%94%D7%9B%D7%A8%D7%9E%D7%9C",
         "difficulty": "קל",
         "tags": [
             "למיטיבי לכת",
@@ -865,7 +780,7 @@
             35.0585
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/56",
+        "source": "https://www.tiuli.com/tracks/56/%D7%9E%D7%95%D7%97%D7%A8%D7%A7%D7%94-%D7%A0%D7%97%D7%9C-%D7%A8%D7%A7%D7%A4%D7%AA-%D7%95%D7%9E%D7%A0%D7%96%D7%A8-%D7%94%D7%9B%D7%A8%D7%9E%D7%9C%D7%99%D7%AA%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -879,7 +794,7 @@
             35.3761
         ],
         "length": 10.0,
-        "source": "https://www.tiuli.com/tracks/210",
+        "source": "https://www.tiuli.com/tracks/210/%D7%A0%D7%97%D7%9C-%D7%90%D7%A9%D7%9C%D7%99%D7%9D-%D7%95%D7%A0%D7%97%D7%9C-%D7%A2%D7%96%D7%92%D7%93-%D7%9E%D7%A1%D7%A2-%D7%91%D7%99%D7%9F-%D7%92%D7%91%D7%99-%D7%9E%D7%99%D7%9D",
         "difficulty": "קשה",
         "tags": [
             "מים ומעיינות",
@@ -894,7 +809,7 @@
             35.1625
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/91",
+        "source": "https://www.tiuli.com/tracks/91/%D7%A2%D7%99%D7%9F-%D7%9B%D7%A8%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -905,28 +820,13 @@
         ]
     },
     {
-        "name": "נחל מיצר",
-        "coords": [
-            32.7385402,
-            35.6976133000001
-        ],
-        "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/61",
-        "difficulty": "בינוני",
-        "tags": [
-            "למיטיבי לכת",
-            "מתאים למשפחות",
-            "פריחה"
-        ]
-    },
-    {
         "name": "שמורת נחל תנינים",
         "coords": [
             32.5442,
             34.9154
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/68",
+        "source": "https://www.tiuli.com/tracks/68/%D7%A0%D7%97%D7%9C-%D7%AA%D7%A0%D7%99%D7%A0%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -944,7 +844,7 @@
             35.7152
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/98",
+        "source": "https://www.tiuli.com/tracks/98/%D7%A7%D7%A6%D7%A8%D7%99%D7%9F-%D7%95%D7%A0%D7%97%D7%9C-%D7%96%D7%95%D7%95%D7%99%D7%AA%D7%9F-%D7%A2%D7%9C%D7%99%D7%95%D7%9F",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -960,25 +860,7 @@
             35.0227
         ],
         "length": 7.0,
-        "source": "https://www.tiuli.com/tracks/60",
-        "difficulty": "בינוני",
-        "tags": [
-            "למיטיבי לכת",
-            "מתאים למשפחות",
-            "מתאים לאופניים",
-            "מעגלי",
-            "פריחה",
-            "טיול שטח"
-        ]
-    },
-    {
-        "name": "מערת התאומים ונחל המערה",
-        "coords": [
-            31.727,
-            35.0227
-        ],
-        "length": 7.0,
-        "source": "https://www.tiuli.com/tracks/60",
+        "source": "https://www.tiuli.com/tracks/60/%D7%9E%D7%A2%D7%A8%D7%AA-%D7%94%D7%AA%D7%90%D7%95%D7%9E%D7%99%D7%9D-%D7%95%D7%A0%D7%97%D7%9C-%D7%94%D7%9E%D7%A2%D7%A8%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -996,7 +878,7 @@
             34.8372
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/162",
+        "source": "https://www.tiuli.com/tracks/162/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%99%D7%A7%D7%95%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1014,7 +896,7 @@
             35.01
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/207",
+        "source": "https://www.tiuli.com/tracks/207/%D7%94%D7%A8-%D7%A9%D7%95%D7%A7%D7%A3-%D7%95%D7%91%D7%A7%D7%A2%D7%AA-%D7%90%D7%9C%D7%95%D7%9F-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%91%D7%9B%D7%A8%D7%9E%D7%9C-%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -1029,7 +911,7 @@
             34.958
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/110",
+        "source": "https://www.tiuli.com/tracks/110/%D7%99%D7%A2%D7%A8-%D7%A7%D7%95%D7%9C%D7%94-%D7%95%D7%91%D7%A8%D7%99%D7%9B%D7%AA-%D7%A6%D7%A8%D7%98%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1041,35 +923,25 @@
         ]
     },
     {
-        "name": "פארק קנדה לטרון (עמק איילון)",
+        "name": "יער ירושלים: שביל הארז",
         "coords": [
-            31.8365,
-            34.9771
+            31.7764,
+            35.1696
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/14",
+        "source": "https://www.tiuli.com/tracks/140/-6",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
-            "רומנטי",
-            "מתאים לאופניים",
+            "ניתן לעשות בחשכה",
             "מעגלי",
-            "מתאים לכלבים"
-        ]
-    },
-    {
-        "name": "יער עופר - מסלול משפחות מעגלי",
-        "coords": [
-            32.6494225760121,
-            34.9648037120735
-        ],
-        "length": 4.5,
-        "source": "https://www.tiuli.com/tracks/310",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
             "פריחה",
+            "טיול עירוני",
+            "מתאים לכלבים",
+            "הגעה בתחבורה ציבורית",
             "טבע",
+            "סיור ערב",
+            "פיקניק",
             "נוף ותצפית"
         ]
     },
@@ -1080,7 +952,7 @@
             34.9648037120735
         ],
         "length": 4.5,
-        "source": "https://www.tiuli.com/tracks/310",
+        "source": "https://www.tiuli.com/tracks/310/%D7%99%D7%A2%D7%A8-%D7%A2%D7%95%D7%A4%D7%A8-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%9E%D7%A9%D7%A4%D7%97%D7%95%D7%AA-%D7%9E%D7%A2%D7%92%D7%9C%D7%99",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1096,7 +968,7 @@
             34.808
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/16",
+        "source": "https://www.tiuli.com/tracks/16/%D7%AA%D7%9C-%D7%90%D7%A8%D7%A9%D7%A3-%D7%90%D7%A4%D7%95%D7%9C%D7%95%D7%A0%D7%99%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1115,7 +987,7 @@
             35.1389
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/191",
+        "source": "https://www.tiuli.com/tracks/191/%D7%A0%D7%97%D7%9C-%D7%92%D7%95%D7%91-%D7%95%D7%9E%D7%A2%D7%9C%D7%94-%D7%A2%D7%A7%D7%A8%D7%91%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -1130,7 +1002,7 @@
             34.9661
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/64",
+        "source": "https://www.tiuli.com/tracks/64/%D7%A0%D7%97%D7%9C-%D7%A1%D7%A4%D7%95%D7%A0%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -1145,7 +1017,7 @@
             34.9822
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/149",
+        "source": "https://www.tiuli.com/tracks/149/%D7%A0%D7%97%D7%9C-%D7%A9%D7%99%D7%97",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -1180,25 +1052,7 @@
             35.1878214
         ],
         "length": 2.5,
-        "source": "https://www.tiuli.com/tracks/339",
-        "difficulty": "קל",
-        "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "פריחה",
-            "טבע",
-            "פיקניק",
-            "נוף ותצפית"
-        ]
-    },
-    {
-        "name": "נחל סלעית ומצפה הדר",
-        "coords": [
-            30.7172544,
-            35.1878214
-        ],
-        "length": 2.5,
-        "source": "https://www.tiuli.com/tracks/339",
+        "source": "https://www.tiuli.com/tracks/339/%D7%A0%D7%97%D7%9C-%D7%A1%D7%9C%D7%A2%D7%99%D7%AA-%D7%95%D7%9E%D7%A6%D7%A4%D7%94-%D7%94%D7%93%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -1216,7 +1070,7 @@
             35.7298
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/136",
+        "source": "https://www.tiuli.com/tracks/136/%D7%A0%D7%97%D7%9C-%D7%97%D7%96%D7%95%D7%A8%D7%99-%D7%92%D7%95%D7%91%D7%AA%D7%94-%D7%95%D7%9E%D7%91%D7%A6%D7%A8-%D7%A0%D7%9E%D7%A8%D7%95%D7%93",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -1231,7 +1085,7 @@
             35.1834
         ],
         "length": 9.5,
-        "source": "https://www.tiuli.com/tracks/131",
+        "source": "https://www.tiuli.com/tracks/131/%D7%A0%D7%97%D7%9C-%D7%A7%D7%99%D7%A0%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -1246,7 +1100,7 @@
             35.4513
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/45",
+        "source": "https://www.tiuli.com/tracks/45/%D7%A2%D7%99%D7%A0%D7%95%D7%AA-%D7%A6%D7%95%D7%A7%D7%99%D7%9D-%D7%95%D7%A7%D7%95%D7%9E%D7%A8%D7%90%D7%9F",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -1264,7 +1118,7 @@
             34.6130132
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/379",
+        "source": "https://www.tiuli.com/tracks/379/-2",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1281,30 +1135,13 @@
         ]
     },
     {
-        "name": "פארק שרשרת - נחל גרר",
-        "coords": [
-            31.376603,
-            34.6130132
-        ],
-        "length": 2.4,
-        "source": "https://www.tiuli.com/tracks/379",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "פריחה",
-            "מתאים לכלבים",
-            "טבע",
-            "פיקניק"
-        ]
-    },
-    {
         "name": "נחל זוהר",
         "coords": [
             31.154395,
             35.357377
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/337",
+        "source": "https://www.tiuli.com/tracks/337/%D7%A0%D7%97%D7%9C-%D7%96%D7%95%D7%94%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -1315,37 +1152,16 @@
         ]
     },
     {
-        "name": "נחל זוהר",
+        "name": "קטע מספר 40: מחניון נחל ברק לצומת ציחור",
         "coords": [
-            31.154395,
-            35.357377
+            30.4161,
+            35.1418
         ],
-        "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/337",
-        "difficulty": "קל",
+        "length": 29.5,
+        "source": "https://www.tiuli.com/tracks/219/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-40-%D7%9E%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%A0%D7%97%D7%9C-%D7%91%D7%A8%D7%A7-%D7%9C%D7%A6%D7%95%D7%9E%D7%AA-%D7%A6%D7%99%D7%97%D7%95%D7%A8",
+        "difficulty": "קשה",
         "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "מעגלי",
-            "טבע",
-            "פיקניק"
-        ]
-    },
-    {
-        "name": "מג'רסה - בקעת בית צידה",
-        "coords": [
-            32.8858,
-            35.6411
-        ],
-        "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/21",
-        "difficulty": "בינוני",
-        "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "רומנטי",
-            "מעגלי",
-            "נגיש"
+            "מקטע משביל ישראל"
         ]
     },
     {
@@ -1355,7 +1171,7 @@
             34.9542
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/265",
+        "source": "https://www.tiuli.com/tracks/265/%D7%96%D7%9B%D7%A8%D7%95%D7%9F-%D7%99%D7%A2%D7%A7%D7%91-%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%9E%D7%93%D7%A8%D7%97%D7%95%D7%91-%D7%90%D7%98%D7%A8%D7%A7%D7%A6%D7%99%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%9C%D7%93%D7%95%D7%AA-%D7%94%D7%9E%D7%95%D7%A9%D7%91%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1365,20 +1181,16 @@
         ]
     },
     {
-        "name": "מעיינות גבתון לתל גזר",
+        "name": "קטע מספר 1: מהחרמון ועד לבניאס",
         "coords": [
-            31.8382,
-            34.8668
+            33.3067316558926,
+            35.7716523069457
         ],
-        "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/36",
-        "difficulty": "קל",
+        "length": 12.0,
+        "source": "https://www.tiuli.com/tracks/369/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-1-%D7%9E%D7%94%D7%97%D7%A8%D7%9E%D7%95%D7%9F-%D7%95%D7%A2%D7%93-%D7%9C%D7%91%D7%A0%D7%99%D7%90%D7%A1-2",
+        "difficulty": "קשה",
         "tags": [
-            "למיטיבי לכת",
-            "מתאים למשפחות",
-            "מתאים לאופניים",
-            "מעגלי",
-            "פריחה"
+            "מקטע משביל ישראל"
         ]
     },
     {
@@ -1388,26 +1200,7 @@
             34.9226484
         ],
         "length": 5.5,
-        "source": "https://www.tiuli.com/tracks/324",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "מתאים לאופניים",
-            "פריחה",
-            "מקטע משביל ישראל",
-            "טבע",
-            "פיקניק",
-            "נוף ותצפית"
-        ]
-    },
-    {
-        "name": "ממצפה משואה לתל גודד",
-        "coords": [
-            31.6673285,
-            34.9226484
-        ],
-        "length": 5.5,
-        "source": "https://www.tiuli.com/tracks/324",
+        "source": "https://www.tiuli.com/tracks/324/%D7%9E%D7%9E%D7%A6%D7%A4%D7%94-%D7%9E%D7%A9%D7%95%D7%90%D7%94-%D7%9C%D7%AA%D7%9C-%D7%92%D7%95%D7%93%D7%93",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1426,22 +1219,7 @@
             35.0292420387268
         ],
         "length": 1.5,
-        "source": "https://www.tiuli.com/tracks/279",
-        "difficulty": "בינוני",
-        "tags": [
-            "מעגלי",
-            "פריחה",
-            "טבע"
-        ]
-    },
-    {
-        "name": "חורשת הארבעים ומצוק הארבעים בכרמל",
-        "coords": [
-            32.751982886346,
-            35.0292420387268
-        ],
-        "length": 1.5,
-        "source": "https://www.tiuli.com/tracks/279",
+        "source": "https://www.tiuli.com/tracks/279/%D7%97%D7%95%D7%A8%D7%A9%D7%AA-%D7%94%D7%90%D7%A8%D7%91%D7%A2%D7%99%D7%9D-%D7%95%D7%9E%D7%A6%D7%95%D7%A7-%D7%94%D7%90%D7%A8%D7%91%D7%A2%D7%99%D7%9D-%D7%91%D7%9B%D7%A8%D7%9E%D7%9C",
         "difficulty": "בינוני",
         "tags": [
             "מעגלי",
@@ -1456,7 +1234,7 @@
             35.7025
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/117",
+        "source": "https://www.tiuli.com/tracks/117/%D7%A0%D7%97%D7%9C-%D7%A1%D7%A2%D7%A8-%D7%95%D7%9E%D7%A4%D7%9C-%D7%A1%D7%A2%D7%A8",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -1473,22 +1251,7 @@
             35.420072
         ],
         "length": 7.5,
-        "source": "https://www.tiuli.com/tracks/312",
-        "difficulty": "בינוני",
-        "tags": [
-            "למיטיבי לכת",
-            "רומנטי",
-            "פריחה"
-        ]
-    },
-    {
-        "name": "נחל צביה",
-        "coords": [
-            32.453947,
-            35.420072
-        ],
-        "length": 7.5,
-        "source": "https://www.tiuli.com/tracks/312",
+        "source": "https://www.tiuli.com/tracks/312/%D7%A0%D7%97%D7%9C-%D7%A6%D7%91%D7%99%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -1503,7 +1266,7 @@
             35.2668
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/40",
+        "source": "https://www.tiuli.com/tracks/40/%D7%AA%D7%9C-%D7%99%D7%95%D7%93%D7%A4%D7%AA-%D7%95%D7%94%D7%A8-%D7%A2%D7%A6%D7%9E%D7%95%D7%9F",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -1520,7 +1283,7 @@
             35.4431
         ],
         "length": 10.0,
-        "source": "https://www.tiuli.com/tracks/51",
+        "source": "https://www.tiuli.com/tracks/51/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%94%D7%A8-%D7%9E%D7%99%D7%A8%D7%95%D7%9F",
         "difficulty": "קשה",
         "tags": [
             "למיטיבי לכת",
@@ -1535,7 +1298,7 @@
             35.54866753985638
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/381",
+        "source": "https://www.tiuli.com/tracks/381/-5",
         "difficulty": "קל",
         "tags": [
             "למיטיבי לכת",
@@ -1555,7 +1318,7 @@
             35.3074
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/205",
+        "source": "https://www.tiuli.com/tracks/205/%D7%A0%D7%97%D7%9C-%D7%AA%D7%9E%D7%A8-%D7%A6%D7%A4%D7%99%D7%AA-%D7%90%D7%AA%D7%92%D7%A8-%D7%91%D7%A9%D7%98%D7%97-%D7%91%D7%93%D7%A8%D7%95%D7%9D-%D7%99%D7%9D-%D7%94%D7%9E%D7%9C%D7%97",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -1564,26 +1327,22 @@
         ]
     },
     {
-        "name": "יער ירושלים: שביל הארז",
+        "name": "נחל צלמון תחתון: בדרך לכנרת עם המוביל ההפוך",
         "coords": [
-            31.7764,
-            35.1696
+            32.86580046521576,
+            35.45418977737427
         ],
-        "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/140",
-        "difficulty": "קל",
+        "length": 8.0,
+        "source": "https://www.tiuli.com/tracks/1400/-39",
+        "difficulty": "בינוני",
         "tags": [
+            "מים ומעיינות",
             "מתאים למשפחות",
-            "ניתן לעשות בחשכה",
-            "מעגלי",
+            "מתאים לאופניים",
             "פריחה",
-            "טיול עירוני",
             "מתאים לכלבים",
-            "הגעה בתחבורה ציבורית",
-            "טבע",
-            "סיור ערב",
-            "פיקניק",
-            "נוף ותצפית"
+            "טיול שטח",
+            "טבע"
         ]
     },
     {
@@ -1593,7 +1352,7 @@
             35.5723
         ],
         "length": 35.0,
-        "source": "https://www.tiuli.com/tracks/189",
+        "source": "https://www.tiuli.com/tracks/189/%D7%A9%D7%91%D7%99%D7%9C-%D7%A1%D7%95%D7%91%D7%91-%D7%9B%D7%A0%D7%A8%D7%AA-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%A1%D7%91%D7%99%D7%91-%D7%9E%D7%A7%D7%95%D7%A8-%D7%9E%D7%99%D7%9D-%D7%97%D7%99%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -1610,7 +1369,7 @@
             35.6255
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/187",
+        "source": "https://www.tiuli.com/tracks/187/-16",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -1628,7 +1387,7 @@
             35.406855371268115
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/161",
+        "source": "https://www.tiuli.com/tracks/161/%D7%94%D7%A8-%D7%AA%D7%91%D7%95%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1638,52 +1397,38 @@
         ]
     },
     {
-        "name": "הר תבור",
-        "coords": [
-            32.68243290445854,
-            35.406855371268115
-        ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/161",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "מעגלי",
-            "פריחה",
-            "מתאים לכלבים"
-        ]
-    },
-    {
-        "name": "נחל חווארים: טיול לילה בירח מלא",
+        "name": "נחל חווארים: טיול לליל ירח מלא",
         "coords": [
             30.8483,
             34.7536
         ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/203",
+        "length": 4.0,
+        "source": "https://www.tiuli.com/tracks/203/-31",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
             "רומנטי",
             "ניתן לעשות בחשכה",
+            "מעגלי",
+            "מתאים לכלבים",
             "טיול שטח",
-            "הגעה בתחבורה ציבורית"
+            "הגעה בתחבורה ציבורית",
+            "טבע",
+            "סיור ערב",
+            "נוף ותצפית"
         ]
     },
     {
-        "name": "מערת אצבע, עתלית וחרבת קרתה",
+        "name": "קטע מספר 5: מחניון נחל עמוד לעין נון",
         "coords": [
-            32.7141,
-            34.9768
+            32.9739,
+            35.4622
         ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/25",
-        "difficulty": "בינוני",
+        "length": 21.0,
+        "source": "https://www.tiuli.com/tracks/256/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-5-%D7%9E%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%A0%D7%97%D7%9C-%D7%A2%D7%9E%D7%95%D7%93-%D7%9C%D7%A2%D7%99%D7%9F-%D7%A0%D7%95%D7%9F",
+        "difficulty": "קשה",
         "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "מעגלי",
-            "מתאים לכלבים"
+            "מקטע משביל ישראל"
         ]
     },
     {
@@ -1693,7 +1438,7 @@
             34.8066
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/53",
+        "source": "https://www.tiuli.com/tracks/53/%D7%9E%D7%9B%D7%AA%D7%A9-%D7%A8%D7%9E%D7%95%D7%9F-%D7%94%D7%9E%D7%99%D7%98%D7%91",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -1710,7 +1455,7 @@
             35.1108
         ],
         "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/113",
+        "source": "https://www.tiuli.com/tracks/113/%D7%A2%D7%99%D7%9F-%D7%90%D7%A4%D7%A7",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1721,18 +1466,21 @@
         ]
     },
     {
-        "name": "נחל הקיבוצים, הגלבוע ונחל יצפור",
+        "name": "נחל יזרח - נחל רום",
         "coords": [
-            32.4859,
-            35.4132
+            31.150160308874216,
+            35.35398623299826
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/38",
+        "source": "https://www.tiuli.com/tracks/380/-3",
         "difficulty": "בינוני",
         "tags": [
-            "מים ומעיינות",
+            "למיטיבי לכת",
             "מתאים למשפחות",
-            "פריחה"
+            "טיול שטח",
+            "מקטע משביל ישראל",
+            "טבע",
+            "נוף ותצפית"
         ]
     },
     {
@@ -1742,7 +1490,7 @@
             35.6544
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/122",
+        "source": "https://www.tiuli.com/tracks/122/%D7%94%D7%96%D7%90%D7%9B%D7%99-%D7%A9%D7%A4%D7%9A-%D7%A0%D7%97%D7%9C-%D7%9E%D7%A9%D7%95%D7%A9%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -1759,23 +1507,7 @@
             35.0950645
         ],
         "length": 1.5,
-        "source": "https://www.tiuli.com/tracks/315",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "מעגלי",
-            "פריחה",
-            "טבע"
-        ]
-    },
-    {
-        "name": "שביל המטוס סובב איתנים",
-        "coords": [
-            31.778466,
-            35.0950645
-        ],
-        "length": 1.5,
-        "source": "https://www.tiuli.com/tracks/315",
+        "source": "https://www.tiuli.com/tracks/315/%D7%A9%D7%91%D7%99%D7%9C-%D7%94%D7%9E%D7%98%D7%95%D7%A1-%D7%A1%D7%95%D7%91%D7%91-%D7%90%D7%99%D7%AA%D7%A0%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1791,7 +1523,7 @@
             35.2449
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/69",
+        "source": "https://www.tiuli.com/tracks/69/%D7%A0%D7%97%D7%9C-%D7%A9%D7%A8%D7%9A-%D7%95%D7%A0%D7%97%D7%9C-%D7%91%D7%A6%D7%AA",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -1808,7 +1540,7 @@
             35.4084
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/109",
+        "source": "https://www.tiuli.com/tracks/109/%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA-%D7%90%D7%99%D7%A8%D7%95%D7%A1-%D7%94%D7%92%D7%9C%D7%91%D7%95%D7%A2-%D7%9C%D7%94%D7%A8-%D7%91%D7%A8%D7%A7%D7%9F",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1825,7 +1557,7 @@
             34.7765
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/35",
+        "source": "https://www.tiuli.com/tracks/35/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%A4%D7%95%D7%A8%D7%94-%D7%95%D7%AA%D7%9C-%D7%A0%D7%92-%D7%99%D7%9C%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1842,7 +1574,7 @@
             35.5831
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/148",
+        "source": "https://www.tiuli.com/tracks/148/%D7%A0%D7%97%D7%9C-%D7%A2%D7%99%D7%95%D7%9F-%D7%95%D7%9E%D7%A4%D7%9C-%D7%94%D7%AA%D7%A0%D7%95%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -1858,7 +1590,7 @@
             34.8988
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/41",
+        "source": "https://www.tiuli.com/tracks/41/%D7%A4%D7%90%D7%A8%D7%A7-%D7%94%D7%A9%D7%A8%D7%95%D7%9F-%D7%95%D7%99%D7%A2%D7%A8-%D7%97%D7%93%D7%A8%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "מתאים למשפחות",
@@ -1874,7 +1606,7 @@
             35.762
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/101",
+        "source": "https://www.tiuli.com/tracks/101/%D7%99%D7%A2%D7%A8-%D7%90%D7%95%D7%93%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1890,7 +1622,7 @@
             34.8934
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/44",
+        "source": "https://www.tiuli.com/tracks/44/%D7%A7%D7%99%D7%A1%D7%A8%D7%99%D7%94-%D7%A2%D7%99%D7%A8%D7%95-%D7%A9%D7%9C-%D7%94%D7%95%D7%A8%D7%93%D7%95%D7%A1",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1906,32 +1638,12 @@
             35.3646
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/50",
+        "source": "https://www.tiuli.com/tracks/50/%D7%9E%D7%A6%D7%93%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
             "רומנטי",
             "מעגלי",
-            "הגעה בתחבורה ציבורית",
-            "נגיש"
-        ]
-    },
-    {
-        "name": "טיול בצפת: סיור בין אטרקציות ומקומות עתיקים בעיר",
-        "coords": [
-            32.9687,
-            35.4934
-        ],
-        "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/89",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "ניתן לעשות בחשכה",
-            "מעגלי",
-            "טיול עירוני",
-            "מתאים לכלבים",
             "הגעה בתחבורה ציבורית",
             "נגיש"
         ]
@@ -1943,24 +1655,7 @@
             35.168501
         ],
         "length": 1.5,
-        "source": "https://www.tiuli.com/tracks/375",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "מעגלי",
-            "פריחה",
-            "מתאים לכלבים",
-            "פיקניק"
-        ]
-    },
-    {
-        "name": "שמורת טבע אלוני אבא",
-        "coords": [
-            32.739646,
-            35.168501
-        ],
-        "length": 1.5,
-        "source": "https://www.tiuli.com/tracks/375",
+        "source": "https://www.tiuli.com/tracks/375/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%90%D7%9C%D7%95%D7%A0%D7%99-%D7%90%D7%91%D7%90",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -1977,7 +1672,7 @@
             35.1028
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/204",
+        "source": "https://www.tiuli.com/tracks/204/%D7%A0%D7%97%D7%9C-%D7%A7%D7%A0%D7%94-%D7%91%D7%95%D7%A1%D7%AA%D7%A0%D7%99%D7%9D-%D7%95%D7%9E%D7%A2%D7%99%D7%99%D7%A0%D7%95%D7%AA-%D7%91%D7%9C%D7%91-%D7%94%D7%A9%D7%95%D7%9E%D7%A8%D7%95%D7%9F",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -1991,7 +1686,7 @@
             35.2319626
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/349",
+        "source": "https://www.tiuli.com/tracks/349/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%90%D7%AA%D7%A8%D7%99-%D7%98%D7%99%D7%99%D7%9C%D7%AA-%D7%90%D7%A8%D7%9E%D7%95%D7%9F-%D7%94%D7%A0%D7%A6%D7%99%D7%91",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2007,41 +1702,21 @@
         ]
     },
     {
-        "name": "מסלול אתרי טיילת ארמון הנציב",
+        "name": "רחובות: עיר המדע וההדרים",
         "coords": [
-            31.7545676,
-            35.2319626
+            31.9157,
+            34.8101
         ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/349",
+        "length": 2.0,
+        "source": "https://www.tiuli.com/tracks/78/%D7%A8%D7%97%D7%95%D7%91%D7%95%D7%AA-%D7%A2%D7%99%D7%A8-%D7%94%D7%9E%D7%93%D7%A2-%D7%95%D7%94%D7%94%D7%93%D7%A8%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
             "רומנטי",
+            "ניתן לעשות בחשכה",
             "מתאים לאופניים",
             "טיול עירוני",
-            "מתאים לכלבים",
-            "הגעה בתחבורה ציבורית",
-            "טבע",
-            "פיקניק",
-            "נוף ותצפית",
-            "נגיש"
-        ]
-    },
-    {
-        "name": "חרבת מדרס וחרבת עתרי",
-        "coords": [
-            31.6547,
-            34.9404
-        ],
-        "length": 7.0,
-        "source": "https://www.tiuli.com/tracks/7",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "מתאים לאופניים",
-            "מעגלי"
+            "הגעה בתחבורה ציבורית"
         ]
     },
     {
@@ -2051,7 +1726,7 @@
             34.8791
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/127",
+        "source": "https://www.tiuli.com/tracks/127/%D7%A0%D7%97%D7%9C-%D7%92%D7%A9%D7%A8%D7%95%D7%9F-%D7%A2%D7%9C%D7%99%D7%95%D7%9F",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2065,7 +1740,7 @@
             35.6868
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/152",
+        "source": "https://www.tiuli.com/tracks/152/%D7%A0%D7%97%D7%9C-%D7%A2%D7%95%D7%A8%D7%91%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -2080,7 +1755,7 @@
             35.3762
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/192",
+        "source": "https://www.tiuli.com/tracks/192/%D7%A0%D7%97%D7%9C-%D7%A4%D7%A8%D7%A6%D7%99%D7%9D-%D7%95%D7%94%D7%A8-%D7%A1%D7%93%D7%95%D7%9D-%D7%98%D7%99%D7%95%D7%9C-%D7%99%D7%95%D7%9D-%D7%95%D7%9C%D7%99%D7%9C%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2096,7 +1771,7 @@
             35.1517
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/116",
+        "source": "https://www.tiuli.com/tracks/116/%D7%A0%D7%97%D7%9C-%D7%91%D7%A8%D7%A7-%D7%95%D7%94%D7%A8-%D7%9B%D7%99%D7%A4%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -2112,7 +1787,7 @@
             34.9527
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/86",
+        "source": "https://www.tiuli.com/tracks/86/%D7%9E%D7%A7%D7%95%D7%A8%D7%95%D7%AA-%D7%94%D7%99%D7%A8%D7%A7%D7%95%D7%9F-%D7%9E%D7%92%D7%93%D7%9C-%D7%A6%D7%93%D7%A7-%D7%95%D7%9E%D7%91%D7%A6%D7%A8-%D7%90%D7%A0%D7%98%D7%99%D7%A4%D7%98%D7%A8%D7%95%D7%A1",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2131,7 +1806,7 @@
             35.2129
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/134",
+        "source": "https://www.tiuli.com/tracks/134/%D7%9E%D7%94%D7%A0%D7%97%D7%9C%D7%90%D7%95%D7%AA-%D7%90%D7%9C-%D7%94%D7%A9%D7%95%D7%A7",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2149,7 +1824,7 @@
             35.4201
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/111",
+        "source": "https://www.tiuli.com/tracks/111/%D7%90%D7%93%D7%9E%D7%95%D7%A0%D7%99%D7%AA-%D7%94%D7%97%D7%95%D7%A8%D7%A9-%D7%91%D7%94%D7%A8-%D7%94%D7%9C%D7%9C",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -2166,7 +1841,7 @@
             35.2272
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/74",
+        "source": "https://www.tiuli.com/tracks/74/%D7%94%D7%A2%D7%99%D7%A8-%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94-%D7%91%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%91%D7%99%D7%9F-%D7%90%D7%AA%D7%A8%D7%99%D7%9D-%D7%A9%D7%90%D7%A1%D7%95%D7%A8-%D7%9C%D7%A4%D7%A1%D7%A4%D7%A1",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2186,7 +1861,7 @@
             35.5097799003124
         ],
         "length": 3.5,
-        "source": "https://www.tiuli.com/tracks/281",
+        "source": "https://www.tiuli.com/tracks/281/%D7%A0%D7%97%D7%9C-%D7%A8%D7%90%D7%A9-%D7%A4%D7%99%D7%A0%D7%94",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -2195,50 +1870,34 @@
         ]
     },
     {
-        "name": "נחל ראש פינה",
+        "name": "יד קנדי, חרבת סעדים ושביל המעיינות",
         "coords": [
-            32.9747064974763,
-            35.5097799003124
-        ],
-        "length": 3.5,
-        "source": "https://www.tiuli.com/tracks/281",
-        "difficulty": "קל",
-        "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "טבע"
-        ]
-    },
-    {
-        "name": "מבצר יחיעם ונחל געתון",
-        "coords": [
-            33.0115,
-            35.1826
+            31.7499,
+            35.1354
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/1",
-        "difficulty": "בינוני",
+        "source": "https://www.tiuli.com/tracks/15/%D7%99%D7%93-%D7%A7%D7%A0%D7%93%D7%99-%D7%97%D7%A8%D7%91%D7%AA-%D7%A1%D7%A2%D7%93%D7%99%D7%9D-%D7%95%D7%A9%D7%91%D7%99%D7%9C-%D7%94%D7%9E%D7%A2%D7%99%D7%99%D7%A0%D7%95%D7%AA",
+        "difficulty": "קל",
         "tags": [
+            "מים ומעיינות",
             "מתאים למשפחות",
-            "רומנטי",
             "מתאים לאופניים",
             "מעגלי"
         ]
     },
     {
-        "name": "בקעת כורסי, נחל עין-גב וסוסיתא",
+        "name": "קניון ורדית ונחל אוביל",
         "coords": [
-            32.8267,
-            35.6503
+            30.3475,
+            35.0297
         ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/26",
-        "difficulty": "בינוני",
+        "length": 16.0,
+        "source": "https://www.tiuli.com/tracks/261/%D7%A7%D7%A0%D7%99%D7%95%D7%9F-%D7%95%D7%A8%D7%93%D7%99%D7%AA-%D7%95%D7%A0%D7%97%D7%9C-%D7%90%D7%95%D7%91%D7%99%D7%9C",
+        "difficulty": "קשה",
         "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "מעגלי",
-            "פריחה"
+            "מים ומעיינות",
+            "למיטיבי לכת",
+            "מחייב ציוד על הגב"
         ]
     },
     {
@@ -2248,7 +1907,7 @@
             34.885
         ],
         "length": 11.0,
-        "source": "https://www.tiuli.com/tracks/153",
+        "source": "https://www.tiuli.com/tracks/153/%D7%94%D7%A8-%D7%A9%D7%9C%D7%9E%D7%94-%D7%95%D7%A0%D7%97%D7%9C-%D7%9E%D7%A4%D7%9C%D7%99%D7%9D",
         "difficulty": "קשה",
         "tags": [
             "מתאים למשפחות",
@@ -2262,7 +1921,7 @@
             34.7649
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/190",
+        "source": "https://www.tiuli.com/tracks/190/%D7%A0%D7%95%D7%95%D7%94-%D7%A6%D7%93%D7%A7-%D7%A1%D7%99%D7%95%D7%A8-%D7%91%D7%A4%D7%A8%D7%99%D7%96-%D7%94%D7%A7%D7%98%D7%A0%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2282,23 +1941,7 @@
             34.9402778
         ],
         "length": 13.0,
-        "source": "https://www.tiuli.com/tracks/338",
-        "difficulty": "קשה",
-        "tags": [
-            "למיטיבי לכת",
-            "מעגלי",
-            "טיול שטח",
-            "נוף ותצפית"
-        ]
-    },
-    {
-        "name": "הר ארדון",
-        "coords": [
-            30.6197222,
-            34.9402778
-        ],
-        "length": 13.0,
-        "source": "https://www.tiuli.com/tracks/338",
+        "source": "https://www.tiuli.com/tracks/338/%D7%94%D7%A8-%D7%90%D7%A8%D7%93%D7%95%D7%9F",
         "difficulty": "קשה",
         "tags": [
             "למיטיבי לכת",
@@ -2314,7 +1957,7 @@
             34.9445
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/159",
+        "source": "https://www.tiuli.com/tracks/159/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%96%D7%99%D7%AA%D7%90-%D7%95%D7%AA%D7%9C-%D7%96%D7%A8%D7%95%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2330,7 +1973,7 @@
             35.2239
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/132",
+        "source": "https://www.tiuli.com/tracks/132/%D7%94%D7%9E%D7%95%D7%A9%D7%91%D7%94-%D7%94%D7%92%D7%A8%D7%9E%D7%A0%D7%99%D7%AA-%D7%91%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2350,25 +1993,7 @@
             34.9862247999999
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/285",
-        "difficulty": "קל",
-        "tags": [
-            "למיטיבי לכת",
-            "מתאים למשפחות",
-            "רומנטי",
-            "טיול עירוני",
-            "מתאים לכלבים",
-            "הגעה בתחבורה ציבורית"
-        ]
-    },
-    {
-        "name": "במורד אלף מדרגות חיפה: ממרכז הכרמל למושבה הגרמנית",
-        "coords": [
-            32.8089888,
-            34.9862247999999
-        ],
-        "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/285",
+        "source": "https://www.tiuli.com/tracks/285/%D7%91%D7%9E%D7%95%D7%A8%D7%93-%D7%90%D7%9C%D7%A3-%D7%9E%D7%93%D7%A8%D7%92%D7%95%D7%AA-%D7%97%D7%99%D7%A4%D7%94-%D7%9E%D7%9E%D7%A8%D7%9B%D7%96-%D7%94%D7%9B%D7%A8%D7%9E%D7%9C-%D7%9C%D7%9E%D7%95%D7%A9%D7%91%D7%94-%D7%94%D7%92%D7%A8%D7%9E%D7%A0%D7%99%D7%AA",
         "difficulty": "קל",
         "tags": [
             "למיטיבי לכת",
@@ -2386,7 +2011,7 @@
             35.2239
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/138",
+        "source": "https://www.tiuli.com/tracks/138/%D7%9E%D7%A9%D7%9B%D7%A0%D7%95%D7%AA-%D7%A9%D7%90%D7%A0%D7%A0%D7%99%D7%9D-%D7%95%D7%99%D7%9E%D7%99%D7%9F-%D7%9E%D7%A9%D7%94-%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%95%D7%AA-%D7%9E%D7%97%D7%95%D7%A5-%D7%9C%D7%97%D7%95%D7%9E%D7%95%D7%AA",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2403,7 +2028,7 @@
             34.7879
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/57",
+        "source": "https://www.tiuli.com/tracks/57/-10",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2419,7 +2044,7 @@
             35.1066
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/147",
+        "source": "https://www.tiuli.com/tracks/147/%D7%9E%D7%A2%D7%99%D7%99%D7%A0%D7%95%D7%AA-%D7%92%D7%95%D7%A9-%D7%A2%D7%A6%D7%99%D7%95%D7%9F",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -2435,7 +2060,7 @@
             35.4476
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/92",
+        "source": "https://www.tiuli.com/tracks/92/%D7%A0%D7%97%D7%9C-%D7%92%D7%95%D7%A9-%D7%97%D7%9C%D7%91",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -2448,11 +2073,11 @@
     {
         "name": "נחל חימר",
         "coords": [
-            31.1475075439854,
-            35.3697583230542
+            562243.0,
+            221938.0
         ],
         "length": 17.0,
-        "source": "https://www.tiuli.com/tracks/328",
+        "source": "https://www.tiuli.com/tracks/328/%D7%A0%D7%97%D7%9C-%D7%97%D7%99%D7%9E%D7%A8",
         "difficulty": "קשה",
         "tags": [
             "מים ומעיינות",
@@ -2467,7 +2092,7 @@
             35.541
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/80",
+        "source": "https://www.tiuli.com/tracks/80/%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%A8%D7%90%D7%A9-%D7%A4%D7%99%D7%A0%D7%94-%D7%90%D7%98%D7%A8%D7%A7%D7%A6%D7%99%D7%95%D7%AA-%D7%95%D7%90%D7%AA%D7%A8%D7%99%D7%9D-%D7%A9%D7%9B%D7%93%D7%90%D7%99-%D7%9C%D7%A8%D7%90%D7%95%D7%AA-%D7%91%D7%9E%D7%95%D7%A9%D7%91%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2481,34 +2106,16 @@
         ]
     },
     {
-        "name": "עין שרונה ובקעת יבניאל",
+        "name": "מנחל נמר אל יער חניתה",
         "coords": [
-            32.7135,
-            35.4728
+            33.0795001794392,
+            35.1909711125249
         ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/31",
-        "difficulty": "קל",
-        "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "רומנטי",
-            "ניתן לעשות בחשכה",
-            "מעגלי"
-        ]
-    },
-    {
-        "name": "נחל ימין ונחל חתירה – בעקבות סיירי הפלמ\"ח",
-        "coords": [
-            30.9544799,
-            35.0770648
-        ],
-        "length": 9.0,
-        "source": "https://www.tiuli.com/tracks/278",
+        "length": 4.5,
+        "source": "https://www.tiuli.com/tracks/311/%D7%9E%D7%A0%D7%97%D7%9C-%D7%A0%D7%9E%D7%A8-%D7%90%D7%9C-%D7%99%D7%A2%D7%A8-%D7%97%D7%A0%D7%99%D7%AA%D7%94",
         "difficulty": "בינוני",
         "tags": [
-            "מים ומעיינות",
-            "למיטיבי לכת"
+            "מתאים למשפחות"
         ]
     },
     {
@@ -2518,7 +2125,7 @@
             35.0770648
         ],
         "length": 9.0,
-        "source": "https://www.tiuli.com/tracks/278",
+        "source": "https://www.tiuli.com/tracks/278/%D7%A0%D7%97%D7%9C-%D7%99%D7%9E%D7%99%D7%9F-%D7%95%D7%A0%D7%97%D7%9C-%D7%97%D7%AA%D7%99%D7%A8%D7%94-%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA-%D7%A1%D7%99%D7%99%D7%A8%D7%99-%D7%94%D7%A4%D7%9C%D7%9E-%D7%97",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -2532,7 +2139,7 @@
             35.3327
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/156",
+        "source": "https://www.tiuli.com/tracks/156/%D7%94%D7%A8-%D7%9B%D7%9E%D7%95%D7%9F-%D7%9E%D7%9B%D7%9E%D7%A0%D7%99%D7%9D-%D7%95%D7%A9%D7%91%D7%99%D7%9C-%D7%99%D7%95%D7%A0%D7%AA%D7%9F",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2542,19 +2149,16 @@
         ]
     },
     {
-        "name": "מעיינות ברמת הגולן: טיול רטוב ומרענן לאורך דרך הפטרולים",
+        "name": "קטע מספר 23: מבית גוברין לתל קשת",
         "coords": [
-            33.0407,
-            35.6302
+            31.6124,
+            34.8954
         ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/2",
+        "length": 22.5,
+        "source": "https://www.tiuli.com/tracks/238/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-23-%D7%9E%D7%91%D7%99%D7%AA-%D7%92%D7%95%D7%91%D7%A8%D7%99%D7%9F-%D7%9C%D7%AA%D7%9C-%D7%A7%D7%A9%D7%AA",
         "difficulty": "קל",
         "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "מתאים לאופניים",
-            "מעגלי"
+            "מקטע משביל ישראל"
         ]
     },
     {
@@ -2564,7 +2168,7 @@
             35.1981
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/12",
+        "source": "https://www.tiuli.com/tracks/12/%D7%9E%D7%A2%D7%A8%D7%AA-%D7%A7%D7%A9%D7%AA-%D7%95%D7%9E%D7%A2%D7%A8%D7%AA-%D7%A0%D7%9E%D7%A8",
         "difficulty": "בינוני",
         "tags": [
             "מתאים למשפחות",
@@ -2580,7 +2184,7 @@
             35.4021
         ],
         "length": 10.0,
-        "source": "https://www.tiuli.com/tracks/103",
+        "source": "https://www.tiuli.com/tracks/103/%D7%A0%D7%97%D7%9C-%D7%A4%D7%A6%D7%90%D7%9C-%D7%95%D7%A0%D7%97%D7%9C-%D7%A8%D7%A9%D7%90%D7%A9",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -2594,7 +2198,7 @@
             34.7613
         ],
         "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/199",
+        "source": "https://www.tiuli.com/tracks/199/%D7%9E%D7%AA%D7%97%D7%9D-%D7%94%D7%AA%D7%97%D7%A0%D7%94-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2606,67 +2210,18 @@
         ]
     },
     {
-        "name": "קניון ורדית ונחל אוביל",
-        "coords": [
-            30.3475,
-            35.0297
-        ],
-        "length": 16.0,
-        "source": "https://www.tiuli.com/tracks/261",
-        "difficulty": "קשה",
-        "tags": [
-            "מים ומעיינות",
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב"
-        ]
-    },
-    {
         "name": "מסלול בהר הצופים: ההר הצופה אל העיר ואל המדבר",
         "coords": [
             31.7985073,
             35.2389860000001
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/303",
+        "source": "https://www.tiuli.com/tracks/303/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%91%D7%94%D7%A8-%D7%94%D7%A6%D7%95%D7%A4%D7%99%D7%9D-%D7%94%D7%94%D7%A8-%D7%94%D7%A6%D7%95%D7%A4%D7%94-%D7%90%D7%9C-%D7%94%D7%A2%D7%99%D7%A8-%D7%95%D7%90%D7%9C-%D7%94%D7%9E%D7%93%D7%91%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מעגלי",
             "טיול עירוני",
             "הגעה בתחבורה ציבורית"
-        ]
-    },
-    {
-        "name": "מסלול בהר הצופים: ההר הצופה אל העיר ואל המדבר",
-        "coords": [
-            31.7985073,
-            35.2389860000001
-        ],
-        "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/303",
-        "difficulty": "קל",
-        "tags": [
-            "מעגלי",
-            "טיול עירוני",
-            "הגעה בתחבורה ציבורית"
-        ]
-    },
-    {
-        "name": "נחל ממשית: מסלול מעגלי",
-        "coords": [
-            31.02778892740655,
-            35.064434054115466
-        ],
-        "length": 2.5,
-        "source": "https://www.tiuli.com/tracks/332",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "מעגלי",
-            "פריחה",
-            "מתאים לכלבים",
-            "טיול שטח",
-            "טבע",
-            "נוף ותצפית"
         ]
     },
     {
@@ -2676,7 +2231,7 @@
             35.2131
         ],
         "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/96",
+        "source": "https://www.tiuli.com/tracks/96/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%A9%D7%95%D7%A7-%D7%9E%D7%97%D7%A0%D7%94-%D7%99%D7%94%D7%95%D7%93%D7%94-%D7%91%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2694,7 +2249,7 @@
             34.6657
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/72",
+        "source": "https://www.tiuli.com/tracks/72/%D7%9E%D7%90%D7%A9%D7%93%D7%95%D7%93-%D7%9C%D7%A0%D7%99%D7%A6%D7%A0%D7%99%D7%9D-%D7%98%D7%91%D7%A2-%D7%95%D7%9E%D7%95%D7%A8%D7%A9%D7%AA-%D7%A7%D7%A8%D7%91",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -2704,20 +2259,20 @@
         ]
     },
     {
-        "name": "אירוס הארגמן בגבעת חומרה",
+        "name": "שמורת אלוני יצחק",
         "coords": [
-            31.9356,
-            34.745
+            32.5129513,
+            35.00491160000001
         ],
         "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/37",
+        "source": "https://www.tiuli.com/tracks/377/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%90%D7%9C%D7%95%D7%A0%D7%99-%D7%99%D7%A6%D7%97%D7%A7",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
-            "רומנטי",
             "מעגלי",
             "פריחה",
-            "נגיש"
+            "מתאים לכלבים",
+            "פיקניק"
         ]
     },
     {
@@ -2727,41 +2282,11 @@
             35.2147
         ],
         "length": 12.0,
-        "source": "https://www.tiuli.com/tracks/54",
+        "source": "https://www.tiuli.com/tracks/54/%D7%94%D7%9E%D7%9B%D7%AA%D7%A9-%D7%94%D7%A7%D7%98%D7%9F",
         "difficulty": "קשה",
         "tags": [
             "למיטיבי לכת",
             "מעגלי"
-        ]
-    },
-    {
-        "name": "נחל יחיעם",
-        "coords": [
-            32.9946546,
-            35.2215725999999
-        ],
-        "length": 4.5,
-        "source": "https://www.tiuli.com/tracks/309",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "פריחה",
-            "טבע"
-        ]
-    },
-    {
-        "name": "נחל יחיעם",
-        "coords": [
-            32.9946546,
-            35.2215725999999
-        ],
-        "length": 4.5,
-        "source": "https://www.tiuli.com/tracks/309",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "פריחה",
-            "טבע"
         ]
     },
     {
@@ -2771,7 +2296,7 @@
             35.1902
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/126",
+        "source": "https://www.tiuli.com/tracks/126/%D7%90%D7%9C%D7%95%D7%A0%D7%99-%D7%90%D7%91%D7%90-%D7%95%D7%91%D7%99%D7%AA-%D7%9C%D7%97%D7%9D-%D7%94%D7%92%D7%9C%D7%99%D7%9C%D7%99%D7%AA",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2783,46 +2308,13 @@
         ]
     },
     {
-        "name": "שמורת אלוני יצחק",
-        "coords": [
-            32.5129513,
-            35.00491160000001
-        ],
-        "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/377",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "מעגלי",
-            "פריחה",
-            "מתאים לכלבים",
-            "פיקניק"
-        ]
-    },
-    {
         "name": "אבו כביר –מסלול עירוני המשלב טבע",
         "coords": [
             32.0480689,
             34.7691394999999
         ],
         "length": 2.5,
-        "source": "https://www.tiuli.com/tracks/287",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "מעגלי",
-            "טיול עירוני",
-            "נגיש"
-        ]
-    },
-    {
-        "name": "אבו כביר –מסלול עירוני המשלב טבע",
-        "coords": [
-            32.0480689,
-            34.7691394999999
-        ],
-        "length": 2.5,
-        "source": "https://www.tiuli.com/tracks/287",
+        "source": "https://www.tiuli.com/tracks/287/%D7%90%D7%91%D7%95-%D7%9B%D7%91%D7%99%D7%A8-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%A2%D7%99%D7%A8%D7%95%D7%A0%D7%99-%D7%94%D7%9E%D7%A9%D7%9C%D7%91-%D7%98%D7%91%D7%A2",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2838,23 +2330,7 @@
             34.9504902
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/282",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "מעגלי",
-            "טיול עירוני"
-        ]
-    },
-    {
-        "name": "בנימינה: טיול במושבה של פעם",
-        "coords": [
-            32.520712,
-            34.9504902
-        ],
-        "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/282",
+        "source": "https://www.tiuli.com/tracks/282/%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%A0%D7%94-%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%9E%D7%95%D7%A9%D7%91%D7%94-%D7%A9%D7%9C-%D7%A4%D7%A2%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2870,7 +2346,7 @@
             35.7745
         ],
         "length": 15.0,
-        "source": "https://www.tiuli.com/tracks/180",
+        "source": "https://www.tiuli.com/tracks/180/%D7%98%D7%95%D7%A1%D7%A7%D7%A0%D7%94-%D7%94%D7%93%D7%A8%D7%95%D7%96%D7%99%D7%AA-%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%99%D7%9F-%D7%9B%D7%A4%D7%A8%D7%99-%D7%A6%D7%A4%D7%95%D7%9F-%D7%94%D7%92%D7%95%D7%9C%D7%9F",
         "difficulty": "קשה",
         "tags": [
             "מתאים למשפחות",
@@ -2884,7 +2360,7 @@
             34.9874
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/168",
+        "source": "https://www.tiuli.com/tracks/168/%D7%A0%D7%97%D7%9C-%D7%9C%D7%95%D7%98%D7%9D-%D7%95%D7%92%D7%9F-%D7%94%D7%97%D7%99%D7%95%D7%AA-%D7%94%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99-%D7%91%D7%97%D7%99%D7%A4%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -2902,7 +2378,7 @@
             35.1425
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/129",
+        "source": "https://www.tiuli.com/tracks/129/%D7%94%D7%A8-%D7%97%D7%A8%D7%AA-%D7%9E%D7%95%D7%A6%D7%90-%D7%95%D7%9E%D7%90%D7%92%D7%A8-%D7%91%D7%99%D7%AA-%D7%96%D7%99%D7%AA-%D7%A9%D7%A7%D7%93%D7%99%D7%95%D7%AA-%D7%95%D7%9E%D7%95%D7%A9%D7%91%D7%94-%D7%A0%D7%A9%D7%9B%D7%97%D7%AA",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -2918,47 +2394,8 @@
             34.9453
         ],
         "length": 28.0,
-        "source": "https://www.tiuli.com/tracks/249",
+        "source": "https://www.tiuli.com/tracks/249/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-12-%D7%9E%D7%A2%D7%99%D7%9F-%D7%94%D7%95%D7%93-%D7%9C%D7%A8%D7%9E%D7%AA-%D7%94%D7%A0%D7%93%D7%99%D7%91",
         "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 12: מעין הוד לרמת הנדיב",
-        "coords": [
-            32.7015,
-            34.9453
-        ],
-        "length": 28.0,
-        "source": "https://www.tiuli.com/tracks/249",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 1: מהחרמון ועד לבניאס",
-        "coords": [
-            33.3067316558926,
-            35.7716523069457
-        ],
-        "length": 12.0,
-        "source": "https://www.tiuli.com/tracks/369",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 1: מהחרמון ועד לבניאס",
-        "coords": [
-            33.3067316558926,
-            35.7716523069457
-        ],
-        "length": 12.0,
-        "source": "https://www.tiuli.com/tracks/369",
-        "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
         ]
@@ -2970,20 +2407,7 @@
             35.0935
         ],
         "length": 16.0,
-        "source": "https://www.tiuli.com/tracks/240",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 21: מצור הדסה לנתיב הל''ה",
-        "coords": [
-            31.723,
-            35.0935
-        ],
-        "length": 16.0,
-        "source": "https://www.tiuli.com/tracks/240",
+        "source": "https://www.tiuli.com/tracks/240/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-21-%D7%9E%D7%A6%D7%95%D7%A8-%D7%94%D7%93%D7%A1%D7%94-%D7%9C%D7%A0%D7%AA%D7%99%D7%91-%D7%94%D7%9C-%D7%94",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -2996,65 +2420,13 @@
             35.555338
         ],
         "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/374",
+        "source": "https://www.tiuli.com/tracks/374/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%90%D7%AA%D7%92%D7%A8%D7%99-%D7%95%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%90%D7%95%D7%A8%D7%9A-%D7%A9%D7%91%D7%99%D7%9C-%D7%A2%D7%9E%D7%A7-%D7%94%D7%9E%D7%A2%D7%99%D7%99%D7%A0%D7%95%D7%AA",
         "difficulty": "קשה",
         "tags": [
             "למיטיבי לכת",
             "מעגלי",
             "טיול שטח",
             "טבע"
-        ]
-    },
-    {
-        "name": "מסלול אתגרי ורטוב לאורך שביל עמק המעיינות",
-        "coords": [
-            32.664333,
-            35.555338
-        ],
-        "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/374",
-        "difficulty": "קשה",
-        "tags": [
-            "למיטיבי לכת",
-            "מעגלי",
-            "טיול שטח",
-            "טבע"
-        ]
-    },
-    {
-        "name": "נחל יזרח - נחל רום",
-        "coords": [
-            31.150160308874216,
-            35.35398623299826
-        ],
-        "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/380",
-        "difficulty": "בינוני",
-        "tags": [
-            "למיטיבי לכת",
-            "מתאים למשפחות",
-            "טיול שטח",
-            "מקטע משביל ישראל",
-            "טבע",
-            "נוף ותצפית"
-        ]
-    },
-    {
-        "name": "נחל יזרח - נחל רום",
-        "coords": [
-            31.150160308874216,
-            35.35398623299826
-        ],
-        "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/380",
-        "difficulty": "בינוני",
-        "tags": [
-            "למיטיבי לכת",
-            "מתאים למשפחות",
-            "טיול שטח",
-            "מקטע משביל ישראל",
-            "טבע",
-            "נוף ותצפית"
         ]
     },
     {
@@ -3064,7 +2436,7 @@
             34.8283
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/70",
+        "source": "https://www.tiuli.com/tracks/70/%D7%A0%D7%97%D7%9C-%D7%97%D7%A6%D7%A5-%D7%95%D7%A4%D7%A8%D7%99%D7%97%D7%AA-%D7%94%D7%A0%D7%A8%D7%A7%D7%99%D7%A1%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -3081,7 +2453,7 @@
             35.2161
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/142",
+        "source": "https://www.tiuli.com/tracks/142/%D7%A1%D7%99%D7%95%D7%A8-%D7%91%D7%A9%D7%9B%D7%95%D7%A0%D7%95%D7%AA-%D7%98%D7%9C%D7%91%D7%99%D7%94-%D7%95%D7%A7%D7%98%D7%9E%D7%95%D7%9F",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3101,7 +2473,7 @@
             34.9782
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/46",
+        "source": "https://www.tiuli.com/tracks/46/%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%A9%D7%A4%D7%9C%D7%94-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%9C%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA-%D7%94%D7%9E%D7%9B%D7%91%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3118,23 +2490,7 @@
             34.9347222
         ],
         "length": 2.5,
-        "source": "https://www.tiuli.com/tracks/329",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "מעגלי",
-            "טיול שטח",
-            "נוף ותצפית"
-        ]
-    },
-    {
-        "name": "גבעת חרוט",
-        "coords": [
-            30.6025,
-            34.9347222
-        ],
-        "length": 2.5,
-        "source": "https://www.tiuli.com/tracks/329",
+        "source": "https://www.tiuli.com/tracks/329/%D7%92%D7%91%D7%A2%D7%AA-%D7%97%D7%A8%D7%95%D7%98",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3150,20 +2506,7 @@
             35.5111
         ],
         "length": 25.0,
-        "source": "https://www.tiuli.com/tracks/255",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 6: מעין נון לכנרת מושבה",
-        "coords": [
-            32.8419,
-            35.5111
-        ],
-        "length": 25.0,
-        "source": "https://www.tiuli.com/tracks/255",
+        "source": "https://www.tiuli.com/tracks/255/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-6-%D7%9E%D7%A2%D7%99%D7%9F-%D7%A0%D7%95%D7%9F-%D7%9C%D7%9B%D7%A0%D7%A8%D7%AA-%D7%9E%D7%95%D7%A9%D7%91%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -3176,7 +2519,7 @@
             35.1292
         ],
         "length": 40.0,
-        "source": "https://www.tiuli.com/tracks/158",
+        "source": "https://www.tiuli.com/tracks/158/%D7%A9%D7%91%D7%99%D7%9C-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3191,21 +2534,7 @@
             35.7726860046387
         ],
         "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/288",
-        "difficulty": "בינוני",
-        "tags": [
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב"
-        ]
-    },
-    {
-        "name": "מקופות החרמון לתל קצעה: מקטע מספר 1 בשביל הגולן",
-        "coords": [
-            33.3080075192237,
-            35.7726860046387
-        ],
-        "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/288",
+        "source": "https://www.tiuli.com/tracks/288/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-1-%D7%9E%D7%A7%D7%95%D7%A4%D7%95%D7%AA-%D7%94%D7%97%D7%A8%D7%9E%D7%95%D7%9F-%D7%9C%D7%AA%D7%9C-%D7%A7%D7%A6%D7%A2%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -3219,7 +2548,7 @@
             35.5966
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/39",
+        "source": "https://www.tiuli.com/tracks/39/%D7%A2%D7%9E%D7%A7-%D7%94%D7%97%D7%95%D7%9C%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3235,7 +2564,7 @@
             35.3639
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/97",
+        "source": "https://www.tiuli.com/tracks/97/%D7%9E%D7%91%D7%99%D7%AA-%D7%92-%D7%90%D7%9F-%D7%9C%D7%97%D7%95%D7%A8%D7%A4%D7%99%D7%A9-%D7%9E%D7%A2%D7%A8%D7%95%D7%AA-%D7%95%D7%A4%D7%A8%D7%99%D7%97%D7%95%D7%AA-%D7%91%D7%A4%D7%A1%D7%92%D7%95%D7%AA-%D7%94%D7%92%D7%9C%D7%99%D7%9C",
         "difficulty": "קשה",
         "tags": [
             "למיטיבי לכת",
@@ -3249,7 +2578,7 @@
             35.798
         ],
         "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/73",
+        "source": "https://www.tiuli.com/tracks/73/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%A0%D7%95%D7%91-%D7%9E%D7%A8%D7%91%D7%93%D7%99%D7%9D-%D7%A9%D7%9C-%D7%A0%D7%A8%D7%A7%D7%99%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A8%D7%95%D7%A1-%D7%94%D7%91%D7%99%D7%A6%D7%95%D7%AA",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3268,7 +2597,7 @@
             35.217
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/137",
+        "source": "https://www.tiuli.com/tracks/137/%D7%A9%D7%9B%D7%95%D7%A0%D7%AA-%D7%A8%D7%97%D7%91%D7%99%D7%94-%D7%91%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3289,7 +2618,7 @@
             35.3648
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/95",
+        "source": "https://www.tiuli.com/tracks/95/%D7%A8%D7%9B%D7%A1-%D7%94%D7%A8%D7%A8%D7%99%D7%AA-%D7%9E%D7%91%D7%93%D7%93-%D7%A0%D7%98%D7%95%D7%A4%D7%94-%D7%95%D7%A2%D7%A6%D7%99-%D7%96%D7%99%D7%AA-%D7%A2%D7%A0%D7%A7%D7%99%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "מתאים למשפחות",
@@ -3304,7 +2633,7 @@
             35.6943
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/49",
+        "source": "https://www.tiuli.com/tracks/49/%D7%94%D7%91%D7%A0%D7%99%D7%90%D7%A1-%D7%A0%D7%97%D7%9C-%D7%93%D7%9F-%D7%95%D7%A0%D7%97%D7%9C-%D7%A9%D7%A0%D7%99%D7%A8-%D7%98%D7%99%D7%95%D7%9C-%D7%90%D7%9C-%D7%9E%D7%A7%D7%95%D7%A8%D7%95%D7%AA-%D7%94%D7%99%D7%A8%D7%93%D7%9F",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -3321,7 +2650,7 @@
             35.2472
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/135",
+        "source": "https://www.tiuli.com/tracks/135/%D7%94%D7%A8-%D7%94%D7%96%D7%99%D7%AA%D7%99%D7%9D-%D7%AA%D7%A6%D7%A4%D7%99%D7%95%D7%AA-%D7%95%D7%9B%D7%A0%D7%A1%D7%99%D7%95%D7%AA",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3339,20 +2668,7 @@
             35.0789
         ],
         "length": 21.0,
-        "source": "https://www.tiuli.com/tracks/250",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 11: מקיבוץ יגור לעין הוד",
-        "coords": [
-            32.742,
-            35.0789
-        ],
-        "length": 21.0,
-        "source": "https://www.tiuli.com/tracks/250",
+        "source": "https://www.tiuli.com/tracks/250/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-11-%D7%9E%D7%A7%D7%99%D7%91%D7%95%D7%A5-%D7%99%D7%92%D7%95%D7%A8-%D7%9C%D7%A2%D7%99%D7%9F-%D7%94%D7%95%D7%93",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -3365,40 +2681,23 @@
             34.7695645576721
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/301",
+        "source": "https://www.tiuli.com/tracks/301/%D7%98%D7%A2%D7%9E%D7%99%D7%9D-%D7%95%D7%A6%D7%91%D7%A2%D7%99%D7%9D-%D7%91%D7%93%D7%A8%D7%95%D7%9D-%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-%D7%A4%D7%9C%D7%95%D7%A8%D7%A0%D7%98%D7%99%D7%9F-%D7%95%D7%9E%D7%A8%D7%9B%D7%96-%D7%9E%D7%A1%D7%97%D7%A8%D7%99",
         "difficulty": "קל",
         "tags": [
             "טיול עירוני"
         ]
     },
     {
-        "name": "פלורנטין ומרכז מסחרי: טעמים וצבעים בדרום תל-אביב",
+        "name": "דרך מתקני המצור הרומי באזור מצדה",
         "coords": [
-            32.0548554184244,
-            34.7695645576721
+            31.3513,
+            35.3534
         ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/301",
-        "difficulty": "קל",
+        "length": 12.0,
+        "source": "https://www.tiuli.com/tracks/186/%D7%93%D7%A8%D7%9A-%D7%9E%D7%AA%D7%A7%D7%A0%D7%99-%D7%94%D7%9E%D7%A6%D7%95%D7%A8-%D7%94%D7%A8%D7%95%D7%9E%D7%99-%D7%91%D7%90%D7%96%D7%95%D7%A8-%D7%9E%D7%A6%D7%93%D7%94",
+        "difficulty": "קשה",
         "tags": [
-            "טיול עירוני"
-        ]
-    },
-    {
-        "name": "מסעד לבארי: פריחה בצפון הנגב",
-        "coords": [
-            31.5063,
-            34.5543
-        ],
-        "length": 7.0,
-        "source": "https://www.tiuli.com/tracks/18",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "מתאים לאופניים",
-            "מעגלי",
-            "פריחה"
+            "למיטיבי לכת"
         ]
     },
     {
@@ -3408,7 +2707,7 @@
             35.552
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/188",
+        "source": "https://www.tiuli.com/tracks/188/%D7%A0%D7%97%D7%9C-%D7%A7%D7%93%D7%A9",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -3423,7 +2722,7 @@
             34.7587
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/93",
+        "source": "https://www.tiuli.com/tracks/93/%D7%94%D7%9E%D7%95%D7%A9%D7%91%D7%94-%D7%94%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%90%D7%99%D7%AA-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3442,20 +2741,7 @@
             35.118
         ],
         "length": 18.5,
-        "source": "https://www.tiuli.com/tracks/241",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 20: מקיבוץ צובה לצור הדסה",
-        "coords": [
-            31.7845,
-            35.118
-        ],
-        "length": 18.5,
-        "source": "https://www.tiuli.com/tracks/241",
+        "source": "https://www.tiuli.com/tracks/241/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-20-%D7%9E%D7%A7%D7%99%D7%91%D7%95%D7%A5-%D7%A6%D7%95%D7%91%D7%94-%D7%9C%D7%A6%D7%95%D7%A8-%D7%94%D7%93%D7%A1%D7%94",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -3468,55 +2754,11 @@
             35.1497
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/160",
+        "source": "https://www.tiuli.com/tracks/160/%D7%94%D7%A8%D7%99-%D7%92%D7%95%D7%A4%D7%A0%D7%90-%D7%9E%D7%97%D7%A8%D7%A9%D7%94-%D7%9C%D7%9E%D7%A2%D7%99%D7%99%D7%9F-%D7%94%D7%90%D7%95%D7%9B%D7%A3",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
             "מתאים למשפחות"
-        ]
-    },
-    {
-        "name": "קטע מספר 23: מבית גוברין לתל קשת",
-        "coords": [
-            31.6124,
-            34.8954
-        ],
-        "length": 22.5,
-        "source": "https://www.tiuli.com/tracks/238",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 23: מבית גוברין לתל קשת",
-        "coords": [
-            31.6124,
-            34.8954
-        ],
-        "length": 22.5,
-        "source": "https://www.tiuli.com/tracks/238",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "רחובות: עיר המדע וההדרים",
-        "coords": [
-            31.9157,
-            34.8101
-        ],
-        "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/78",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "ניתן לעשות בחשכה",
-            "מתאים לאופניים",
-            "טיול עירוני",
-            "הגעה בתחבורה ציבורית"
         ]
     },
     {
@@ -3526,7 +2768,7 @@
             35.3756
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/183",
+        "source": "https://www.tiuli.com/tracks/183/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%94%D7%A4%D7%98%D7%A8%D7%99%D7%94-%D7%91%D7%A0%D7%90%D7%95%D7%AA-%D7%94%D7%9B%D7%99%D7%9B%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3542,20 +2784,7 @@
             34.9838
         ],
         "length": 23.5,
-        "source": "https://www.tiuli.com/tracks/239",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 22: מנתיב הל''ה לבית גוברין",
-        "coords": [
-            31.6861,
-            34.9838
-        ],
-        "length": 23.5,
-        "source": "https://www.tiuli.com/tracks/239",
+        "source": "https://www.tiuli.com/tracks/239/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-22-%D7%9E%D7%A0%D7%AA%D7%99%D7%91-%D7%94%D7%9C-%D7%94-%D7%9C%D7%91%D7%99%D7%AA-%D7%92%D7%95%D7%91%D7%A8%D7%99%D7%9F",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -3568,20 +2797,7 @@
             34.8335
         ],
         "length": 21.5,
-        "source": "https://www.tiuli.com/tracks/246",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 15: מחוף פולג לתל אביב",
-        "coords": [
-            32.2707,
-            34.8335
-        ],
-        "length": 21.5,
-        "source": "https://www.tiuli.com/tracks/246",
+        "source": "https://www.tiuli.com/tracks/246/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-15-%D7%9E%D7%97%D7%95%D7%A3-%D7%A4%D7%95%D7%9C%D7%92-%D7%9C%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91",
         "difficulty": "קל",
         "tags": [
             "מקטע משביל ישראל"
@@ -3594,7 +2810,7 @@
             35.2364
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/104",
+        "source": "https://www.tiuli.com/tracks/104/%D7%94%D7%A8-%D7%9E%D7%A1%D7%95%D7%A8",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -3609,20 +2825,7 @@
             34.9453
         ],
         "length": 23.0,
-        "source": "https://www.tiuli.com/tracks/248",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 13: מרמת הנדיב לחדרה",
-        "coords": [
-            32.5529,
-            34.9453
-        ],
-        "length": 23.0,
-        "source": "https://www.tiuli.com/tracks/248",
+        "source": "https://www.tiuli.com/tracks/248/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-13-%D7%9E%D7%A8%D7%9E%D7%AA-%D7%94%D7%A0%D7%93%D7%99%D7%91-%D7%9C%D7%97%D7%93%D7%A8%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -3635,20 +2838,7 @@
             34.9031
         ],
         "length": 24.5,
-        "source": "https://www.tiuli.com/tracks/247",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 14: מחדרה לחוף פולג",
-        "coords": [
-            32.4406,
-            34.9031
-        ],
-        "length": 24.5,
-        "source": "https://www.tiuli.com/tracks/247",
+        "source": "https://www.tiuli.com/tracks/247/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-14-%D7%9E%D7%97%D7%93%D7%A8%D7%94-%D7%9C%D7%97%D7%95%D7%A3-%D7%A4%D7%95%D7%9C%D7%92",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -3661,7 +2851,7 @@
             35.0628
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/47",
+        "source": "https://www.tiuli.com/tracks/47/%D7%9E%D7%9E%D7%A9%D7%99%D7%AA-%D7%A2%D7%99%D7%A8-%D7%97%D7%A7%D7%9C%D7%90%D7%99%D7%AA-%D7%91%D7%9C%D7%91-%D7%9E%D7%93%D7%91%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3671,17 +2861,16 @@
         ]
     },
     {
-        "name": "יער ברעם ובית הכנסת העתיק",
+        "name": "החרמון",
         "coords": [
-            33.0436,
-            35.4153
+            33.2907,
+            35.7593
         ],
-        "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/4",
-        "difficulty": "קל",
+        "length": 1.0,
+        "source": "https://www.tiuli.com/tracks/42/%D7%94%D7%97%D7%A8%D7%9E%D7%95%D7%9F",
+        "difficulty": "בינוני",
         "tags": [
             "מתאים למשפחות",
-            "מתאים לאופניים",
             "מעגלי"
         ]
     },
@@ -3692,7 +2881,7 @@
             35.2273
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/146",
+        "source": "https://www.tiuli.com/tracks/146/%D7%A1%D7%99%D7%95%D7%A8-%D7%91%D7%A8%D7%95%D7%91%D7%A2-%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3710,7 +2899,7 @@
             35.1516
         ],
         "length": 8.0,
-        "source": "https://www.tiuli.com/tracks/212",
+        "source": "https://www.tiuli.com/tracks/212/%D7%A0%D7%97%D7%9C-%D7%A2%D7%A7%D7%A8%D7%91%D7%99%D7%9D",
         "difficulty": "קשה",
         "tags": [
             "מים ומעיינות",
@@ -3724,27 +2913,7 @@
             34.7873423248529
         ],
         "length": 1.5,
-        "source": "https://www.tiuli.com/tracks/280",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "ניתן לעשות בחשכה",
-            "מתאים לאופניים",
-            "טיול עירוני",
-            "הגעה בתחבורה ציבורית",
-            "סיור ערב",
-            "נגיש"
-        ]
-    },
-    {
-        "name": "שרונה - המושבה הטמפלרית בתל אביב",
-        "coords": [
-            32.0732666874538,
-            34.7873423248529
-        ],
-        "length": 1.5,
-        "source": "https://www.tiuli.com/tracks/280",
+        "source": "https://www.tiuli.com/tracks/280/%D7%A9%D7%A8%D7%95%D7%A0%D7%94-%D7%94%D7%9E%D7%95%D7%A9%D7%91%D7%94-%D7%94%D7%98%D7%9E%D7%A4%D7%9C%D7%A8%D7%99%D7%AA-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3764,40 +2933,10 @@
             35.0134
         ],
         "length": 20.0,
-        "source": "https://www.tiuli.com/tracks/242",
+        "source": "https://www.tiuli.com/tracks/242/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-19-%D7%9E%D7%9E%D7%A1%D7%99%D7%9C%D7%AA-%D7%A6%D7%99%D7%95%D7%9F-%D7%9C%D7%A7%D7%99%D7%91%D7%95%D7%A5-%D7%A6%D7%95%D7%91%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 19: ממסילת ציון לקיבוץ צובה",
-        "coords": [
-            31.8029,
-            35.0134
-        ],
-        "length": 20.0,
-        "source": "https://www.tiuli.com/tracks/242",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "שונית האלמוגים בחוף אלמוג",
-        "coords": [
-            29.5134,
-            34.9247
-        ],
-        "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/30",
-        "difficulty": "קל",
-        "tags": [
-            "מים ומעיינות",
-            "מתאים למשפחות",
-            "רומנטי",
-            "מעגלי",
-            "הגעה בתחבורה ציבורית"
         ]
     },
     {
@@ -3807,7 +2946,7 @@
             35.3387494
         ],
         "length": 0.6,
-        "source": "https://www.tiuli.com/tracks/300",
+        "source": "https://www.tiuli.com/tracks/300/-15",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3819,41 +2958,6 @@
             "פיקניק",
             "נוף ותצפית",
             "נגיש"
-        ]
-    },
-    {
-        "name": "נוף הגליל: שמורת האירוס הנצרתי ",
-        "coords": [
-            32.7158407,
-            35.3387494
-        ],
-        "length": 0.6,
-        "source": "https://www.tiuli.com/tracks/300",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "פריחה",
-            "טיול עירוני",
-            "הגעה בתחבורה ציבורית",
-            "טבע",
-            "פיקניק",
-            "נוף ותצפית",
-            "נגיש"
-        ]
-    },
-    {
-        "name": "החרמון",
-        "coords": [
-            33.2907,
-            35.7593
-        ],
-        "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/42",
-        "difficulty": "בינוני",
-        "tags": [
-            "מתאים למשפחות",
-            "מעגלי"
         ]
     },
     {
@@ -3863,7 +2967,7 @@
             35.2222
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/139",
+        "source": "https://www.tiuli.com/tracks/139/%D7%A8%D7%97%D7%95%D7%91-%D7%94%D7%A0%D7%91%D7%99%D7%90%D7%99%D7%9D-%D7%91%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3881,20 +2985,7 @@
             34.7772
         ],
         "length": 30.0,
-        "source": "https://www.tiuli.com/tracks/245",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 16: מתל אביב לכפר סירקין",
-        "coords": [
-            32.1,
-            34.7772
-        ],
-        "length": 30.0,
-        "source": "https://www.tiuli.com/tracks/245",
+        "source": "https://www.tiuli.com/tracks/245/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-16-%D7%9E%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-%D7%9C%D7%9B%D7%A4%D7%A8-%D7%A1%D7%99%D7%A8%D7%A7%D7%99%D7%9F",
         "difficulty": "קל",
         "tags": [
             "מקטע משביל ישראל"
@@ -3907,21 +2998,7 @@
             35.4921023227317
         ],
         "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/371",
-        "difficulty": "קשה",
-        "tags": [
-            "פריחה",
-            "טבע"
-        ]
-    },
-    {
-        "name": "מסלול אתגרי אל קרן סרטבה",
-        "coords": [
-            32.1122008731142,
-            35.4921023227317
-        ],
-        "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/371",
+        "source": "https://www.tiuli.com/tracks/371/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%90%D7%AA%D7%92%D7%A8%D7%99-%D7%90%D7%9C-%D7%A7%D7%A8%D7%9F-%D7%A1%D7%A8%D7%98%D7%91%D7%94",
         "difficulty": "קשה",
         "tags": [
             "פריחה",
@@ -3935,7 +3012,7 @@
             35.2373
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/143",
+        "source": "https://www.tiuli.com/tracks/143/%D7%95%D7%99%D7%94-%D7%93%D7%95%D7%9C%D7%95%D7%A8%D7%95%D7%96%D7%94-%D7%A1%D7%99%D7%95%D7%A8-%D7%91%D7%93%D7%A8%D7%9A-%D7%94%D7%99%D7%99%D7%A1%D7%95%D7%A8%D7%99%D7%9D-%D7%A9%D7%9C-%D7%99%D7%A9%D7%95",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -3950,20 +3027,7 @@
             35.219
         ],
         "length": 24.0,
-        "source": "https://www.tiuli.com/tracks/251",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 10: מאלון הגליל לקיבוץ יגור",
-        "coords": [
-            32.7591,
-            35.219
-        ],
-        "length": 24.0,
-        "source": "https://www.tiuli.com/tracks/251",
+        "source": "https://www.tiuli.com/tracks/251/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-10-%D7%9E%D7%90%D7%9C%D7%95%D7%9F-%D7%94%D7%92%D7%9C%D7%99%D7%9C-%D7%9C%D7%A7%D7%99%D7%91%D7%95%D7%A5-%D7%99%D7%92%D7%95%D7%A8",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -3976,21 +3040,7 @@
             35.0589801687397
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/308",
-        "difficulty": "קל",
-        "tags": [
-            "פריחה",
-            "טבע"
-        ]
-    },
-    {
-        "name": "מדרך נוף כרמל לקיבוץ יגור",
-        "coords": [
-            32.7427941159317,
-            35.0589801687397
-        ],
-        "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/308",
+        "source": "https://www.tiuli.com/tracks/308/%D7%9E%D7%93%D7%A8%D7%9A-%D7%A0%D7%95%D7%A3-%D7%9B%D7%A8%D7%9E%D7%9C-%D7%9C%D7%A7%D7%99%D7%91%D7%95%D7%A5-%D7%99%D7%92%D7%95%D7%A8",
         "difficulty": "קל",
         "tags": [
             "פריחה",
@@ -4004,7 +3054,7 @@
             35.2033
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/141",
+        "source": "https://www.tiuli.com/tracks/141/%D7%9E%D7%92%D7%9F-%D7%94%D7%95%D7%95%D7%A8%D7%93%D7%99%D7%9D-%D7%9C%D7%A2%D7%9E%D7%A7-%D7%94%D7%9E%D7%A6%D7%9C%D7%91%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4022,20 +3072,7 @@
             35.5688
         ],
         "length": 25.0,
-        "source": "https://www.tiuli.com/tracks/254",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 7: מכנרת מושבה לכפר קיש",
-        "coords": [
-            32.7215,
-            35.5688
-        ],
-        "length": 25.0,
-        "source": "https://www.tiuli.com/tracks/254",
+        "source": "https://www.tiuli.com/tracks/254/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-7-%D7%9E%D7%9B%D7%A0%D7%A8%D7%AA-%D7%9E%D7%95%D7%A9%D7%91%D7%94-%D7%9C%D7%9B%D7%A4%D7%A8-%D7%A7%D7%99%D7%A9",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -4048,7 +3085,7 @@
             34.7736
         ],
         "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/133",
+        "source": "https://www.tiuli.com/tracks/133/%D7%98%D7%99%D7%95%D7%9C-%D7%A0%D7%95%D7%A1%D7%98%D7%9C%D7%92%D7%99-%D7%91%D7%92%D7%93%D7%A8%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4067,24 +3104,7 @@
             34.7766432999999
         ],
         "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/304",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "ניתן לעשות בחשכה",
-            "טיול עירוני",
-            "מתאים לכלבים",
-            "הגעה בתחבורה ציבורית"
-        ]
-    },
-    {
-        "name": "שביל העצמאות בתל אביב",
-        "coords": [
-            32.0654326,
-            34.7766432999999
-        ],
-        "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/304",
+        "source": "https://www.tiuli.com/tracks/304/%D7%A9%D7%91%D7%99%D7%9C-%D7%94%D7%A2%D7%A6%D7%9E%D7%90%D7%95%D7%AA-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4101,22 +3121,7 @@
             35.105903
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/344",
-        "difficulty": "קל",
-        "tags": [
-            "מים ומעיינות",
-            "רומנטי",
-            "טבע"
-        ]
-    },
-    {
-        "name": "חוף בצת - מסלול מרהיב לאורך קו החוף",
-        "coords": [
-            33.0805118,
-            35.105903
-        ],
-        "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/344",
+        "source": "https://www.tiuli.com/tracks/344/%D7%97%D7%95%D7%A3-%D7%91%D7%A6%D7%AA-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%9E%D7%A8%D7%94%D7%99%D7%91-%D7%9C%D7%90%D7%95%D7%A8%D7%9A-%D7%A7%D7%95-%D7%94%D7%97%D7%95%D7%A3",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -4131,7 +3136,7 @@
             35.5135
         ],
         "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/82",
+        "source": "https://www.tiuli.com/tracks/82/%D7%9E%D7%9B%D7%95%D7%9B%D7%91-%D7%94%D7%99%D7%A8%D7%93%D7%9F-%D7%9C%D7%9B%D7%A4%D7%A8-%D7%AA%D7%91%D7%95%D7%A8",
         "difficulty": "קשה",
         "tags": [
             "מים ומעיינות",
@@ -4147,7 +3152,7 @@
             34.7705
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/84",
+        "source": "https://www.tiuli.com/tracks/84/%D7%94%D7%A2%D7%99%D7%A8-%D7%94%D7%9C%D7%91%D7%A0%D7%94-%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-%D7%95%D7%94%D7%91%D7%90%D7%95%D7%94%D7%90%D7%95%D7%A1",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4167,7 +3172,7 @@
             35.1032
         ],
         "length": 6.0,
-        "source": "https://www.tiuli.com/tracks/11",
+        "source": "https://www.tiuli.com/tracks/11/%D7%9E%D7%AA%D7%9C-%D7%90%D7%9B%D7%96%D7%99%D7%91-%D7%9C%D7%A8%D7%90%D7%A9-%D7%94%D7%A0%D7%A7%D7%A8%D7%94",
         "difficulty": "קל",
         "tags": [
             "מים ומעיינות",
@@ -4178,30 +3183,13 @@
         ]
     },
     {
-        "name": "מקטע מספר 2: משמורת הטבע נחל חרמון – הבניאס ועד לפסל האריה השואג בתל חי",
-        "coords": [
-            33.2468285071557,
-            35.6942241353642
-        ],
-        "length": 26.0,
-        "source": "https://www.tiuli.com/tracks/370",
-        "difficulty": "בינוני",
-        "tags": [
-            "מים ומעיינות",
-            "למיטיבי לכת",
-            "טיול עירוני",
-            "טיול שטח",
-            "טבע"
-        ]
-    },
-    {
         "name": "מקטע מספר 2: משמורת הטבע נחל חרמון – הבניאס ועד לפסל האריה השואג בתל חי ",
         "coords": [
             33.2468285071557,
             35.6942241353642
         ],
         "length": 26.0,
-        "source": "https://www.tiuli.com/tracks/370",
+        "source": "https://www.tiuli.com/tracks/370/%D7%9E%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-2-%D7%9E%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%94%D7%98%D7%91%D7%A2-%D7%A0%D7%97%D7%9C-%D7%97%D7%A8%D7%9E%D7%95%D7%9F-%D7%94%D7%91%D7%A0%D7%99%D7%90%D7%A1-%D7%95%D7%A2%D7%93-%D7%9C%D7%A4%D7%A1%D7%9C-%D7%94%D7%90%D7%A8%D7%99%D7%94-%D7%94%D7%A9%D7%95%D7%90%D7%92-%D7%91%D7%AA%D7%9C-%D7%97%D7%99%C2%A0",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -4218,7 +3206,7 @@
             35.5247
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/27",
+        "source": "https://www.tiuli.com/tracks/27/%D7%90%D7%AA%D7%A8%D7%99%D7%9D-%D7%9E%D7%A7%D7%95%D7%93%D7%A9%D7%99%D7%9D-%D7%91%D7%9E%D7%A2%D7%A8%D7%91-%D7%94%D7%9B%D7%A0%D7%A8%D7%AA",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4235,20 +3223,7 @@
             34.9443
         ],
         "length": 25.0,
-        "source": "https://www.tiuli.com/tracks/243",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 18: מגמזו למסילת ציון",
-        "coords": [
-            31.9291,
-            34.9443
-        ],
-        "length": 25.0,
-        "source": "https://www.tiuli.com/tracks/243",
+        "source": "https://www.tiuli.com/tracks/243/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-18-%D7%9E%D7%92%D7%9E%D7%96%D7%95-%D7%9C%D7%9E%D7%A1%D7%99%D7%9C%D7%AA-%D7%A6%D7%99%D7%95%D7%9F",
         "difficulty": "קל",
         "tags": [
             "מקטע משביל ישראל"
@@ -4261,21 +3236,7 @@
             34.7620296478271
         ],
         "length": 10.5,
-        "source": "https://www.tiuli.com/tracks/286",
-        "difficulty": "קשה",
-        "tags": [
-            "מים ומעיינות",
-            "למיטיבי לכת"
-        ]
-    },
-    {
-        "name": "מעין מעריף להר ערקוב",
-        "coords": [
-            30.8232430202962,
-            34.7620296478271
-        ],
-        "length": 10.5,
-        "source": "https://www.tiuli.com/tracks/286",
+        "source": "https://www.tiuli.com/tracks/286/%D7%9E%D7%A2%D7%99%D7%9F-%D7%9E%D7%A2%D7%A8%D7%99%D7%A3-%D7%9C%D7%94%D7%A8-%D7%A2%D7%A8%D7%A7%D7%95%D7%91",
         "difficulty": "קשה",
         "tags": [
             "מים ומעיינות",
@@ -4289,21 +3250,7 @@
             35.7542296027535
         ],
         "length": 16.0,
-        "source": "https://www.tiuli.com/tracks/289",
-        "difficulty": "בינוני",
-        "tags": [
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב"
-        ]
-    },
-    {
-        "name": "קטע מספר 2: מתל קצעה לבאב אל הווא",
-        "coords": [
-            33.2189911517165,
-            35.7542296027535
-        ],
-        "length": 16.0,
-        "source": "https://www.tiuli.com/tracks/289",
+        "source": "https://www.tiuli.com/tracks/289/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-2-%D7%9E%D7%AA%D7%9C-%D7%A7%D7%A6%D7%A2%D7%94-%D7%9C%D7%91%D7%90%D7%91-%D7%90%D7%9C-%D7%94%D7%95%D7%95%D7%90",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -4317,20 +3264,7 @@
             34.927
         ],
         "length": 24.5,
-        "source": "https://www.tiuli.com/tracks/244",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 17: מכפר סירקין לגמזו",
-        "coords": [
-            32.0768,
-            34.927
-        ],
-        "length": 24.5,
-        "source": "https://www.tiuli.com/tracks/244",
+        "source": "https://www.tiuli.com/tracks/244/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-17-%D7%9E%D7%9B%D7%A4%D7%A8-%D7%A1%D7%99%D7%A8%D7%A7%D7%99%D7%9F-%D7%9C%D7%92%D7%9E%D7%96%D7%95",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -4343,68 +3277,24 @@
             35.4454
         ],
         "length": 22.0,
-        "source": "https://www.tiuli.com/tracks/253",
+        "source": "https://www.tiuli.com/tracks/253/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-8-%D7%9E%D7%9B%D7%A4%D7%A8-%D7%A7%D7%99%D7%A9-%D7%9C%D7%94%D7%A8-%D7%99%D7%95%D7%A0%D7%94",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
         ]
     },
     {
-        "name": "קטע מספר 8: מכפר קיש להר יונה",
+        "name": "מרמות נפתלי לעין אווזים",
         "coords": [
-            32.6668,
-            35.4454
+            33.1455,
+            35.5505
         ],
-        "length": 22.0,
-        "source": "https://www.tiuli.com/tracks/253",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 5: מחניון נחל עמוד לעין נון",
-        "coords": [
-            32.9739,
-            35.4622
-        ],
-        "length": 21.0,
-        "source": "https://www.tiuli.com/tracks/256",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 5: מחניון נחל עמוד לעין נון",
-        "coords": [
-            32.9739,
-            35.4622
-        ],
-        "length": 21.0,
-        "source": "https://www.tiuli.com/tracks/256",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "עכו העתיקה: טיול בין אולמות האבירים, הנמל ועוד",
-        "coords": [
-            32.9274,
-            35.0789
-        ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/13",
+        "length": 5.0,
+        "source": "https://www.tiuli.com/tracks/130/%D7%9E%D7%A8%D7%9E%D7%95%D7%AA-%D7%A0%D7%A4%D7%AA%D7%9C%D7%99-%D7%9C%D7%A2%D7%99%D7%9F-%D7%90%D7%95%D7%95%D7%96%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "ניתן לעשות בחשכה",
-            "מעגלי",
-            "טיול עירוני",
-            "מתאים לכלבים",
-            "הגעה בתחבורה ציבורית"
+            "למיטיבי לכת",
+            "פריחה"
         ]
     },
     {
@@ -4414,7 +3304,7 @@
             34.7926
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/19",
+        "source": "https://www.tiuli.com/tracks/19/%D7%91%D7%90%D7%A8-%D7%A9%D7%91%D7%A2-%D7%90%D7%AA%D7%A8%D7%99%D7%9D-%D7%9E%D7%95%D7%9E%D7%9C%D7%A6%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%A8%D7%AA-%D7%94%D7%A0%D7%92%D7%91",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4430,21 +3320,7 @@
             35.737962
         ],
         "length": 21.9,
-        "source": "https://www.tiuli.com/tracks/293",
-        "difficulty": "קשה",
-        "tags": [
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב"
-        ]
-    },
-    {
-        "name": "קטע מספר 6: מאום אל-קאנטיר לאמפי גולן",
-        "coords": [
-            32.849561,
-            35.737962
-        ],
-        "length": 21.9,
-        "source": "https://www.tiuli.com/tracks/293",
+        "source": "https://www.tiuli.com/tracks/293/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-6-%D7%9E%D7%90%D7%95%D7%9D-%D7%90%D7%9C-%D7%A7%D7%90%D7%A0%D7%98%D7%99%D7%A8-%D7%9C%D7%90%D7%9E%D7%A4%D7%99-%D7%92%D7%95%D7%9C%D7%9F",
         "difficulty": "קשה",
         "tags": [
             "למיטיבי לכת",
@@ -4458,7 +3334,7 @@
             34.8652
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/77",
+        "source": "https://www.tiuli.com/tracks/77/%D7%A1%D7%99%D7%95%D7%A8-%D7%91%D7%A8%D7%9E%D7%9C%D7%94-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%A9%D7%99%D7%A8%D7%90%D7%94-%D7%9C%D7%9B%D7%9D-%D7%90%D7%AA-%D7%94%D7%A2%D7%99%D7%A8-%D7%94%D7%94%D7%99%D7%A1%D7%98%D7%95%D7%A8%D7%99%D7%AA",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4478,7 +3354,7 @@
             35.4959
         ],
         "length": 10.0,
-        "source": "https://www.tiuli.com/tracks/105",
+        "source": "https://www.tiuli.com/tracks/105/%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA-%D7%90%D7%95%D7%A6%D7%A8%D7%95%D7%AA-%D7%94%D7%9E%D7%A7%D7%93%D7%A9-%D7%91%D7%A0%D7%97%D7%9C-%D7%A2%D7%9B%D7%91%D7%A8%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -4492,7 +3368,7 @@
             35.8494
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/99",
+        "source": "https://www.tiuli.com/tracks/99/%D7%A8%D7%9B%D7%A1-%D7%91%D7%A9%D7%A0%D7%99%D7%AA-%D7%A4%D7%A8%D7%99%D7%97%D7%AA-%D7%94%D7%97%D7%9C%D7%9E%D7%95%D7%A0%D7%99%D7%AA-%D7%95%D7%94%D7%A1%D7%AA%D7%95%D7%95%D7%A0%D7%99%D7%AA",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4501,41 +3377,27 @@
         ]
     },
     {
-        "name": "מזרח הרמון: ממכתש רמון לערבה",
+        "name": "קטע מספר 3: מבאב אל-הווא להר חוזק",
         "coords": [
-            30.5892,
-            34.9192
+            33.1482503707933,
+            35.778517127037
         ],
-        "length": 30.0,
-        "source": "https://www.tiuli.com/tracks/29",
-        "difficulty": "קשה",
-        "tags": [
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב",
-            "הגעה בתחבורה ציבורית"
-        ]
-    },
-    {
-        "name": "קטע מספר 9: מהר יונה לאלון הגליל",
-        "coords": [
-            32.7237,
-            35.3432
-        ],
-        "length": 15.0,
-        "source": "https://www.tiuli.com/tracks/252",
+        "length": 18.0,
+        "source": "https://www.tiuli.com/tracks/290/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-3-%D7%9E%D7%91%D7%90%D7%91-%D7%90%D7%9C-%D7%94%D7%95%D7%95%D7%90-%D7%9C%D7%94%D7%A8-%D7%97%D7%95%D7%96%D7%A7",
         "difficulty": "בינוני",
         "tags": [
-            "מקטע משביל ישראל"
+            "למיטיבי לכת",
+            "מחייב ציוד על הגב"
         ]
     },
     {
         "name": "קטע מספר 9: מהר יונה לאלון הגליל",
         "coords": [
-            32.7237,
-            35.3432
+            32.7591,
+            35.219
         ],
         "length": 15.0,
-        "source": "https://www.tiuli.com/tracks/252",
+        "source": "https://www.tiuli.com/tracks/252/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-9-%D7%9E%D7%94%D7%A8-%D7%99%D7%95%D7%A0%D7%94-%D7%9C%D7%90%D7%9C%D7%95%D7%9F-%D7%94%D7%92%D7%9C%D7%99%D7%9C",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -4548,7 +3410,7 @@
             34.6284
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/81",
+        "source": "https://www.tiuli.com/tracks/81/%D7%A9%D7%91%D7%98%D7%94-%D7%A2%D7%99%D7%A8-%D7%A0%D7%91%D7%98%D7%99%D7%AA-%D7%91%D7%9C%D7%91-%D7%94%D7%9E%D7%93%D7%91%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4564,7 +3426,7 @@
             35.6931694
         ],
         "length": 15.0,
-        "source": "https://www.tiuli.com/tracks/294",
+        "source": "https://www.tiuli.com/tracks/294/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-7-%D7%9E%D7%90%D7%9E%D7%A4%D7%99-%D7%92%D7%95%D7%9C%D7%9F-%D7%9C%D7%A2%D7%99%D7%9F-%D7%AA%D7%90%D7%95%D7%A4%D7%99%D7%A7",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -4572,75 +3434,32 @@
         ]
     },
     {
-        "name": "קטע מספר 7: מאמפי גולן לעין תאופיק",
+        "name": "לדווש בעקבות הציורים: אמנות רחוב בתל אביב",
         "coords": [
-            32.770023,
-            35.6931694
+            32.0854,
+            34.7818
         ],
-        "length": 15.0,
-        "source": "https://www.tiuli.com/tracks/294",
-        "difficulty": "בינוני",
+        "length": 0.0,
+        "source": "https://www.tiuli.com/tracks/206/%D7%9C%D7%93%D7%95%D7%95%D7%A9-%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA-%D7%94%D7%A6%D7%99%D7%95%D7%A8%D7%99%D7%9D-%D7%90%D7%9E%D7%A0%D7%95%D7%AA-%D7%A8%D7%97%D7%95%D7%91-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91",
+        "difficulty": "קל",
         "tags": [
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב"
-        ]
-    },
-    {
-        "name": "קטע מספר 3: מבאב אל-הווא להר חוזק",
-        "coords": [
-            33.1482503707933,
-            35.778517127037
-        ],
-        "length": 18.0,
-        "source": "https://www.tiuli.com/tracks/290",
-        "difficulty": "בינוני",
-        "tags": [
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב"
-        ]
-    },
-    {
-        "name": "קטע מספר 3: מבאב אל-הווא להר חוזק",
-        "coords": [
-            33.1482503707933,
-            35.778517127037
-        ],
-        "length": 18.0,
-        "source": "https://www.tiuli.com/tracks/290",
-        "difficulty": "בינוני",
-        "tags": [
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב"
-        ]
-    },
-    {
-        "name": "מבית שאן לכוכב הירדן",
-        "coords": [
-            32.5123,
-            35.5043
-        ],
-        "length": 17.0,
-        "source": "https://www.tiuli.com/tracks/20",
-        "difficulty": "קשה",
-        "tags": [
-            "למיטיבי לכת",
+            "מתאים למשפחות",
+            "רומנטי",
             "מתאים לאופניים"
         ]
     },
     {
-        "name": "אנדרטת גדוד 77 - עמק הבכא",
+        "name": "טיול היסטורי בעכו: מסע בעקבות אבירים ומלכים",
         "coords": [
-            33.1768,
-            35.7969
+            32.9234501,
+            35.0706942
         ],
-        "length": 0.0,
-        "source": "https://www.tiuli.com/tracks/34",
+        "length": 2.0,
+        "source": "https://www.tiuli.com/tracks/347/%D7%A2%D7%9B%D7%95-%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA-%D7%9E%D7%9C%D7%9B%D7%99%D7%9D-%D7%90%D7%91%D7%99%D7%A8%D7%99%D7%9D-%D7%95%D7%A1%D7%95%D7%97%D7%A8%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
-            "ניתן לעשות בחשכה",
-            "מעגלי",
-            "נגיש"
+            "טיול עירוני"
         ]
     },
     {
@@ -4650,20 +3469,7 @@
             34.8257
         ],
         "length": 26.5,
-        "source": "https://www.tiuli.com/tracks/236",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 24: מתל קשת לקיבוץ דבירה",
-        "coords": [
-            31.4122,
-            34.8257
-        ],
-        "length": 26.5,
-        "source": "https://www.tiuli.com/tracks/236",
+        "source": "https://www.tiuli.com/tracks/236/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-24-%D7%9E%D7%AA%D7%9C-%D7%A7%D7%A9%D7%AA-%D7%9C%D7%A7%D7%99%D7%91%D7%95%D7%A5-%D7%93%D7%91%D7%99%D7%A8%D7%94",
         "difficulty": "קל",
         "tags": [
             "מקטע משביל ישראל"
@@ -4676,7 +3482,7 @@
             34.8995
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/87",
+        "source": "https://www.tiuli.com/tracks/87/%D7%97%D7%9C%D7%9E%D7%95%D7%A0%D7%99%D7%95%D7%AA-%D7%99%D7%A8%D7%95%D7%97%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -4693,21 +3499,7 @@
             35.8165765570666
         ],
         "length": 19.0,
-        "source": "https://www.tiuli.com/tracks/292",
-        "difficulty": "קל",
-        "tags": [
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב"
-        ]
-    },
-    {
-        "name": "קטע מספר 5: מאום א-דנניר לאום אל-קאנטיר",
-        "coords": [
-            32.9444135123241,
-            35.8165765570666
-        ],
-        "length": 19.0,
-        "source": "https://www.tiuli.com/tracks/292",
+        "source": "https://www.tiuli.com/tracks/292/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-5-%D7%9E%D7%90%D7%95%D7%9D-%D7%90-%D7%93%D7%A0%D7%A0%D7%99%D7%A8-%D7%9C%D7%90%D7%95%D7%9D-%D7%90%D7%9C-%D7%A7%D7%90%D7%A0%D7%98%D7%99%D7%A8",
         "difficulty": "קל",
         "tags": [
             "למיטיבי לכת",
@@ -4721,7 +3513,7 @@
             34.7751
         ],
         "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/211",
+        "source": "https://www.tiuli.com/tracks/211/%D7%A8%D7%97%D7%95%D7%91-%D7%A7%D7%99%D7%A0%D7%92-%D7%92-%D7%95%D7%A8%D7%92-%D7%90%D7%9C-%D7%9E%D7%95%D7%A8%D7%93%D7%95%D7%AA-%D7%94%D7%9B%D7%A8%D7%9E%D7%9C",
         "difficulty": "קל",
         "tags": [
             "מתאים לאופניים",
@@ -4738,39 +3530,11 @@
             34.874992
         ],
         "length": 7.0,
-        "source": "https://www.tiuli.com/tracks/305",
+        "source": "https://www.tiuli.com/tracks/305/%D7%A8%D7%9E%D7%9C%D7%94-%D7%94%D7%A2%D7%99%D7%A8-%D7%94%D7%9E%D7%95%D7%A1%D7%9C%D7%9E%D7%99%D7%AA-%D7%A9%D7%A6%D7%9E%D7%97%D7%94-%D7%9E%D7%9F-%D7%94%D7%97%D7%95%D7%9C%D7%95%D7%AA",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
             "טיול עירוני"
-        ]
-    },
-    {
-        "name": "רמלה – העיר המוסלמית שצמחה מן החולות",
-        "coords": [
-            31.925059,
-            34.874992
-        ],
-        "length": 7.0,
-        "source": "https://www.tiuli.com/tracks/305",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "טיול עירוני"
-        ]
-    },
-    {
-        "name": "מרמות נפתלי לעין אווזים",
-        "coords": [
-            33.1455,
-            35.5505
-        ],
-        "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/130",
-        "difficulty": "קל",
-        "tags": [
-            "למיטיבי לכת",
-            "פריחה"
         ]
     },
     {
@@ -4780,7 +3544,7 @@
             35.2293
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/144",
+        "source": "https://www.tiuli.com/tracks/144/%D7%90%D7%AA%D7%A8%D7%99%D7%9D-%D7%9E%D7%95%D7%A1%D7%9C%D7%9E%D7%99%D7%9D-%D7%91%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4796,7 +3560,7 @@
             34.9952
         ],
         "length": 0.0,
-        "source": "https://www.tiuli.com/tracks/83",
+        "source": "https://www.tiuli.com/tracks/83/%D7%91%D7%A7%D7%A2%D7%AA-%D7%AA%D7%9E%D7%A0%D7%A2",
         "difficulty": "בינוני",
         "tags": [
             "למיטיבי לכת",
@@ -4811,20 +3575,7 @@
             34.9398
         ],
         "length": 22.0,
-        "source": "https://www.tiuli.com/tracks/234",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 26: ממיתר להר עמשא",
-        "coords": [
-            31.3276,
-            34.9398
-        ],
-        "length": 22.0,
-        "source": "https://www.tiuli.com/tracks/234",
+        "source": "https://www.tiuli.com/tracks/234/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-26-%D7%9E%D7%9E%D7%99%D7%AA%D7%A8-%D7%9C%D7%94%D7%A8-%D7%A2%D7%9E%D7%A9%D7%90",
         "difficulty": "קל",
         "tags": [
             "מקטע משביל ישראל"
@@ -4837,20 +3588,7 @@
             35.018
         ],
         "length": 19.5,
-        "source": "https://www.tiuli.com/tracks/228",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 32: ממפעל אורון לחניון נחל מדור",
-        "coords": [
-            30.9148,
-            35.018
-        ],
-        "length": 19.5,
-        "source": "https://www.tiuli.com/tracks/228",
+        "source": "https://www.tiuli.com/tracks/228/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-32-%D7%9E%D7%9E%D7%A4%D7%A2%D7%9C-%D7%90%D7%95%D7%A8%D7%95%D7%9F-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%A0%D7%97%D7%9C-%D7%9E%D7%93%D7%95%D7%A8",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -4863,7 +3601,7 @@
             35.2351
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/145",
+        "source": "https://www.tiuli.com/tracks/145/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%A2%D7%99%D7%A8-%D7%93%D7%95%D7%93-%D7%95%D7%94%D7%A1%D7%91%D7%99%D7%91%D7%94-%D7%90%D7%91%D7%A0%D7%99%D7%9D-%D7%9E%D7%A1%D7%A4%D7%A8%D7%95%D7%AA-%D7%94%D7%99%D7%A1%D7%98%D7%95%D7%A8%D7%99%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "מתאים למשפחות",
@@ -4878,20 +3616,7 @@
             35.433
         ],
         "length": 23.0,
-        "source": "https://www.tiuli.com/tracks/257",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 4: מקיבוץ ברעם לחניון נחל עמוד",
-        "coords": [
-            33.0575,
-            35.433
-        ],
-        "length": 23.0,
-        "source": "https://www.tiuli.com/tracks/257",
+        "source": "https://www.tiuli.com/tracks/257/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-4-%D7%9E%D7%A7%D7%99%D7%91%D7%95%D7%A5-%D7%91%D7%A8%D7%A2%D7%9D-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%A0%D7%97%D7%9C-%D7%A2%D7%9E%D7%95%D7%93",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -4904,20 +3629,7 @@
             34.8961
         ],
         "length": 27.0,
-        "source": "https://www.tiuli.com/tracks/225",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 35: מחניון נחל חווה למצפה רמון",
-        "coords": [
-            30.7292,
-            34.8961
-        ],
-        "length": 27.0,
-        "source": "https://www.tiuli.com/tracks/225",
+        "source": "https://www.tiuli.com/tracks/225/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-35-%D7%9E%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%A0%D7%97%D7%9C-%D7%97%D7%95%D7%95%D7%94-%D7%9C%D7%9E%D7%A6%D7%A4%D7%94-%D7%A8%D7%9E%D7%95%D7%9F",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -4930,7 +3642,7 @@
             34.783
         ],
         "length": 5.0,
-        "source": "https://www.tiuli.com/tracks/209",
+        "source": "https://www.tiuli.com/tracks/209/%D7%94%D7%9C%D7%99%D7%9B%D7%94-%D7%91%D7%99%D7%9F-%D7%94%D7%A6%D7%91%D7%A2%D7%99%D7%9D-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%99%D7%A8%D7%95%D7%A7-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -4947,20 +3659,7 @@
             35.556
         ],
         "length": 25.0,
-        "source": "https://www.tiuli.com/tracks/258",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 3: ממושב רמות נפתלי לקיבוץ ברעם",
-        "coords": [
-            33.106,
-            35.556
-        ],
-        "length": 25.0,
-        "source": "https://www.tiuli.com/tracks/258",
+        "source": "https://www.tiuli.com/tracks/258/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-3-%D7%9E%D7%9E%D7%95%D7%A9%D7%91-%D7%A8%D7%9E%D7%95%D7%AA-%D7%A0%D7%A4%D7%AA%D7%9C%D7%99-%D7%9C%D7%A7%D7%99%D7%91%D7%95%D7%A5-%D7%91%D7%A8%D7%A2%D7%9D",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -4973,46 +3672,7 @@
             34.9182
         ],
         "length": 18.5,
-        "source": "https://www.tiuli.com/tracks/222",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 37: מהר סהרונים לחניון גב חולית",
-        "coords": [
-            30.593,
-            34.9182
-        ],
-        "length": 18.5,
-        "source": "https://www.tiuli.com/tracks/222",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 40: מחניון נחל ברק לצומת ציחור",
-        "coords": [
-            30.4161,
-            35.1418
-        ],
-        "length": 29.5,
-        "source": "https://www.tiuli.com/tracks/219",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 40: מחניון נחל ברק לצומת ציחור",
-        "coords": [
-            30.4161,
-            35.1418
-        ],
-        "length": 29.5,
-        "source": "https://www.tiuli.com/tracks/219",
+        "source": "https://www.tiuli.com/tracks/222/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-37-%D7%9E%D7%94%D7%A8-%D7%A1%D7%94%D7%A8%D7%95%D7%A0%D7%99%D7%9D-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%92%D7%91-%D7%97%D7%95%D7%9C%D7%99%D7%AA",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -5025,7 +3685,7 @@
             34.7881
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/196",
+        "source": "https://www.tiuli.com/tracks/196/%D7%98%D7%99%D7%95%D7%9C-%D7%9E%D7%99%D7%95%D7%97%D7%93-%D7%91%D7%98%D7%99%D7%99%D7%9C%D7%AA-%D7%94%D7%97%D7%95%D7%A3-%D7%A9%D7%9C-%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91",
         "difficulty": "קל",
         "tags": [
             "טיול עירוני"
@@ -5038,22 +3698,7 @@
             35.0719689397692
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/345",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "מעגלי",
-            "טיול עירוני"
-        ]
-    },
-    {
-        "name": "לגלות את עכו העתיקה",
-        "coords": [
-            32.9238412570916,
-            35.0719689397692
-        ],
-        "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/345",
+        "source": "https://www.tiuli.com/tracks/345/%D7%9C%D7%92%D7%9C%D7%95%D7%AA-%D7%90%D7%AA-%D7%A2%D7%9B%D7%95-%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -5068,20 +3713,7 @@
             35.7398128509521
         ],
         "length": 16.0,
-        "source": "https://www.tiuli.com/tracks/372",
-        "difficulty": "קשה",
-        "tags": [
-            "טבע"
-        ]
-    },
-    {
-        "name": "מסלול לאור ירח ברמת הגולן: מנחל סמך ועד הכנרת",
-        "coords": [
-            32.849632144086,
-            35.7398128509521
-        ],
-        "length": 16.0,
-        "source": "https://www.tiuli.com/tracks/372",
+        "source": "https://www.tiuli.com/tracks/372/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C-%D7%9C%D7%90%D7%95%D7%A8-%D7%99%D7%A8%D7%97-%D7%91%D7%A8%D7%9E%D7%AA-%D7%94%D7%92%D7%95%D7%9C%D7%9F-%D7%9E%D7%A0%D7%97%D7%9C-%D7%A1%D7%9E%D7%9A-%D7%95%D7%A2%D7%93-%D7%94%D7%9B%D7%A0%D7%A8%D7%AA",
         "difficulty": "קשה",
         "tags": [
             "טבע"
@@ -5094,20 +3726,7 @@
             35.2406
         ],
         "length": 19.0,
-        "source": "https://www.tiuli.com/tracks/230",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 30: מחניון מצד תמר למכתש הקטן",
-        "coords": [
-            31.0287,
-            35.2406
-        ],
-        "length": 19.0,
-        "source": "https://www.tiuli.com/tracks/230",
+        "source": "https://www.tiuli.com/tracks/230/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-30-%D7%9E%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%9E%D7%A6%D7%93-%D7%AA%D7%9E%D7%A8-%D7%9C%D7%9E%D7%9B%D7%AA%D7%A9-%D7%94%D7%A7%D7%98%D7%9F",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -5120,20 +3739,7 @@
             34.8042
         ],
         "length": 22.5,
-        "source": "https://www.tiuli.com/tracks/223",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 36: ממצפה רמון לחניון הר סהרונים",
-        "coords": [
-            30.6129,
-            34.8042
-        ],
-        "length": 22.5,
-        "source": "https://www.tiuli.com/tracks/223",
+        "source": "https://www.tiuli.com/tracks/223/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-36-%D7%9E%D7%9E%D7%A6%D7%A4%D7%94-%D7%A8%D7%9E%D7%95%D7%9F-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%94%D7%A8-%D7%A1%D7%94%D7%A8%D7%95%D7%A0%D7%99%D7%9D",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -5146,22 +3752,7 @@
             35.2276142000001
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/299",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "טיול עירוני",
-            "הגעה בתחבורה ציבורית"
-        ]
-    },
-    {
-        "name": "מעל החומות – סיור בטיילת הצפונית של ירושלים העתיקה",
-        "coords": [
-            31.7766109,
-            35.2276142000001
-        ],
-        "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/299",
+        "source": "https://www.tiuli.com/tracks/299/%D7%9E%D7%A2%D7%9C-%D7%94%D7%97%D7%95%D7%9E%D7%95%D7%AA-%D7%A1%D7%99%D7%95%D7%A8-%D7%91%D7%98%D7%99%D7%99%D7%9C%D7%AA-%D7%94%D7%A6%D7%A4%D7%95%D7%A0%D7%99%D7%AA-%D7%A9%D7%9C-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D-%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -5176,20 +3767,7 @@
             34.8257
         ],
         "length": 20.0,
-        "source": "https://www.tiuli.com/tracks/235",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 25: מקיבוץ דבירה למיתר",
-        "coords": [
-            31.4122,
-            34.8257
-        ],
-        "length": 20.0,
-        "source": "https://www.tiuli.com/tracks/235",
+        "source": "https://www.tiuli.com/tracks/235/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-25-%D7%9E%D7%A7%D7%99%D7%91%D7%95%D7%A5-%D7%93%D7%91%D7%99%D7%A8%D7%94-%D7%9C%D7%9E%D7%99%D7%AA%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מקטע משביל ישראל"
@@ -5202,7 +3780,7 @@
             35.2841
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/108",
+        "source": "https://www.tiuli.com/tracks/108/%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA-%D7%9E%D7%A9%D7%9E%D7%A8%D7%95%D7%AA-%D7%94%D7%9B%D7%94%D7%95%D7%A0%D7%94-%D7%91%D7%92%D7%9C%D7%99%D7%9C",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -5211,53 +3789,13 @@
         ]
     },
     {
-        "name": "מנחל נמר אל יער חניתה",
-        "coords": [
-            33.0795001794392,
-            35.1909711125249
-        ],
-        "length": 4.5,
-        "source": "https://www.tiuli.com/tracks/311",
-        "difficulty": "בינוני",
-        "tags": [
-            "מתאים למשפחות"
-        ]
-    },
-    {
-        "name": "מנחל נמר אל יער חניתה",
-        "coords": [
-            33.0795001794392,
-            35.1909711125249
-        ],
-        "length": 4.5,
-        "source": "https://www.tiuli.com/tracks/311",
-        "difficulty": "בינוני",
-        "tags": [
-            "מתאים למשפחות"
-        ]
-    },
-    {
         "name": "קטע מספר 4: מהר חוזק לאום א-דנניר",
         "coords": [
             33.0488511608308,
             35.8513502533957
         ],
         "length": 17.0,
-        "source": "https://www.tiuli.com/tracks/291",
-        "difficulty": "קל",
-        "tags": [
-            "למיטיבי לכת",
-            "מחייב ציוד על הגב"
-        ]
-    },
-    {
-        "name": "קטע מספר 4: מהר חוזק לאום א-דנניר",
-        "coords": [
-            33.0488511608308,
-            35.8513502533957
-        ],
-        "length": 17.0,
-        "source": "https://www.tiuli.com/tracks/291",
+        "source": "https://www.tiuli.com/tracks/291/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-4-%D7%9E%D7%94%D7%A8-%D7%97%D7%95%D7%96%D7%A7-%D7%9C%D7%90%D7%95%D7%9D-%D7%90-%D7%93%D7%A0%D7%A0%D7%99%D7%A8",
         "difficulty": "קל",
         "tags": [
             "למיטיבי לכת",
@@ -5271,23 +3809,7 @@
             35.3504848480225
         ],
         "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/373",
-        "difficulty": "קשה",
-        "tags": [
-            "למיטיבי לכת",
-            "פריחה",
-            "טיול שטח",
-            "טבע"
-        ]
-    },
-    {
-        "name": "טיול לואדי דלייה ומערת כותים בשומרון והבקעה",
-        "coords": [
-            31.9996328422286,
-            35.3504848480225
-        ],
-        "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/373",
+        "source": "https://www.tiuli.com/tracks/373/%D7%98%D7%99%D7%95%D7%9C-%D7%9C%D7%95%D7%90%D7%93%D7%99-%D7%93%D7%9C%D7%99%D7%99%D7%94-%D7%95%D7%9E%D7%A2%D7%A8%D7%AA-%D7%9B%D7%95%D7%AA%D7%99%D7%9D-%D7%91%D7%A9%D7%95%D7%9E%D7%A8%D7%95%D7%9F-%D7%95%D7%94%D7%91%D7%A7%D7%A2%D7%94",
         "difficulty": "קשה",
         "tags": [
             "למיטיבי לכת",
@@ -5303,20 +3825,7 @@
             34.8862
         ],
         "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/213",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 46: מחניון הר יהורם לאילת",
-        "coords": [
-            29.5876,
-            34.8862
-        ],
-        "length": 14.0,
-        "source": "https://www.tiuli.com/tracks/213",
+        "source": "https://www.tiuli.com/tracks/213/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-46-%D7%9E%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%94%D7%A8-%D7%99%D7%94%D7%95%D7%A8%D7%9D-%D7%9C%D7%90%D7%99%D7%9C%D7%AA",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -5329,20 +3838,7 @@
             34.9558
         ],
         "length": 24.5,
-        "source": "https://www.tiuli.com/tracks/214",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 45: מנחל רחם/עתק להר יהורם",
-        "coords": [
-            29.7039,
-            34.9558
-        ],
-        "length": 24.5,
-        "source": "https://www.tiuli.com/tracks/214",
+        "source": "https://www.tiuli.com/tracks/214/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-45-%D7%9E%D7%A0%D7%97%D7%9C-%D7%A8%D7%97%D7%9D-%D7%A2%D7%AA%D7%A7-%D7%9C%D7%94%D7%A8-%D7%99%D7%94%D7%95%D7%A8%D7%9D",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -5355,20 +3851,7 @@
             35.1517
         ],
         "length": 20.0,
-        "source": "https://www.tiuli.com/tracks/229",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 31: מהמכתש הקטן לחניון מפעל אורון",
-        "coords": [
-            30.9349,
-            35.1517
-        ],
-        "length": 20.0,
-        "source": "https://www.tiuli.com/tracks/229",
+        "source": "https://www.tiuli.com/tracks/229/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-31-%D7%9E%D7%94%D7%9E%D7%9B%D7%AA%D7%A9-%D7%94%D7%A7%D7%98%D7%9F-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%9E%D7%A4%D7%A2%D7%9C-%D7%90%D7%95%D7%A8%D7%95%D7%9F",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -5381,20 +3864,7 @@
             34.8331
         ],
         "length": 22.5,
-        "source": "https://www.tiuli.com/tracks/226",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 34: מחוד עקב לחניון נחל חווה",
-        "coords": [
-            30.8367,
-            34.8331
-        ],
-        "length": 22.5,
-        "source": "https://www.tiuli.com/tracks/226",
+        "source": "https://www.tiuli.com/tracks/226/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-34-%D7%9E%D7%97%D7%95%D7%93-%D7%A2%D7%A7%D7%91-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%A0%D7%97%D7%9C-%D7%97%D7%95%D7%95%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -5407,7 +3877,7 @@
             34.7672
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/202",
+        "source": "https://www.tiuli.com/tracks/202/%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%A8%D7%9E%D7%AA-%D7%90%D7%91%D7%99%D7%91-%D7%91%D7%99%D7%9F-%D7%9E%D7%A8%D7%9B%D7%96-%D7%A8%D7%91%D7%99%D7%9F-%D7%9C%D7%92%D7%9F-%D7%A7%D7%90%D7%A8%D7%98%D7%A8",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -5424,51 +3894,10 @@
             35.1016
         ],
         "length": 22.5,
-        "source": "https://www.tiuli.com/tracks/233",
+        "source": "https://www.tiuli.com/tracks/233/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-27-%D7%9E%D7%94%D7%A8-%D7%A2%D7%9E%D7%A9%D7%90-%D7%9C%D7%A2%D7%A8%D7%93",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 27: מהר עמשא לערד",
-        "coords": [
-            31.3426,
-            35.1016
-        ],
-        "length": 22.5,
-        "source": "https://www.tiuli.com/tracks/233",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "טיול היסטורי בעכו: מסע בעקבות אבירים ומלכים",
-        "coords": [
-            32.9234501,
-            35.0706942
-        ],
-        "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/347",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "טיול עירוני"
-        ]
-    },
-    {
-        "name": "טיול היסטורי בעכו: מסע בעקבות אבירים ומלכים",
-        "coords": [
-            32.9234501,
-            35.0706942
-        ],
-        "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/347",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "טיול עירוני"
         ]
     },
     {
@@ -5478,7 +3907,7 @@
             35.25
         ],
         "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/100",
+        "source": "https://www.tiuli.com/tracks/100/%D7%99%D7%90%D7%A0%D7%95%D7%97-%D7%A0%D7%92%D7%99%D7%A2%D7%95%D7%AA-%D7%A7%D7%98%D7%A0%D7%95%D7%AA-%D7%A9%D7%9C-%D7%99%D7%95%D7%A4%D7%99",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -5493,20 +3922,7 @@
             34.9311
         ],
         "length": 13.0,
-        "source": "https://www.tiuli.com/tracks/227",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 33: מחניון מדור/עפרן לחוד עקב",
-        "coords": [
-            30.8413,
-            34.9311
-        ],
-        "length": 13.0,
-        "source": "https://www.tiuli.com/tracks/227",
+        "source": "https://www.tiuli.com/tracks/227/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-33-%D7%9E%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%9E%D7%93%D7%95%D7%A8-%D7%A2%D7%A4%D7%A8%D7%9F-%D7%9C%D7%97%D7%95%D7%93-%D7%A2%D7%A7%D7%91",
         "difficulty": "קל",
         "tags": [
             "מקטע משביל ישראל"
@@ -5519,7 +3935,7 @@
             35.2972
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/208",
+        "source": "https://www.tiuli.com/tracks/208/%D7%A0%D7%A6%D7%A8%D7%AA-%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%A4%D7%A8%D7%97-%D7%94%D7%92%D7%9C%D7%99%D7%9C",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -5534,7 +3950,7 @@
             35.0992
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/94",
+        "source": "https://www.tiuli.com/tracks/94/%D7%91%D7%AA%D7%99-%D7%90%D7%A4%D7%A0%D7%93%D7%99%D7%9D-%D7%91%D7%92%D7%9C%D7%99%D7%9C-%D7%94%D7%9E%D7%A2%D7%A8%D7%91%D7%99",
         "difficulty": "בינוני",
         "tags": [
             "מתאים למשפחות",
@@ -5552,20 +3968,7 @@
             35.21
         ],
         "length": 23.0,
-        "source": "https://www.tiuli.com/tracks/232",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 28: מערד לחניון באר אפעה",
-        "coords": [
-            31.2549,
-            35.21
-        ],
-        "length": 23.0,
-        "source": "https://www.tiuli.com/tracks/232",
+        "source": "https://www.tiuli.com/tracks/232/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-28-%D7%9E%D7%A2%D7%A8%D7%93-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%91%D7%90%D7%A8-%D7%90%D7%A4%D7%A2%D7%94",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -5578,7 +3981,7 @@
             34.7881
         ],
         "length": 1.0,
-        "source": "https://www.tiuli.com/tracks/201",
+        "source": "https://www.tiuli.com/tracks/201/%D7%95%D7%90%D7%95%D7%9C%D7%99-%D7%9C%D7%90-%D7%94%D7%99%D7%95-%D7%A1%D7%99%D7%95%D7%A8-%D7%91%D7%A8%D7%97%D7%95%D7%91-%D7%9E%D7%90%D7%A4%D7%95-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA-%D7%A1%D7%A4%D7%A8%D7%94-%D7%A9%D7%9C-%D7%A9%D7%95%D7%9C%D7%9E%D7%99%D7%AA-%D7%9C%D7%A4%D7%99%D7%93",
         "difficulty": "קל",
         "tags": [
             "טיול עירוני",
@@ -5592,47 +3995,8 @@
             35.2155
         ],
         "length": 18.0,
-        "source": "https://www.tiuli.com/tracks/231",
+        "source": "https://www.tiuli.com/tracks/231/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-29-%D7%9E%D7%91%D7%90%D7%A8-%D7%90%D7%A4%D7%A2%D7%94-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%9E%D7%A6%D7%93-%D7%AA%D7%9E%D7%A8",
         "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 29: מבאר אפעה לחניון מצד תמר",
-        "coords": [
-            31.1473,
-            35.2155
-        ],
-        "length": 18.0,
-        "source": "https://www.tiuli.com/tracks/231",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "דרך מתקני המצור הרומי באזור מצדה",
-        "coords": [
-            31.3513,
-            35.3534
-        ],
-        "length": 12.0,
-        "source": "https://www.tiuli.com/tracks/186",
-        "difficulty": "קשה",
-        "tags": [
-            "למיטיבי לכת"
-        ]
-    },
-    {
-        "name": "קטע מספר 44: מנחל מנגן לנחל רחם/עתק",
-        "coords": [
-            29.8076,
-            34.9924
-        ],
-        "length": 16.5,
-        "source": "https://www.tiuli.com/tracks/215",
-        "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
         ]
@@ -5644,7 +4008,7 @@
             34.9924
         ],
         "length": 16.5,
-        "source": "https://www.tiuli.com/tracks/215",
+        "source": "https://www.tiuli.com/tracks/215/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-44-%D7%9E%D7%A0%D7%97%D7%9C-%D7%9E%D7%A0%D7%92%D7%9F-%D7%9C%D7%A0%D7%97%D7%9C-%D7%A8%D7%97%D7%9D-%D7%A2%D7%AA%D7%A7",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -5657,49 +4021,8 @@
             34.9963
         ],
         "length": 27.0,
-        "source": "https://www.tiuli.com/tracks/218",
+        "source": "https://www.tiuli.com/tracks/218/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-41-%D7%9E%D7%A6%D7%95%D7%9E%D7%AA-%D7%A6%D7%99%D7%97%D7%95%D7%A8-%D7%9C%D7%A6%D7%95%D7%9E%D7%AA-%D7%A9%D7%99%D7%96%D7%A4%D7%95%D7%9F",
         "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 41: מצומת ציחור לצומת שיזפון",
-        "coords": [
-            30.2761,
-            34.9963
-        ],
-        "length": 27.0,
-        "source": "https://www.tiuli.com/tracks/218",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "לדווש בעקבות הציורים: אמנות רחוב בתל אביב",
-        "coords": [
-            32.0854,
-            34.7818
-        ],
-        "length": 0.0,
-        "source": "https://www.tiuli.com/tracks/206",
-        "difficulty": "קל",
-        "tags": [
-            "מתאים למשפחות",
-            "רומנטי",
-            "מתאים לאופניים"
-        ]
-    },
-    {
-        "name": "קטע מספר 39: ממושב צופר לחניון נחל ברק",
-        "coords": [
-            30.5597,
-            35.1803
-        ],
-        "length": 26.0,
-        "source": "https://www.tiuli.com/tracks/220",
-        "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
         ]
@@ -5711,7 +4034,7 @@
             35.1803
         ],
         "length": 26.0,
-        "source": "https://www.tiuli.com/tracks/220",
+        "source": "https://www.tiuli.com/tracks/220/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-39-%D7%9E%D7%9E%D7%95%D7%A9%D7%91-%D7%A6%D7%95%D7%A4%D7%A8-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%A0%D7%97%D7%9C-%D7%91%D7%A8%D7%A7",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -5724,20 +4047,7 @@
             34.9988
         ],
         "length": 24.0,
-        "source": "https://www.tiuli.com/tracks/216",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 43: משחרות לחניון נחל מנגן",
-        "coords": [
-            29.9039,
-            34.9988
-        ],
-        "length": 24.0,
-        "source": "https://www.tiuli.com/tracks/216",
+        "source": "https://www.tiuli.com/tracks/216/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-43-%D7%9E%D7%A9%D7%97%D7%A8%D7%95%D7%AA-%D7%9C%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%A0%D7%97%D7%9C-%D7%9E%D7%A0%D7%92%D7%9F",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -5750,20 +4060,7 @@
             35.0145
         ],
         "length": 23.0,
-        "source": "https://www.tiuli.com/tracks/217",
-        "difficulty": "קל",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 42: מצומת שיזפון לשחרות",
-        "coords": [
-            30.0485,
-            35.0145
-        ],
-        "length": 23.0,
-        "source": "https://www.tiuli.com/tracks/217",
+        "source": "https://www.tiuli.com/tracks/217/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-42-%D7%9E%D7%A6%D7%95%D7%9E%D7%AA-%D7%A9%D7%99%D7%96%D7%A4%D7%95%D7%9F-%D7%9C%D7%A9%D7%97%D7%A8%D7%95%D7%AA",
         "difficulty": "קל",
         "tags": [
             "מקטע משביל ישראל"
@@ -5776,20 +4073,7 @@
             35.0522
         ],
         "length": 27.5,
-        "source": "https://www.tiuli.com/tracks/221",
-        "difficulty": "בינוני",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 38: מחניון גב חולית למושב צופר",
-        "coords": [
-            30.6334,
-            35.0522
-        ],
-        "length": 27.5,
-        "source": "https://www.tiuli.com/tracks/221",
+        "source": "https://www.tiuli.com/tracks/221/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-38-%D7%9E%D7%97%D7%A0%D7%99%D7%95%D7%9F-%D7%92%D7%91-%D7%97%D7%95%D7%9C%D7%99%D7%AA-%D7%9C%D7%9E%D7%95%D7%A9%D7%91-%D7%A6%D7%95%D7%A4%D7%A8",
         "difficulty": "בינוני",
         "tags": [
             "מקטע משביל ישראל"
@@ -5802,20 +4086,7 @@
             35.0924409
         ],
         "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/346",
-        "difficulty": "קל",
-        "tags": [
-            "טיול עירוני"
-        ]
-    },
-    {
-        "name": "טיול רוחני בעכו: מסלול בין האתרים הדתיים של העיר",
-        "coords": [
-            32.9479908,
-            35.0924409
-        ],
-        "length": 2.0,
-        "source": "https://www.tiuli.com/tracks/346",
+        "source": "https://www.tiuli.com/tracks/346/%D7%99%D7%95%D7%9D-%D7%98%D7%99%D7%95%D7%9C-%D7%A8%D7%95%D7%97%D7%A0%D7%99-%D7%91%D7%A2%D7%9B%D7%95%C2%A0%C2%A0",
         "difficulty": "קל",
         "tags": [
             "טיול עירוני"
@@ -5828,24 +4099,7 @@
             35.5758
         ],
         "length": 26.0,
-        "source": "https://www.tiuli.com/tracks/259",
-        "difficulty": "בינוני",
-        "tags": [
-            "מים ומעיינות",
-            "למיטיבי לכת",
-            "טיול עירוני",
-            "טיול שטח",
-            "טבע"
-        ]
-    },
-    {
-        "name": "קטע מספר 2: מכפר גלעדי למושב רמות נפתלי",
-        "coords": [
-            33.2407,
-            35.5758
-        ],
-        "length": 26.0,
-        "source": "https://www.tiuli.com/tracks/259",
+        "source": "https://www.tiuli.com/tracks/259/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-2-%D7%9E%D7%9B%D7%A4%D7%A8-%D7%92%D7%9C%D7%A2%D7%93%D7%99-%D7%9C%D7%9E%D7%95%D7%A9%D7%91-%D7%A8%D7%9E%D7%95%D7%AA-%D7%A0%D7%A4%D7%AA%D7%9C%D7%99",
         "difficulty": "בינוני",
         "tags": [
             "מים ומעיינות",
@@ -5862,20 +4116,7 @@
             35.7716523069457
         ],
         "length": 12.0,
-        "source": "https://www.tiuli.com/tracks/260",
-        "difficulty": "קשה",
-        "tags": [
-            "מקטע משביל ישראל"
-        ]
-    },
-    {
-        "name": "קטע מספר 1: מהחרמון ועד לבניאס",
-        "coords": [
-            33.3067316558926,
-            35.7716523069457
-        ],
-        "length": 12.0,
-        "source": "https://www.tiuli.com/tracks/260",
+        "source": "https://www.tiuli.com/tracks/260/%D7%A7%D7%98%D7%A2-%D7%9E%D7%A1%D7%A4%D7%A8-1-%D7%9E%D7%94%D7%97%D7%A8%D7%9E%D7%95%D7%9F-%D7%95%D7%A2%D7%93-%D7%9C%D7%91%D7%A0%D7%99%D7%90%D7%A1",
         "difficulty": "קשה",
         "tags": [
             "מקטע משביל ישראל"
@@ -13636,7 +11877,7 @@
             35.0305387
         ],
         "length": 3.0,
-        "source": "https://www.tiuli.com/tracks/333",
+        "source": "https://www.tiuli.com/tracks/333/-11",
         "difficulty": "קל",
         "tags": [
             "מתאים למשפחות",
@@ -13655,7 +11896,7 @@
             34.911424346557624
         ],
         "length": 4.0,
-        "source": "https://www.tiuli.com/tracks/342",
+        "source": "https://www.tiuli.com/tracks/342/-9",
         "difficulty": "בינוני",
         "tags": [
             "מתאים למשפחות",
@@ -13666,6 +11907,561 @@
             "טבע",
             "סיור ערב",
             "נוף ותצפית"
+        ]
+    },
+    {
+        "name": "עין בוקק, נחל בוקק וצוק תמרור",
+        "coords": [
+            31.174,
+            35.3064
+        ],
+        "length": 10.0,
+        "source": "https://www.tiuli.com/tracks/3/%D7%A2%D7%99%D7%9F-%D7%91%D7%95%D7%A7%D7%A7-%D7%A0%D7%97%D7%9C-%D7%91%D7%95%D7%A7%D7%A7-%D7%95%D7%A6%D7%95%D7%A7-%D7%AA%D7%9E%D7%A8%D7%95%D7%A8",
+        "difficulty": "בינוני",
+        "tags": [
+            "מים ומעיינות",
+            "למיטיבי לכת",
+            "מתאים למשפחות"
+        ]
+    },
+    {
+        "name": "רמת הנדיב",
+        "coords": [
+            32.552,
+            34.947
+        ],
+        "length": 5.0,
+        "source": "https://www.tiuli.com/tracks/6/%D7%A8%D7%9E%D7%AA-%D7%94%D7%A0%D7%93%D7%99%D7%91",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "מתאים לאופניים",
+            "מעגלי",
+            "הגעה בתחבורה ציבורית",
+            "נגיש"
+        ]
+    },
+    {
+        "name": "מערת אצבע, עתלית וחרבת קרתה",
+        "coords": [
+            32.7141,
+            34.9768
+        ],
+        "length": 3.0,
+        "source": "https://www.tiuli.com/tracks/25/%D7%9E%D7%A2%D7%A8%D7%AA-%D7%90%D7%A6%D7%91%D7%A2-%D7%A2%D7%AA%D7%9C%D7%99%D7%AA-%D7%95%D7%97%D7%A8%D7%91%D7%AA-%D7%A7%D7%A8%D7%AA%D7%94",
+        "difficulty": "בינוני",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "מעגלי",
+            "מתאים לכלבים"
+        ]
+    },
+    {
+        "name": "פארק קנדה לטרון (עמק איילון)",
+        "coords": [
+            31.8365,
+            34.9771
+        ],
+        "length": 4.0,
+        "source": "https://www.tiuli.com/tracks/14/%D7%A4%D7%90%D7%A8%D7%A7-%D7%A7%D7%A0%D7%93%D7%94-%D7%9C%D7%98%D7%A8%D7%95%D7%9F-%D7%90%D7%98%D7%A8%D7%A7%D7%A6%D7%99%D7%95%D7%AA-%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%90%D7%95%D7%A4%D7%A0%D7%99%D7%99%D7%9D-%D7%95%D7%A2%D7%95%D7%93",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "מתאים לאופניים",
+            "מעגלי",
+            "מתאים לכלבים"
+        ]
+    },
+    {
+        "name": "שביל כרמל-כנרת: טיול לזכר כרמל וכנרת גת",
+        "coords": [
+            32.73002871252163,
+            35.052429931991426
+        ],
+        "length": 90.0,
+        "source": "https://www.tiuli.com/tracks/383/-19",
+        "difficulty": "בינוני",
+        "tags": [
+            "מים ומעיינות",
+            "למיטיבי לכת",
+            "מתאים למשפחות",
+            "מתאים לכלבים",
+            "טיול שטח",
+            "מקטע משביל ישראל",
+            "טבע"
+        ]
+    },
+    {
+        "name": "נחל אביב ונחל דישון: מסלול בשניים מהנחלים היפים בארץ",
+        "coords": [
+            33.0826,
+            35.4604
+        ],
+        "length": 4.0,
+        "source": "https://www.tiuli.com/tracks/10/%D7%A0%D7%97%D7%9C-%D7%90%D7%91%D7%99%D7%91-%D7%95%D7%A0%D7%97%D7%9C-%D7%93%D7%99%D7%A9%D7%95%D7%9F",
+        "difficulty": "קל",
+        "tags": [
+            "למיטיבי לכת",
+            "מתאים למשפחות",
+            "מתאים לאופניים",
+            "פריחה"
+        ]
+    },
+    {
+        "name": "מעיינות גבתון לתל גזר",
+        "coords": [
+            31.8382,
+            34.8668
+        ],
+        "length": 4.0,
+        "source": "https://www.tiuli.com/tracks/36/%D7%9E%D7%A2%D7%99%D7%99%D7%A0%D7%95%D7%AA-%D7%92%D7%91%D7%AA%D7%95%D7%9F-%D7%9C%D7%AA%D7%9C-%D7%92%D7%96%D7%A8",
+        "difficulty": "קל",
+        "tags": [
+            "למיטיבי לכת",
+            "מתאים למשפחות",
+            "מתאים לאופניים",
+            "מעגלי",
+            "פריחה"
+        ]
+    },
+    {
+        "name": "מזרח הרמון: ממכתש רמון לערבה",
+        "coords": [
+            30.5892,
+            34.9192
+        ],
+        "length": 30.0,
+        "source": "https://www.tiuli.com/tracks/29/%D7%9E%D7%96%D7%A8%D7%97-%D7%94%D7%A8%D7%9E%D7%95%D7%9F-%D7%9E%D7%9E%D7%9B%D7%AA%D7%A9-%D7%A8%D7%9E%D7%95%D7%9F-%D7%9C%D7%A2%D7%A8%D7%91%D7%94",
+        "difficulty": "קשה",
+        "tags": [
+            "למיטיבי לכת",
+            "מחייב ציוד על הגב",
+            "הגעה בתחבורה ציבורית"
+        ]
+    },
+    {
+        "name": "יער ברעם ובית הכנסת העתיק",
+        "coords": [
+            33.0436,
+            35.4153
+        ],
+        "length": 4.0,
+        "source": "https://www.tiuli.com/tracks/4/%D7%99%D7%A2%D7%A8-%D7%91%D7%A8%D7%A2%D7%9D-%D7%95%D7%91%D7%99%D7%AA-%D7%94%D7%9B%D7%A0%D7%A1%D7%AA-%D7%94%D7%A2%D7%AA%D7%99%D7%A7",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "מתאים לאופניים",
+            "מעגלי"
+        ]
+    },
+    {
+        "name": "אירוס הארגמן בגבעת חומרה",
+        "coords": [
+            31.9356,
+            34.745
+        ],
+        "length": 1.0,
+        "source": "https://www.tiuli.com/tracks/37/%D7%90%D7%99%D7%A8%D7%95%D7%A1-%D7%94%D7%90%D7%A8%D7%92%D7%9E%D7%9F-%D7%91%D7%92%D7%91%D7%A2%D7%AA-%D7%97%D7%95%D7%9E%D7%A8%D7%94",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "מעגלי",
+            "פריחה",
+            "נגיש"
+        ]
+    },
+    {
+        "name": "עכו העתיקה: טיול בין אולמות האבירים, הנמל ועוד",
+        "coords": [
+            32.9274,
+            35.0789
+        ],
+        "length": 3.0,
+        "source": "https://www.tiuli.com/tracks/13/%D7%A2%D7%9B%D7%95-%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94-%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%99%D7%9F-%D7%90%D7%95%D7%9C%D7%9E%D7%95%D7%AA-%D7%94%D7%90%D7%91%D7%99%D7%A8%D7%99%D7%9D-%D7%94%D7%A0%D7%9E%D7%9C-%D7%95%D7%A2%D7%95%D7%93",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "ניתן לעשות בחשכה",
+            "מעגלי",
+            "טיול עירוני",
+            "מתאים לכלבים",
+            "הגעה בתחבורה ציבורית"
+        ]
+    },
+    {
+        "name": "עין שרונה ובקעת יבניאל",
+        "coords": [
+            32.7135,
+            35.4728
+        ],
+        "length": 3.0,
+        "source": "https://www.tiuli.com/tracks/31/%D7%A2%D7%99%D7%9F-%D7%A9%D7%A8%D7%95%D7%A0%D7%94-%D7%95%D7%91%D7%A7%D7%A2%D7%AA-%D7%99%D7%91%D7%A0%D7%99%D7%90%D7%9C",
+        "difficulty": "קל",
+        "tags": [
+            "מים ומעיינות",
+            "מתאים למשפחות",
+            "רומנטי",
+            "ניתן לעשות בחשכה",
+            "מעגלי"
+        ]
+    },
+    {
+        "name": "חרבת מדרס וחרבת עתרי",
+        "coords": [
+            31.6547,
+            34.9404
+        ],
+        "length": 7.0,
+        "source": "https://www.tiuli.com/tracks/7/%D7%97%D7%A8%D7%91%D7%AA-%D7%9E%D7%93%D7%A8%D7%A1-%D7%95%D7%97%D7%A8%D7%91%D7%AA-%D7%A2%D7%AA%D7%A8%D7%99",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "מתאים לאופניים",
+            "מעגלי"
+        ]
+    },
+    {
+        "name": "אנדרטת גדוד 77 - עמק הבכא",
+        "coords": [
+            33.1768,
+            35.7969
+        ],
+        "length": 0.0,
+        "source": "https://www.tiuli.com/tracks/34/%D7%90%D7%A0%D7%93%D7%A8%D7%98%D7%AA-%D7%92%D7%93%D7%95%D7%93-77-%D7%A2%D7%9E%D7%A7-%D7%94%D7%91%D7%9B%D7%90",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "ניתן לעשות בחשכה",
+            "מעגלי",
+            "נגיש"
+        ]
+    },
+    {
+        "name": "שונית האלמוגים בחוף אלמוג",
+        "coords": [
+            29.5134,
+            34.9247
+        ],
+        "length": 2.0,
+        "source": "https://www.tiuli.com/tracks/30/%D7%A9%D7%95%D7%A0%D7%99%D7%AA-%D7%94%D7%90%D7%9C%D7%9E%D7%95%D7%92%D7%99%D7%9D-%D7%91%D7%97%D7%95%D7%A3-%D7%90%D7%9C%D7%9E%D7%95%D7%92-%D7%91%D7%90%D7%99%D7%9C%D7%AA",
+        "difficulty": "קל",
+        "tags": [
+            "מים ומעיינות",
+            "מתאים למשפחות",
+            "רומנטי",
+            "מעגלי",
+            "הגעה בתחבורה ציבורית"
+        ]
+    },
+    {
+        "name": "מסעד לבארי: פריחה בצפון הנגב",
+        "coords": [
+            31.5063,
+            34.5543
+        ],
+        "length": 7.0,
+        "source": "https://www.tiuli.com/tracks/18/%D7%9E%D7%A1%D7%A2%D7%93-%D7%9C%D7%91%D7%90%D7%A8%D7%99-%D7%A4%D7%A8%D7%99%D7%97%D7%94-%D7%91%D7%A6%D7%A4%D7%95%D7%9F-%D7%94%D7%A0%D7%92%D7%91",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "מתאים לאופניים",
+            "מעגלי",
+            "פריחה"
+        ]
+    },
+    {
+        "name": "מעיינות ברמת הגולן: טיול רטוב ומרענן לאורך דרך הפטרולים",
+        "coords": [
+            33.0407,
+            35.6302
+        ],
+        "length": 3.0,
+        "source": "https://www.tiuli.com/tracks/2/%D7%9E%D7%A2%D7%99%D7%99%D7%A0%D7%95%D7%AA-%D7%91%D7%A8%D7%9E%D7%AA-%D7%94%D7%92%D7%95%D7%9C%D7%9F-%D7%9C%D7%90%D7%95%D7%A8%D7%9A-%D7%93%D7%A8%D7%9A-%D7%94%D7%A4%D7%98%D7%A8%D7%95%D7%9C%D7%99%D7%9D",
+        "difficulty": "קל",
+        "tags": [
+            "מים ומעיינות",
+            "מתאים למשפחות",
+            "מתאים לאופניים",
+            "מעגלי"
+        ]
+    },
+    {
+        "name": "מבית שאן לכוכב הירדן",
+        "coords": [
+            32.5123,
+            35.5043
+        ],
+        "length": 17.0,
+        "source": "https://www.tiuli.com/tracks/20/%D7%9E%D7%91%D7%99%D7%AA-%D7%A9%D7%90%D7%9F-%D7%9C%D7%9B%D7%95%D7%9B%D7%91-%D7%94%D7%99%D7%A8%D7%93%D7%9F",
+        "difficulty": "קשה",
+        "tags": [
+            "למיטיבי לכת",
+            "מתאים לאופניים"
+        ]
+    },
+    {
+        "name": "נחל הבשור ופארק אשכול",
+        "coords": [
+            31.3095,
+            34.4929
+        ],
+        "length": 14.0,
+        "source": "https://www.tiuli.com/tracks/23/%D7%A0%D7%97%D7%9C-%D7%94%D7%91%D7%A9%D7%95%D7%A8-%D7%95%D7%A4%D7%90%D7%A8%D7%A7-%D7%90%D7%A9%D7%9B%D7%95%D7%9C",
+        "difficulty": "קל",
+        "tags": [
+            "מים ומעיינות",
+            "מתאים למשפחות",
+            "רומנטי",
+            "מתאים לאופניים",
+            "מעגלי",
+            "פריחה",
+            "מתאים לכלבים",
+            "טיול שטח"
+        ]
+    },
+    {
+        "name": "נחל הקיבוצים, הגלבוע ונחל יצפור",
+        "coords": [
+            32.4859,
+            35.4132
+        ],
+        "length": 5.0,
+        "source": "https://www.tiuli.com/tracks/38/%D7%A0%D7%97%D7%9C-%D7%94%D7%A7%D7%99%D7%91%D7%95%D7%A6%D7%99%D7%9D-%D7%94%D7%92%D7%9C%D7%91%D7%95%D7%A2-%D7%95%D7%A0%D7%97%D7%9C-%D7%99%D7%A6%D7%A4%D7%95%D7%A8",
+        "difficulty": "בינוני",
+        "tags": [
+            "מים ומעיינות",
+            "מתאים למשפחות",
+            "פריחה"
+        ]
+    },
+    {
+        "name": "נחל חווארים עליון",
+        "coords": [
+            30.831278,
+            34.741267
+        ],
+        "length": 4.0,
+        "source": "https://www.tiuli.com/tracks/393/-29",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "ניתן לעשות בחשכה",
+            "מעגלי",
+            "מתאים לכלבים",
+            "טיול שטח",
+            "טבע",
+            "סיור ערב"
+        ]
+    },
+    {
+        "name": "שוויצריה הקטנה: מסלול משפחות מעגלי",
+        "coords": [
+            32.7457409,
+            35.0260361
+        ],
+        "length": 1.5,
+        "source": "https://www.tiuli.com/tracks/1395/-33",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "מעגלי",
+            "פריחה",
+            "מתאים לכלבים",
+            "טבע",
+            "פיקניק",
+            "נוף ותצפית"
+        ]
+    },
+    {
+        "name": "עין אשחר ועין מירב: מסלול מעגלי בין מעיינות נחל געתון",
+        "coords": [
+            33.015297,
+            35.201453
+        ],
+        "length": 3.5,
+        "source": "https://www.tiuli.com/tracks/1396/-34",
+        "difficulty": "קל",
+        "tags": [
+            "מים ומעיינות",
+            "מתאים למשפחות",
+            "מתאים לאופניים",
+            "מעגלי",
+            "פריחה",
+            "מתאים לכלבים",
+            "טבע",
+            "פיקניק"
+        ]
+    },
+    {
+        "name": "מבצר יחיעם ונחל געתון",
+        "coords": [
+            33.0115,
+            35.1826
+        ],
+        "length": 3.0,
+        "source": "https://www.tiuli.com/tracks/1/%D7%9E%D7%91%D7%A6%D7%A8-%D7%99%D7%97%D7%99%D7%A2%D7%9D-%D7%95%D7%A0%D7%97%D7%9C-%D7%92%D7%A2%D7%AA%D7%95%D7%9F",
+        "difficulty": "בינוני",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "מתאים לאופניים",
+            "מעגלי"
+        ]
+    },
+    {
+        "name": "נחל קרקש",
+        "coords": [
+            30.854012817568123,
+            34.77060813214029
+        ],
+        "length": 3.0,
+        "source": "https://www.tiuli.com/tracks/1394/-32",
+        "difficulty": "בינוני",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "ניתן לעשות בחשכה",
+            "מעגלי",
+            "פריחה",
+            "מתאים לכלבים",
+            "טיול שטח",
+            "הגעה בתחבורה ציבורית",
+            "טבע",
+            "סיור ערב"
+        ]
+    },
+    {
+        "name": "מג'רסה - בקעת בית צידה",
+        "coords": [
+            32.8858,
+            35.6411
+        ],
+        "length": 1.0,
+        "source": "https://www.tiuli.com/tracks/21/%D7%9E%D7%92-%D7%A8%D7%A1%D7%94-%D7%91%D7%A7%D7%A2%D7%AA-%D7%91%D7%99%D7%AA-%D7%A6%D7%99%D7%93%D7%94",
+        "difficulty": "בינוני",
+        "tags": [
+            "מים ומעיינות",
+            "מתאים למשפחות",
+            "רומנטי",
+            "מעגלי",
+            "נגיש"
+        ]
+    },
+    {
+        "name": "עין תינה - עין נוטרה",
+        "coords": [
+            33.0778008,
+            35.64638410000001
+        ],
+        "length": 0.0,
+        "source": "https://www.tiuli.com/tracks/1397/-35",
+        "difficulty": "קל",
+        "tags": [
+            "טבע",
+            "מעיין",
+            "משפחתי",
+            "לילדים"
+        ]
+    },
+    {
+        "name": "נחל כזיב: מעין טמיר למצפור מונפורט",
+        "coords": [
+            33.0334,
+            35.2386
+        ],
+        "length": 6.0,
+        "source": "https://www.tiuli.com/tracks/8/-37",
+        "difficulty": "בינוני",
+        "tags": [
+            "מים ומעיינות",
+            "למיטיבי לכת",
+            "מתאים למשפחות",
+            "מעגלי",
+            "פריחה",
+            "הגעה בתחבורה ציבורית",
+            "טבע",
+            "נוף ותצפית"
+        ]
+    },
+    {
+        "name": "בקעת כורסי, נחל עין-גב וסוסיתא",
+        "coords": [
+            32.8267,
+            35.6503
+        ],
+        "length": 3.0,
+        "source": "https://www.tiuli.com/tracks/26/%D7%91%D7%A7%D7%A2%D7%AA-%D7%9B%D7%95%D7%A8%D7%A1%D7%99-%D7%A0%D7%97%D7%9C-%D7%A2%D7%99%D7%9F-%D7%92%D7%91-%D7%95%D7%A1%D7%95%D7%A1%D7%99%D7%AA%D7%90",
+        "difficulty": "בינוני",
+        "tags": [
+            "מתאים למשפחות",
+            "רומנטי",
+            "מעגלי",
+            "פריחה"
+        ]
+    },
+    {
+        "name": "הבניאס: נחל חרמון",
+        "coords": [
+            33.2472378,
+            35.6934429
+        ],
+        "length": 6.0,
+        "source": "https://www.tiuli.com/tracks/277/%D7%94%D7%91%D7%A0%D7%99%D7%90%D7%A1-%D7%A0%D7%97%D7%9C-%D7%97%D7%A8%D7%9E%D7%95%D7%9F",
+        "difficulty": "בינוני",
+        "tags": [
+            "מים ומעיינות",
+            "טיול שטח",
+            "טבע"
+        ]
+    },
+    {
+        "name": "הירדן ההררי: מסלול מעגלי ומסלול קווי בפארק הירדן",
+        "coords": [
+            33.004838,
+            35.62773300000001
+        ],
+        "length": 11.0,
+        "source": "https://www.tiuli.com/tracks/334/-13",
+        "difficulty": "קל",
+        "tags": [
+            "מתאים למשפחות",
+            "מעגלי",
+            "מתאים לכלבים",
+            "טיול שטח",
+            "טבע"
+        ]
+    },
+    {
+        "name": "מתל יזרעאל לעין יזרעאל",
+        "coords": [
+            32.5571339,
+            35.3319069
+        ],
+        "length": 1.5,
+        "source": "https://www.tiuli.com/tracks/1399/-38",
+        "difficulty": "קל",
+        "tags": [
+            "מים ומעיינות",
+            "מתאים למשפחות",
+            "רומנטי",
+            "ניתן לעשות בחשכה",
+            "מתאים לאופניים",
+            "פריחה",
+            "מתאים לכלבים",
+            "טיול שטח",
+            "טבע",
+            "פיקניק",
+            "נוף ותצפית",
+            "נגיש"
         ]
     }
 ]
