@@ -8,8 +8,10 @@ let maxLength = 100;
 let currentTileLayer;
 let osmTileLayer;
 let hikingTileLayer;
+let mapStyleMode = 'auto';
 const HIKING_MAP_ZOOM_THRESHOLD = 12;
 const DEFAULT_MAP_VIEW = { lat: 31.25, lng: 35.2, zoom: 7 };
+const MAP_STYLE_MODES = new Set(['auto', 'israel', 'osm']);
 
 // Initialize the app
 document.addEventListener('DOMContentLoaded', function () {
@@ -24,6 +26,8 @@ function initMap() {
     const lat = parseFloat(urlParams.get('lat')) || DEFAULT_MAP_VIEW.lat;
     const lng = parseFloat(urlParams.get('lng')) || DEFAULT_MAP_VIEW.lng;
     const zoom = parseInt(urlParams.get('zoom')) || DEFAULT_MAP_VIEW.zoom;
+    mapStyleMode = getMapStyleMode(urlParams.get('mapStyle'));
+    document.getElementById('mapStyle').value = mapStyleMode;
 
     map = L.map('map').setView([lat, lng], zoom);
 
@@ -49,20 +53,15 @@ function initMap() {
         attribution: '© Israel Hiking Map'
     });
 
-    currentTileLayer = zoom >= HIKING_MAP_ZOOM_THRESHOLD ? hikingTileLayer : osmTileLayer;
-    currentTileLayer.addTo(map);
+    // Keep the fast OSM layer visible while the detailed hiking style warms up.
+    osmTileLayer.addTo(map);
+    hikingTileLayer.addTo(map);
+    applyMapStyle();
 
-    // Switch tile layers based on zoom level
+    // Keep automatic mode tied to the current zoom level.
     map.on('zoomend', function () {
-        const zoomLevel = map.getZoom();
-        if (zoomLevel >= HIKING_MAP_ZOOM_THRESHOLD && currentTileLayer === osmTileLayer) {
-            map.removeLayer(osmTileLayer);
-            hikingTileLayer.addTo(map);
-            currentTileLayer = hikingTileLayer;
-        } else if (zoomLevel < HIKING_MAP_ZOOM_THRESHOLD && currentTileLayer === hikingTileLayer) {
-            map.removeLayer(hikingTileLayer);
-            osmTileLayer.addTo(map);
-            currentTileLayer = osmTileLayer;
+        if (mapStyleMode === 'auto') {
+            applyMapStyle();
         }
     });
 
@@ -79,6 +78,42 @@ function initMap() {
         const newUrl = `${window.location.pathname}?${params.toString()}`;
         window.history.replaceState({}, '', newUrl);
     });
+}
+
+function getMapStyleMode(value) {
+    return MAP_STYLE_MODES.has(value) ? value : 'auto';
+}
+
+function applyMapStyle() {
+    const layer = mapStyleMode === 'israel'
+        ? hikingTileLayer
+        : mapStyleMode === 'osm'
+            ? osmTileLayer
+            : map.getZoom() >= HIKING_MAP_ZOOM_THRESHOLD
+                ? hikingTileLayer
+                : osmTileLayer;
+
+    if (currentTileLayer === layer) {
+        return;
+    }
+
+    osmTileLayer.setOpacity(layer === osmTileLayer ? 1 : 0);
+    hikingTileLayer.getContainer().style.opacity = layer === hikingTileLayer ? '1' : '0';
+    currentTileLayer = layer;
+}
+
+function updateMapStyle(value) {
+    mapStyleMode = getMapStyleMode(value);
+    applyMapStyle();
+
+    const params = new URLSearchParams(window.location.search);
+    if (mapStyleMode === 'auto') {
+        params.delete('mapStyle');
+    } else {
+        params.set('mapStyle', mapStyleMode);
+    }
+    const newUrl = `${window.location.pathname}?${params.toString()}`;
+    window.history.replaceState({}, '', newUrl);
 }
 
 // Load hikes from JSON
@@ -148,6 +183,9 @@ function setupEventListeners() {
     document.getElementById('resetFilters').addEventListener('click', resetFilters);
     document.getElementById('minimizeBtn').addEventListener('click', toggleSidebar);
     document.getElementById('expandBtn').addEventListener('click', toggleSidebar);
+    document.getElementById('mapStyle').addEventListener('change', event => {
+        updateMapStyle(event.target.value);
+    });
 }
 
 function handleLengthInputKeydown(event) {
@@ -204,17 +242,43 @@ function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
     const expandBtn = document.getElementById('expandBtn');
     const footer = document.getElementById('footer');
+    const mapAnchor = map
+        ? map.containerPointToLatLng([map.getSize().x / 2, 0])
+        : null;
+
+    const handleSidebarTransitionEnd = event => {
+        const layoutProperties = ['height', 'max-height', 'width', 'margin-left'];
+        if (
+            event.target !== sidebar ||
+            !map ||
+            !layoutProperties.includes(event.propertyName)
+        ) {
+            return;
+        }
+
+        sidebar.removeEventListener('transitionend', handleSidebarTransitionEnd);
+        map.invalidateSize({ pan: false, animate: false });
+        if (mapAnchor) {
+            const size = map.getSize();
+            const anchorPoint = map.project(mapAnchor, map.getZoom());
+            const targetCenter = map.unproject(
+                [anchorPoint.x, anchorPoint.y + size.y / 2],
+                map.getZoom()
+            );
+            map.setView(targetCenter, map.getZoom(), { animate: false });
+        }
+    };
+    sidebar.addEventListener('transitionend', handleSidebarTransitionEnd);
 
     sidebar.classList.toggle('minimized');
     const isMinimized = sidebar.classList.contains('minimized');
+    footer.classList.toggle('is-collapsed', isMinimized);
 
     if (isMinimized) {
         setTimeout(() => {
             expandBtn.style.display = sidebar.classList.contains('minimized') ? 'block' : 'none';
-            footer.style.display = 'none';
         }, 300);
     } else {
-        footer.style.display = 'block';
         expandBtn.style.display = 'none';
     }
 
@@ -228,10 +292,6 @@ function toggleSidebar() {
     const newUrl = `${window.location.pathname}?${params.toString()}`;
     window.history.replaceState({}, '', newUrl);
 
-    // Resize map after transition completes
-    setTimeout(() => {
-        map.invalidateSize();
-    }, 300);
 }
 
 // Switch between Filters and Hikes tabs on mobile

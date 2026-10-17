@@ -28,7 +28,7 @@ A hiking trail explorer for Israel with an interactive map and filtering system.
 - Real-time filtering by distance and tags
 - Responsive design with collapsible sidebar
 - Trail details popup
-- Switch from OpenStreetMaps to IsraelHikingMap depends on zoom level
+- Choose OpenStreetMap, IsraelHikingMap, or automatic switching based on zoom level
 
 **🐍 Backend** - Hand-written Python scrapers
 - Parallel scraping from multiple hiking data sources ([Parks.org.il](https://www.parks.org.il/), [Tiuli](https://www.tiuli.com/), [kkl](https://www.kkl.org.il/travel))

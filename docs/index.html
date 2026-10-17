@@ -3,7 +3,7 @@
 <head>
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>הייקר - מפת טיולים</title>
     <meta name="description" content="מפת טיולים אינטראקטיבית למציאת מסלולים בישראל">
 
@@ -13,7 +13,7 @@
     <meta property="og:image" content="https://hiker.sitton.dev/favicon.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
-    <link rel="stylesheet" href="styles.css?v=20261016-map-shell-v2">
+    <link rel="stylesheet" href="styles.css?v=20261017-smooth-collapse-v8">
 </head>
 <body>
     <div class="container">
@@ -110,6 +110,14 @@
         <button id="expandBtn" class="expand-btn" style="display: none;" title="הרחב סרגל צד"><span aria-hidden="true"></span></button>
 
         <div class="map-container">
+            <div class="map-style-control" aria-label="בחירת סוג מפה">
+                <label for="mapStyle">סוג מפה</label>
+                <select id="mapStyle">
+                    <option value="auto">אוטומטי</option>
+                    <option value="osm">osm</option>
+                    <option value="israel">מפת טיולים</option>
+                </select>
+            </div>
             <div id="mapStatus" class="map-status" role="status" aria-live="polite">טוען מסלולים...</div>
                 <footer id="footer">
                     <span>נוצר על ידי טל סיטון | </span>
@@ -135,7 +143,7 @@
 
     <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.17/leaflet-maplibre-gl.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-    <script src="script.js?v=20261017-sort-fix"></script>
+    <script src="script.js?v=20261017-smooth-collapse-v8"></script>
 
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3ca74af770f24b49b0bff960d9214e72"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
