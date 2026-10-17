@@ -63,7 +63,7 @@ def replace(scraper: Scraper):
     for hike in new_hikes:
         found_hike = False
         for existing_hike in existing_hikes:
-            if hike.source == existing_hike.source:
+            if existing_hike.source in hike.source:
                 existing_hike.copy_from(hike)
                 found_hike = True
                 break
