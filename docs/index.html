@@ -13,15 +13,18 @@
     <meta property="og:image" content="https://hiker.sitton.dev/favicon.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20261016-map-shell-v2">
 </head>
 <body>
     <div class="container">
         <div class="sidebar" id="sidebar">
             <div class="sidebar-header">
                 <img src="favicon.png" alt="לוגו" class="logo" width="50px">
-                <h1>הייקר - טיולים</h1>
-                <button id="minimizeBtn" class="minimize-btn" title="הסתר סרגל צד">◀</button>
+                <div class="brand-lockup">
+                    <h1>הייקר - טיולים</h1>
+                    <span>מפת מסלולים בישראל</span>
+                </div>
+                <button id="minimizeBtn" class="minimize-btn" title="הסתר סרגל צד" aria-label="הסתר סרגל צד"><span class="collapse-icon" aria-hidden="true"></span></button>
             </div>
 
             <div class="mobile-tabs">
@@ -30,6 +33,16 @@
             </div>
 
             <div class="filter-section" id="filtersTab">
+                <div class="filters-overview">
+                    <div>
+                        <span class="filters-eyebrow">חיפוש ממוקד</span>
+                        <h2>מסננים</h2>
+                    </div>
+                    <span id="activeFilterCount" class="active-filter-count">0 פעילים</span>
+                </div>
+                <div id="filterSummary" class="filter-summary" aria-live="polite">
+                    <span>כל הטיולים מוצגים</span>
+                </div>
                 <div class="section-header" onclick="toggleSection('lengthSection')">
                     <h3>אורך (ק"מ)</h3>
                     <span class="toggle-icon">▼</span>
@@ -39,6 +52,16 @@
                         <input type="range" id="lengthMin" min="0" max="100" value="0">
                         <input type="range" id="lengthMax" min="0" max="100" value="100">
                         <div class="range-slider-track"></div>
+                    </div>
+                    <div class="range-inputs">
+                        <label>
+                            <span>מינימום</span>
+                            <input type="number" id="lengthMinInput" min="0" value="0" inputmode="decimal">
+                        </label>
+                        <label>
+                            <span>מקסימום</span>
+                            <input type="number" id="lengthMaxInput" min="0" value="100" inputmode="decimal">
+                        </label>
                     </div>
                     <div class="length-display">
                         <span id="lengthDisplay">0 - 100</span> ק"מ
@@ -53,17 +76,20 @@
                     <div class="tag-logic-toggle">
                         <label>
                             <input type="radio" name="tagLogic" value="AND" checked onchange="applyFilters()">
-                            <span>כל התגיות (AND)</span>
+                            <span>כל התגיות</span>
                         </label>
                         <label>
                             <input type="radio" name="tagLogic" value="OR" onchange="applyFilters()">
-                            <span>אחת מהתגיות (OR)</span>
+                            <span>אחת מהן</span>
                         </label>
                     </div>
+                    <p class="tag-logic-help">בחרו אם המסלול צריך לכלול את כל התגיות או לפחות אחת מהן.</p>
                     <div id="tagFilter" class="tag-filter"></div>
                 </div>
 
-                <button id="resetFilters" class="btn-reset">אפס מסננים</button>
+                <div class="filter-actions">
+                    <button id="resetFilters" class="btn-reset">אפס מסננים</button>
+                </div>
             </div>
 
             <div class="hikes-list" id="hikesTab">
@@ -81,9 +107,10 @@
             </div>
         </div>
 
-        <button id="expandBtn" class="expand-btn" style="display: none;" title="הרחב סרגל צד">▶</button>
+        <button id="expandBtn" class="expand-btn" style="display: none;" title="הרחב סרגל צד"><span aria-hidden="true"></span></button>
 
         <div class="map-container">
+            <div id="mapStatus" class="map-status" role="status" aria-live="polite">טוען מסלולים...</div>
                 <footer id="footer">
                     <span>נוצר על ידי טל סיטון | </span>
                     <a href="https://github.com/tal-sitton/Hiker" target="_blank">
@@ -103,9 +130,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
     <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 
     <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.17/leaflet-maplibre-gl.js"></script>
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="script.js?v=20261017-sort-fix"></script>
 
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3ca74af770f24b49b0bff960d9214e72"}'></script><!-- End Cloudflare Web Analytics -->
 </body>

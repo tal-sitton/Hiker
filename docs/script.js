@@ -1,6 +1,7 @@
 // Initialize map
 let map;
 let markers = [];
+let markerClusterGroup;
 let allHikes = [];
 let filteredHikes = [];
 let maxLength = 100;
@@ -8,6 +9,7 @@ let currentTileLayer;
 let osmTileLayer;
 let hikingTileLayer;
 const HIKING_MAP_ZOOM_THRESHOLD = 12;
+const DEFAULT_MAP_VIEW = { lat: 31.25, lng: 35.2, zoom: 7 };
 
 // Initialize the app
 document.addEventListener('DOMContentLoaded', function () {
@@ -19,9 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
 // Initialize Leaflet map
 function initMap() {
     const urlParams = new URLSearchParams(window.location.search);
-    const lat = parseFloat(urlParams.get('lat')) || 31.25;
-    const lng = parseFloat(urlParams.get('lng')) || 35.2;
-    const zoom = parseInt(urlParams.get('zoom')) || 7;
+    const lat = parseFloat(urlParams.get('lat')) || DEFAULT_MAP_VIEW.lat;
+    const lng = parseFloat(urlParams.get('lng')) || DEFAULT_MAP_VIEW.lng;
+    const zoom = parseInt(urlParams.get('zoom')) || DEFAULT_MAP_VIEW.zoom;
 
     map = L.map('map').setView([lat, lng], zoom);
 
@@ -137,11 +139,38 @@ function setupEventListeners() {
     document.getElementById('lengthMax').addEventListener('change', applyFilters);
     document.getElementById('lengthMin').addEventListener('input', applyFilters);
     document.getElementById('lengthMax').addEventListener('input', applyFilters);
-    document.getElementById('lengthMin').addEventListener('input', () => updateRangeSliderTrack(true));
-    document.getElementById('lengthMax').addEventListener('input', () => updateRangeSliderTrack(false));
+    document.getElementById('lengthMin').addEventListener('input', () => syncLengthInput('min'));
+    document.getElementById('lengthMax').addEventListener('input', () => syncLengthInput('max'));
+    document.getElementById('lengthMinInput').addEventListener('change', () => syncRangeFromInput('min'));
+    document.getElementById('lengthMaxInput').addEventListener('change', () => syncRangeFromInput('max'));
+    document.getElementById('lengthMinInput').addEventListener('keydown', handleLengthInputKeydown);
+    document.getElementById('lengthMaxInput').addEventListener('keydown', handleLengthInputKeydown);
     document.getElementById('resetFilters').addEventListener('click', resetFilters);
     document.getElementById('minimizeBtn').addEventListener('click', toggleSidebar);
     document.getElementById('expandBtn').addEventListener('click', toggleSidebar);
+}
+
+function handleLengthInputKeydown(event) {
+    if (event.key === 'Enter') {
+        event.target.blur();
+    }
+}
+
+function syncLengthInput(which) {
+    const slider = document.getElementById(which === 'min' ? 'lengthMin' : 'lengthMax');
+    const input = document.getElementById(which === 'min' ? 'lengthMinInput' : 'lengthMaxInput');
+    input.value = slider.value;
+    updateRangeSliderTrack(which === 'min');
+}
+
+function syncRangeFromInput(which) {
+    const slider = document.getElementById(which === 'min' ? 'lengthMin' : 'lengthMax');
+    const input = document.getElementById(which === 'min' ? 'lengthMinInput' : 'lengthMaxInput');
+    const value = Math.max(0, Math.min(maxLength, parseFloat(input.value) || 0));
+    slider.value = value;
+    input.value = value;
+    updateRangeSliderTrack(which === 'min');
+    applyFilters();
 }
 
 // Update range slider track visual
@@ -161,6 +190,8 @@ function updateRangeSliderTrack(changedMin) {
         lengthMax = lengthMin;
     }
 
+    document.getElementById('lengthMinInput').value = lengthMin;
+    document.getElementById('lengthMaxInput').value = lengthMax;
     const minPercent = (lengthMin / maxSlider.max) * 100;
     const maxPercent = (lengthMax / maxSlider.max) * 100;
 
@@ -242,28 +273,51 @@ function populateTagFilters() {
         }
     });
 
-    const tagFilter = document.getElementById('tagFilter');
-    tagFilter.innerHTML = '';
-
-    Array.from(tagCounts.entries())
+    const tags = Array.from(tagCounts.entries())
         .filter(([, count]) => count >= 10)
         .map(([tag]) => tag)
-        .sort()
-        .forEach(tag => {
-        const label = document.createElement('label');
-        label.className = 'tag-checkbox';
-        label.innerHTML = `
-            <input type="checkbox" value="${tag}" onchange="applyFilters()">
-            <span>${tag}</span>
-        `;
-        tagFilter.appendChild(label);
-    });
+        .sort((a, b) => a.localeCompare(b, 'he'));
+
+    const tagFilter = document.getElementById('tagFilter');
+    const categories = {
+        'סוג המסלול': [],
+        'למי מתאים': [],
+        'מה בדרך': [],
+        'נגישות ותנאים': []
+    };
+
+    tags.forEach(tag => categories[getTagCategory(tag)].push(tag));
+    tagFilter.innerHTML = Object.entries(categories)
+        .filter(([, categoryTags]) => categoryTags.length > 0)
+        .map(([category, categoryTags]) => `
+            <div class="tag-group">
+                <h4>${category}</h4>
+                <div class="tag-group-options">
+                    ${categoryTags.map(tag => `
+                        <label class="tag-checkbox" data-tag="${tag}">
+                            <input type="checkbox" value="${tag}" onchange="applyFilters()">
+                            <span>${tag}</span>
+                        </label>
+                    `).join('')}
+                </div>
+            </div>
+        `).join('');
+}
+
+function getTagCategory(tag) {
+    if (['מעגלי', 'טיול עירוני', 'טיול שטח', 'מקטע משביל ישראל'].includes(tag)) return 'סוג המסלול';
+    if (['מתאים למשפחות', 'מתאים לכלבים', 'מתאים לאופניים', 'למיטיבי לכת', 'רומנטי'].includes(tag)) return 'למי מתאים';
+    if (['מים ומעיינות', 'נוף ותצפית', 'פריחה', 'טבע', 'היסטוריה ואומנות', 'פיקניק'].includes(tag)) return 'מה בדרך';
+    return 'נגישות ותנאים';
 }
 
 // Apply filters
 function applyFilters() {
     const lengthMin = parseFloat(document.getElementById('lengthMin').value);
     const lengthMax = parseFloat(document.getElementById('lengthMax').value);
+
+    syncLengthInput('min');
+    syncLengthInput('max');
 
     // Update length display
     document.getElementById('lengthDisplay').textContent = `${lengthMin.toFixed(1)} - ${lengthMax.toFixed(1)}`;
@@ -299,6 +353,20 @@ function applyFilters() {
     mapAlreadyUpdated = false;
     displayHikes();
     updateMap();
+    updateFilterSummary(lengthMin, lengthMax, selectedTags);
+    updateMapStatus();
+}
+
+function updateFilterSummary(lengthMin, lengthMax, selectedTags) {
+    const activeFilters = (lengthMin > 0 ? 1 : 0) + (lengthMax < maxLength ? 1 : 0) + selectedTags.length;
+    document.getElementById('activeFilterCount').textContent = `${activeFilters} פעילים`;
+    const summary = document.getElementById('filterSummary');
+    const rangeDetail = lengthMin > 0 || lengthMax < maxLength
+        ? `${lengthMin.toFixed(1)}–${lengthMax.toFixed(1)} ק"מ`
+        : '';
+    summary.innerHTML = activeFilters === 0
+        ? '<span>כל הטיולים מוצגים</span>'
+        : `<span><strong>${filteredHikes.length}</strong> טיולים מתאימים</span><span class="summary-detail">${[rangeDetail, selectedTags.length ? `${selectedTags.length} תגיות` : ''].filter(Boolean).join(' · ')}</span>`;
 }
 
 // Reset filters
@@ -316,12 +384,24 @@ function resetFilters() {
     displayHikes();
     updateMap();
 
-    // Update length display
-    document.getElementById('lengthDisplay').textContent = `0 - ${maxLength}`;
     updateRangeSliderTrack(false);
+    document.getElementById('lengthDisplay').textContent = `0.0 - ${maxLength.toFixed(1)}`;
+    updateFilterSummary(0, maxLength, []);
+    updateMapStatus();
 }
 
 // Sort hikes based on selected sort option
+function hasValidCoords(hike) {
+    if (!Array.isArray(hike.coords) || hike.coords.length < 2) {
+        return false;
+    }
+
+    const latitude = Number(hike.coords[0]);
+    const longitude = Number(hike.coords[1]);
+    return Number.isFinite(latitude) && latitude >= -90 && latitude <= 90
+        && Number.isFinite(longitude) && longitude >= -180 && longitude <= 180;
+}
+
 function sortHikes(hikes) {
     const sortBy = document.getElementById('sortBy')?.value || 'name';
     const sorted = [...hikes];
@@ -335,8 +415,12 @@ function sortHikes(hikes) {
         sorted.sort((a, b) => (difficultyOrder[a.difficulty] || 999) - (difficultyOrder[b.difficulty] || 999));
     } else if (sortBy === 'north-south') {
         sorted.sort((a, b) => {
-            const latA = a.coords ? a.coords[0] : -90;
-            const latB = b.coords ? b.coords[0] : -90;
+            const latA = hasValidCoords(a) ? Number(a.coords[0]) : null;
+            const latB = hasValidCoords(b) ? Number(b.coords[0]) : null;
+
+            if (latA === null && latB === null) return 0;
+            if (latA === null) return 1;
+            if (latB === null) return -1;
             return latB - latA;
         });
     }
@@ -347,6 +431,7 @@ function sortHikes(hikes) {
 // Display hikes in list
 function displayHikes() {
     const hikesList = document.getElementById('hikesList');
+    const previousScrollTop = hikesList.scrollTop;
     document.getElementById('hikeCount').textContent = filteredHikes.length;
 
     if (filteredHikes.length === 0) {
@@ -364,6 +449,7 @@ function displayHikes() {
             </div>
         </li>
     `).join('');
+    hikesList.scrollTop = previousScrollTop;
 }
 
 // Get marker color based on tags
@@ -461,22 +547,26 @@ function restoreFiltersFromUrl() {
 
 // Update map markers
 function updateMap() {
-    // Remove existing markers
-    markers.forEach(marker => map.removeLayer(marker));
+    if (markerClusterGroup) {
+        map.removeLayer(markerClusterGroup);
+    }
+    markerClusterGroup = L.markerClusterGroup({
+        showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
+        disableClusteringAtZoom: 12,
+        maxClusterRadius: 55,
+        chunkedLoading: true
+    });
     markers = [];
 
     // Add new markers
     filteredHikes.forEach(hike => {
-        if (hike.coords && hike.coords.length === 2) {
+        if (hasValidCoords(hike)) {
             const colors = getMarkerColor(hike.difficulty);
-            const marker = L.circleMarker([hike.coords[0], hike.coords[1]], {
-                radius: 8,
-                fillColor: colors.fill,
-                color: colors.border,
-                weight: 2,
-                opacity: 1,
-                fillOpacity: 0.8
-            }).addTo(map);
+            const marker = L.marker([Number(hike.coords[0]), Number(hike.coords[1])], {
+                icon: createDifficultyIcon(colors, false),
+                title: hike.name
+            });
 
             marker.bindPopup(`
                 <strong>${hike.name}</strong><br>
@@ -487,6 +577,9 @@ function updateMap() {
             `);
 
             marker.hikeData = hike;
+            marker.on('click', function () {
+                selectHike(hike.name, false, marker);
+            });
 
             // Update URL when popup opens
             marker.on('popupopen', function () {
@@ -505,8 +598,11 @@ function updateMap() {
             });
 
             markers.push(marker);
+            markerClusterGroup.addLayer(marker);
         }
+
     });
+    map.addLayer(markerClusterGroup);
 
     // Open popup for hike if one was specified in URL
     if (hikeToOpenPopup) {
@@ -519,34 +615,67 @@ function updateMap() {
 
     mapAlreadyUpdated = true;
 
-    // Fit map to show all markers
-    if (markers.length > 0) {
-        L.featureGroup(markers);
-    } else {
-        console.log('No markers to display, keeping default view');
-    }
+    updateMapStatus();
 }
 
 // Select hike from list
-function selectHike(hikeName) {
-    const hike = filteredHikes.find(h => h.name === hikeName);
+function selectHike(hikeName, moveMap = true, selectedMarker = null) {
+    const hike = selectedMarker?.hikeData || filteredHikes.find(h => h.name === hikeName);
     if (hike) {
+        markers.forEach(marker => {
+            const markerColors = getMarkerColor(marker.hikeData.difficulty);
+            marker.setIcon(createDifficultyIcon(markerColors, false));
+        });
+
         // Highlight in list
         document.querySelectorAll('.hikes-list li').forEach(li => li.classList.remove('active'));
-        document.querySelector(`li[data-hike-name="${hikeName}"]`)?.classList.add('active');
+        Array.from(document.querySelectorAll('li[data-hike-name]'))
+            .find(li => li.dataset.hikeName === hikeName)
+            ?.classList.add('active');
 
         // Center map on hike with smooth animation
-        if (hike.coords) {
-            map.flyTo([hike.coords[0], hike.coords[1]], 12, {
+        if (moveMap && hasValidCoords(hike)) {
+            map.flyTo([Number(hike.coords[0]), Number(hike.coords[1])], 12, {
                 duration: 1
             });
         }
 
         // Find and open the marker popup
-        const marker = markers.find(m => m.hikeData.name === hikeName);
+        const marker = selectedMarker || markers.find(m => m.hikeData.name === hikeName);
         if (marker) {
+            const markerColors = getMarkerColor(marker.hikeData.difficulty);
+            marker.setIcon(createDifficultyIcon(markerColors, true));
             marker.openPopup();
         }
     }
 }
 
+function createDifficultyIcon(colors, selected) {
+    const width = selected ? 30 : 24;
+    const height = selected ? 38 : 31;
+    return L.divIcon({
+        className: 'difficulty-marker-wrapper',
+        html: `
+            <svg class="difficulty-pin${selected ? ' is-selected' : ''}" width="${width}" height="${height}" viewBox="0 0 24 31" aria-hidden="true">
+                <path class="difficulty-pin-shadow" d="M12 30.1S2.2 20.5 2.2 12A9.8 9.8 0 1 1 21.8 12C21.8 20.5 12 30.1 12 30.1Z"/>
+                <path class="difficulty-pin-body" d="M12 29.1S3.2 20 3.2 12A8.8 8.8 0 1 1 20.8 12C20.8 20 12 29.1 12 29.1Z" fill="${colors.fill}" stroke="${colors.border}"/>
+                <circle class="difficulty-pin-center" cx="12" cy="12" r="3.1"/>
+            </svg>
+        `,
+        iconSize: [width, height],
+        iconAnchor: [width / 2, height],
+        popupAnchor: [0, -height + 4]
+    });
+}
+
+function updateMapStatus() {
+    const status = document.getElementById('mapStatus');
+    if (filteredHikes.length === 0) {
+        status.textContent = 'לא נמצאו מסלולים לפי המסננים';
+        status.classList.add('is-empty');
+        return;
+    }
+
+    status.textContent = `${filteredHikes.length} מסלולים מתאימים למסננים`;
+    status.classList.remove('is-empty');
+}

@@ -60,15 +60,29 @@ def replace(scraper: Scraper):
     """call a single scraper and replace results to json"""
     existing_hikes = load_hikes()
     new_hikes = scraper()
+    ids = []
     for hike in new_hikes:
+        if "tiuli" in hike.source:
+            hike_id = hike.source.split("https://www.tiuli.com/tracks/")[1].split("/")[0]
+            if hike_id in ids:
+                print(f"Duplicate Tiuli hike found: {hike.source}")
+                continue
         found_hike = False
         for existing_hike in existing_hikes:
-            if hike.source == existing_hike.source:
+            same_hike = existing_hike.source == hike.source
+            if "tiuli" in hike.source and "tiuli" in existing_hike.source:
+                hike_id = hike.source.split("https://www.tiuli.com/tracks/")[1].split("/")[0]
+                existing_hike_id = existing_hike.source.split("https://www.tiuli.com/tracks/")[1].split("/")[0]
+                same_hike = hike_id == existing_hike_id
+            if same_hike:
                 existing_hike.copy_from(hike)
                 found_hike = True
                 break
         if not found_hike:
             existing_hikes.append(hike)
+        if "tiuli" in hike.source:
+            hike_id = hike.source.split("https://www.tiuli.com/tracks/")[1].split("/")[0]
+            ids.append(hike_id)
 
     with open("hikes.json", "w", encoding='utf8') as f:
         data = [hike.model_dump() for hike in existing_hikes if hike]
